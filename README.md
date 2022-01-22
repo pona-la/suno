@@ -1,2 +1,2 @@
-# sumo
+# suno
 suno pi toki pona
