@@ -1,0 +1,160 @@
+details summary {
+  color: var(--link-text-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.overflow-scroll {
+  overflow: auto;
+  position: relative;
+}
+
+.inline-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 1rem;
+}
+
+col {
+  border-left: var(--border-width) solid rgba(var(--application-border-color), 0.01);
+}
+
+col.hour {
+  border-left: var(--border-width) solid rgba(var(--application-border-color), 0.1);
+}
+
+th {
+  text-align: left;
+}
+
+th.hour {
+  
+}
+
+th.minute {
+  font-size: 0.7rem;
+}
+
+.event {
+  padding: var(--card-padding);
+  text-decoration: none;
+  font-size: var(--font-size-x-small);
+  color: var(--focus-link-text-color);
+  background-color: var(--focus-background-color);
+  border: var(--border-width) solid var(--focus-border-color);
+  max-width: 40px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.categories li {
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  margin-right: 2px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.5rem;
+  color: var(--focus-link-text-color);
+  background-color: var(--focus-background-color);
+  border: var(--border-width) solid var(--focus-border-color);
+  border-left-width: 4px;
+}
+
+.event .performer {
+  font-size: 0.75rem;
+  margin-bottom: 0.125rem;
+}
+
+.event .title {
+  font-weight: bold;
+  margin-bottom: 0.125rem;
+}
+
+.event .categories {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.event p {
+  margin-top: 0;
+}
+
+.event .categories {
+  margin-top: auto;
+}
+
+.event div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.event div *:last-child {
+  margin-bottom: 0;
+}
+
+.event.highlighted, .event:focus {
+  border-width: 5px;
+}
+
+#overlay {
+  width: 3px;
+  height: 100%;
+  position:absolute;
+  background: rgba(255, 0, 0, 0.5);
+  top: 0;
+  cursor: pointer;
+}
+
+#tz-info {
+  font-size: 0.7rem;
+  padding: 0 0.9rem;
+  font-style: italic;
+}
+
+#info {
+  max-width: 42rem;
+  margin: auto;
+  padding: 1rem;
+}
+#info * {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+#info .performer {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+#info .performer a, #info .performer svg, #info .performer span {
+  margin: 0;
+}
+
+#info .performer a {
+  margin-left: 0.2rem;
+}
+
+#info .time {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.dates {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#until {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
