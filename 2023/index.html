@@ -1,0 +1,80 @@
+---
+layout: default
+title: suno pi toki pona
+description: day of toki pona 2023
+image: /assets/sitelen/suno.png
+favicon: suno.ico
+color: "#3584e4"
+---
+<main style="align-items: center">
+<img src="/assets/sitelen/suno-2023.svg" style="width: 100%" alt="suno pi toki pona: toki pona day 2023"/>
+<div class="container w-40">
+	<div id="until"></div>
+	<div class="dates">
+		<span class="date" data-value="1691206020">5 Aug 05:27 UTC</span>
+		-
+		<span class="date" data-value="1691292420">6 Aug 05:27 UTC</span>
+	</div>
+	<div class="inline-center">
+		{% include discord.html %}
+		{% include twitter.html %}
+		{% include mastodon.html %}
+	</div>
+	<script>
+		var elements = document.getElementsByClassName("date");
+		Array.from(elements).forEach(function(element) {
+			var date = new Date(element.dataset.value*1000);
+			var string = new Intl.DateTimeFormat('en-GB', { dateStyle: 'medium', timeStyle: 'long' });
+			element.innerHTML = string.format(date).replace(/(2023, |:00)/g, "");
+		});
+
+		function display_time(diff) {
+			var until = document.getElementById("until");
+			until.innerHTML = "";
+
+			var month = Math.floor(diff/(60 * 60 * 24 * 30 * 1000));
+			if (month > 1) {
+				until.innerHTML += `${month} months`;
+			}
+			var day = Math.floor(diff/(60 * 60 * 24 * 1000)) - month * 30;
+			if (day > 1) {
+				until.innerHTML += `${day} days`;
+			} else if (month == 0) {
+				if (hour > 0) {
+					until.innerHTML += `${hour}:`;
+				}
+				var hour = Math.floor(diff/(60 * 60 * 1000)%60);
+				if (hour > 0) {
+					until.innerHTML += `${hour}:`;
+				}
+				var minute = Math.floor(diff/(60 * 1000)%60);
+				if (hour > 0 || minute > 0) {
+					if(minute < 10)
+						minute = "0" + minute;
+					until.innerHTML += `${minute}:`;
+				}
+				var second = Math.floor(diff/1000%60);
+				if(second < 10)
+					second = "0" + second;
+				until.innerHTML += second;
+			}
+			until.innerHTML += " left";
+		}
+
+		function countdown() {
+			var until = document.getElementById("until");
+			var now = new Date();
+			var start = new Date(1691206020 * 1000);
+			var end = new Date(1691292420 * 1000);
+			if (start > now) {
+				display_time(start.getTime() - now.getTime());
+			} else if (end > now) {
+				display_time(end.getTime() - now.getTime());
+			} else {
+				until.innerHTML = "";
+			}
+		}
+		setInterval(countdown, 1000);
+	</script>
+</div>
+</main>
