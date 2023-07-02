@@ -33,11 +33,14 @@ color: "#3584e4"
 			until.innerHTML = "";
 
 			var month = Math.floor(diff/(60 * 60 * 24 * 30 * 1000));
-			if (month > 0) {
+			if (month == 1) {
+				until.innerHTML += `${month} month `;
+			}
+			else if (month > 1) {
 				until.innerHTML += `${month} months `;
 			}
 			var day = Math.floor(diff/(60 * 60 * 24 * 1000)) - month * 30;
-			if (day > 0) {
+			if (day > 1) {
 				until.innerHTML += `${day} days `;
 			} else if (month == 0) {
 				if (hour > 0) {
