@@ -34,11 +34,11 @@ color: "#3584e4"
 
 			var month = Math.floor(diff/(60 * 60 * 24 * 30 * 1000));
 			if (month > 0) {
-				until.innerHTML += `${month} months`;
+				until.innerHTML += `${month} months `;
 			}
 			var day = Math.floor(diff/(60 * 60 * 24 * 1000)) - month * 30;
 			if (day > 0) {
-				until.innerHTML += `${day} days`;
+				until.innerHTML += `${day} days `;
 			} else if (month == 0) {
 				if (hour > 0) {
 					until.innerHTML += `${hour}:`;
