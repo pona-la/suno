@@ -1,0 +1,315 @@
+[
+  {
+    "duration": 20,
+    "performer": "suno pi toki pona (tonyu, kepe, deni)",
+    "title": "Opening | open",
+    "categories": [
+      "other/meta",
+      "language: mixed"
+    ],
+    "description": "<div lang=\"en\"><p>Welcome to Toki Pona Day!</p>\n</div>"
+  },
+  {
+    "duration": 60
+  },
+  {
+    "duration": 30,
+    "performer": "jan sepulon",
+    "title": "jan Sepulon sings their songs live | jan Sepulon li kalama lon",
+    "categories": [
+      "music",
+      "language: toki pona taso"
+    ],
+    "description": "<div lang=\"en\"><p>Singing my own songs (probably no covers due to copyright issues)</p>\n</div>",
+    "youtube": "https://www.youtube.com/@jansepulon",
+    "spotify": "https://open.spotify.com/intl-fr/artist/6pBxNPaoCWn1zTXEKo2zEu"
+  },
+  {
+    "duration": 20,
+    "performer": "jan kepe",
+    "title": "kalama musi pi jan Kepe | kalama musi pi jan Kepe",
+    "categories": [
+      "music",
+      "language: toki pona taso"
+    ],
+    "description": "<div lang=\"en\"><p>some songs from my newest album!</p>\n</div>",
+    "youtube": "https://www.youtube.com/@jkepe",
+    "bandcamp": "https://kepe.bandcamp.com/"
+  },
+  {
+    "duration": 20,
+    "performer": "kala pona",
+    "title": "toki pona kahoot! | musi Kahoot pi toki pona!",
+    "categories": [
+      "game",
+      "language: mostly english"
+    ],
+    "description": "<div lang=\"en\"><p>come join a fun game of kahoot about toki pona trivia and history!</p>\n</div>",
+    "website": "https://kala.li.pona.la"
+  },
+  {
+    "duration": 150,
+    "performer": "break",
+    "title": "",
+    "categories": [],
+    "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 90,
+    "performer": "jan ke tami",
+    "title": "sick of farming | jaki seme li lon ma",
+    "categories": [
+      "game",
+      "language: toki pona taso"
+    ],
+    "description": "<div lang=\"en\"><p>toki pona adaptation of an episode from Escape This Podcast</p>\n</div>"
+  },
+  {
+    "duration": 30,
+    "performer": "jan sepulon",
+    "title": "jan Sepulon sings their songs live | jan Sepulon li kalama lon",
+    "categories": [
+      "music",
+      "language: toki pona taso"
+    ],
+    "description": "<div lang=\"en\"><p>Singing my own songs (probably no covers due to copyright issues)</p>\n</div>",
+    "youtube": "https://www.youtube.com/@jansepulon",
+    "spotify": "https://open.spotify.com/intl-fr/artist/6pBxNPaoCWn1zTXEKo2zEu"
+  },
+  {
+    "duration": 15,
+    "performer": "kala asi",
+    "title": "",
+    "categories": [],
+    "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 20,
+    "performer": "jan peton",
+    "title": "Meetup updates | toki pi tenpo kulupu pi ma Amelika lete",
+    "categories": [
+      "informational",
+      "language: mixed"
+    ],
+    "description": "<div lang=\"en\"><p>Discussing the organization and results of this year’s North America meetup.</p>\n</div>"
+  },
+  {
+    "duration": 20,
+    "performer": "break",
+    "title": "",
+    "categories": [],
+    "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 130,
+    "performer": "ke tami",
+    "title": "farm whisperers | nasa waso",
+    "categories": [
+      "game",
+      "language: toki pona taso"
+    ],
+    "description": "<div lang=\"en\"><p>toki pona adaptation of an episode from Escape This Podcast</p>\n</div>"
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 15,
+    "performer": "jan kepi",
+    "title": "toki pona music by jan Kepi | kalama musi pi toki pona tan jan Kepi",
+    "categories": [
+      "music",
+      "language: mixed"
+    ],
+    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div>",
+    "youtube": "https://youtube.com/@janKepi",
+    "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
+    "bandcamp": "https://wubbass.bandcamp.com",
+    "kofi": "https://ko-fi.com/jankepi",
+    "website": "https://wubbass.neocities.org"
+  },
+  {
+    "duration": 40,
+    "performer": "jan usawi",
+    "title": "o tawa kepeken nasin Lapan!  | o tawa kepeken nasin Lapan! ",
+    "categories": [
+      "informational",
+      "language: toki pona taso"
+    ],
+    "description": "<div lang=\"en\"><p>Practice your Toki Pona listening skills, learn about Laban Movement Analysis, and move around in a bunch of fun ways! This will be a toki pona taso lesson on a few basic ideas from Laban Movement Analysis, a system for describing human movement used in dance, theatre, voice acting, and more—and a chance to move around and be a little silly during the livestream.</p>\n</div>"
+  },
+  {
+    "duration": 20,
+    "performer": "jan nikoleta",
+    "title": "",
+    "categories": [],
+    "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 20,
+    "performer": "jan kepe",
+    "title": "kalama musi pi jan Kepe | kalama musi pi jan Kepe",
+    "categories": [
+      "music",
+      "language: toki pona taso"
+    ],
+    "description": "<div lang=\"en\"><p>some songs from my newest album!</p>\n</div>",
+    "youtube": "https://www.youtube.com/@jkepe",
+    "bandcamp": "https://kepe.bandcamp.com/"
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 20,
+    "performer": "jan nikoleta",
+    "title": "",
+    "categories": [],
+    "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 90
+  },
+  {
+    "duration": 100,
+    "performer": "break",
+    "title": "",
+    "categories": [],
+    "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 10,
+    "performer": "ke tami",
+    "title": "a puzzle | sitelen poka",
+    "categories": [
+      "game",
+      "language: mostly english"
+    ],
+    "description": "<div lang=\"en\"><p>tiling solo game</p>\n</div>"
+  },
+  {
+    "duration": 30,
+    "performer": "jan usawi",
+    "title": "kalama musi pi jan Usawi | kalama musi pi jan Usawi",
+    "categories": [
+      "music",
+      "language: mixed"
+    ],
+    "description": "<div lang=\"en\"><p>Singing toki pona songs of mine—and while I likely can’t do some of the covers on it, celebrating the release of toki Gaming!</p>\n</div>",
+    "bandcamp": "https://janusawi.bandcamp.com/",
+    "youtube": "https://www.youtube.com/@janusawi8794"
+  },
+  {
+    "duration": 15,
+    "performer": "jan kepi",
+    "title": "toki pona music by jan Kepi | kalama musi pi toki pona tan jan Kepi",
+    "categories": [
+      "music",
+      "language: mixed"
+    ],
+    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div>",
+    "youtube": "https://youtube.com/@janKepi",
+    "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
+    "bandcamp": "https://wubbass.bandcamp.com",
+    "kofi": "https://ko-fi.com/jankepi",
+    "website": "https://wubbass.neocities.org"
+  },
+  {
+    "duration": 70,
+    "performer": "akesi jan",
+    "title": "Mappo | o musi Mapo!",
+    "categories": [
+      "game",
+      "language: mostly toki pona"
+    ],
+    "description": "<div lang=\"en\"><p>Social deduction game, played in toki pona. Figure out who the werewolves are, and exile them before they kill you!</p>\n</div>"
+  },
+  {
+    "duration": 145,
+    "performer": "break",
+    "title": "",
+    "categories": [],
+    "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 20,
+    "performer": "kala asi",
+    "title": "",
+    "categories": [],
+    "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 20,
+    "performer": "jan usawi",
+    "title": "How to Use Jargons in Toki Pona? nasin Lapan and more | toki pi nasin ante lon toki pona? nasin Lapan en sin",
+    "categories": [
+      "informational"
+    ],
+    "description": "<div lang=\"en\"><p>Scientific, political, and similar sets of terminology are know to be a weak spot for Toki Pona, but is there a way to effectively use (at leas some) jargons in Toki Pona while still staying true to the language? In this conversational discussion, I’ll share some of the principles I used to translate the terminology of Laban Movement Analysis into Toki Pona, how these might apply more broadly, and the possible benefits of using Toki Pona in these situations. This will also serve as an English-language Q&amp;A for those coming from o tawa kepeken nasin Lapan!</p>\n</div>"
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 10,
+    "performer": "jan minasa",
+    "title": "Salvage the Spinach Bed: No-weeding garden technique! | nasin pali: o kipisi e kasi, o kama e kili!",
+    "categories": [
+      "informational",
+      "language: toki pona taso"
+    ],
+    "description": "<div lang=\"en\"><p>Maybe you’ve heard of no-dig gardening… now, try no weeding! This video will show you how to salvage a runaway vege garden with some shears and sheer willpower, all in Toki Pona.</p>\n</div>"
+  },
+  {
+    "duration": 20
+  },
+  {
+    "duration": 20,
+    "performer": "jan kepi",
+    "title": "toki pona music by jan Kepi | kalama musi pi toki pona tan jan Kepi",
+    "categories": [
+      "music",
+      "language: mixed"
+    ],
+    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div>",
+    "youtube": "https://youtube.com/@janKepi",
+    "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
+    "bandcamp": "https://wubbass.bandcamp.com",
+    "kofi": "https://ko-fi.com/jankepi",
+    "website": "https://wubbass.neocities.org"
+  },
+  {
+    "duration": 20,
+    "performer": "kulupu pi toki musi",
+    "title": "The Return of kulupu pi toki musi | kama sin pi kulupu pi toki musi",
+    "categories": [
+      "entertainment",
+      "language: mostly toki pona"
+    ],
+    "description": "<div lang=\"en\"><p>once, kulupu pi toki musi was a flourishing youtube channel, but one day it disappeared into oblivion… now, it has returned! what’s up?</p>\n</div>",
+    "youtube": "https://www.youtube.com/@kulupupitokimusi/featured",
+    "discord": "https://discord.gg/7CAw8jTfvf"
+  },
+  {
+    "duration": 30,
+    "performer": "jan usawi",
+    "title": "kalama musi pi jan Usawi | kalama musi pi jan Usawi",
+    "categories": [
+      "music",
+      "language: mixed"
+    ],
+    "description": "<div lang=\"en\"><p>Singing toki pona songs of mine—and while I likely can’t do some of the covers on it, celebrating the release of toki Gaming!</p>\n</div>",
+    "bandcamp": "https://janusawi.bandcamp.com/",
+    "youtube": "https://www.youtube.com/@janusawi8794"
+  },
+  {
+    "duration": 30,
+    "performer": "suno pi toki pona (tonyu, kepe, deni)",
+    "title": "Finale | pini",
+    "categories": [
+      "other/meta",
+      "language: mixed"
+    ],
+    "description": "<div lang=\"en\"><p>Toki Pona Day is drawing to an close… let’s end it with a bang!</p>\n</div>"
+  }
+]
