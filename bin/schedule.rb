@@ -19,7 +19,8 @@ csv.each do |row|
     output[:title] += " | #{row['title (toki pona)']}" if row['title (toki pona)']
     output[:categories] = []
     output[:categories] << row['category'] if row['category']
-    output[:categories] << "language: #{row['language']}" if row['language']
+    output[:categories] << "toki: #{row['language']}" if row['language']
+    output[:language] = row['language'] if row['language']
     output[:description] = "<div lang=\"en\">#{Kramdown::Document.new(row['description'] || '', input: 'GFM').to_html}</div>"
     output[:description] += "<div lang=\"tok\">#{Kramdown::Document.new(row['desciption (toki pona)'], input: 'GFM').to_html}</div>" if row['desciption (toki pona)']
 

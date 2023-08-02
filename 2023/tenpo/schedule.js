@@ -173,6 +173,12 @@ function display_info(info, focus=true) {
 		time.innerHTML = `${string.format(start)} - ${string.format(end)}`;
 		container.appendChild(time);
 	}
+	if (info["language"]) {
+		var language = document.createElement("p");
+		language.setAttribute("class", "language");
+		language.innerHTML = `language | toki: ${info["language"]}`;
+		container.appendChild(language);
+	}
 	if (info["description"]) {
 		var description = document.createElement("p");
 		description.setAttribute("class", "description");
