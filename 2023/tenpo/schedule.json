@@ -8,7 +8,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>Welcome to Toki Pona Day!</p>\n</div><div lang=\"tok\"><p>o kama pona tawa suno pi toki pona!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Welcome to Toki Pona Day!</p>\n</div>"
   },
   {
     "duration": 60,
@@ -19,7 +19,7 @@
       "toki: mostly toki pona"
     ],
     "language": "mostly toki pona",
-    "description": "<div lang=\"en\"><p>Let’s celebrate the amazing work of everyone who submitted to the writing contest. Tune in to hear people reading excerpts of their work on air, some elementary Toki Pona literature analysis, and the contest results!</p>\n</div><div lang=\"tok\"><p>utala musi pi tenpo poka la ale li pali e lipu pi pona mute e toki pi pona mute a! tenpo ni la o kute e ni: kulupu li kalama e lipu. kin la jan Lakuse li toki e nasin lipu pi toki pona! o kama sona e ni: kulupu la lipu seme en toki seme li pona nanpa wan!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>Let’s celebrate the amazing work of everyone who submitted to the writing contest. Tune in to hear people reading excerpts of their work on air, some elementary Toki Pona literature analysis, and the contest results!</p>\n</div>",
     "website": "http://utala.pona.la/"
   },
   {
@@ -31,7 +31,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>Singing my own songs (probably no covers due to copyright issues)</p>\n</div><div lang=\"tok\"><p>mi kalama uta e kalama musi mi. tan lawa jo la, mi kalama ala e kalama musi pi jan ante</p>\n</div>",
+    "description": "<div lang=\"en\"><p>Singing my own songs (probably no covers due to copyright issues)</p>\n</div>",
     "youtube": "https://www.youtube.com/@jansepulon",
     "spotify": "https://open.spotify.com/intl-fr/artist/6pBxNPaoCWn1zTXEKo2zEu"
   },
@@ -44,7 +44,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>some songs from my newest album!</p>\n</div><div lang=\"tok\"><p>kalama musi tan kulupu kalama sin mi!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>some songs from my newest album!</p>\n</div>",
     "youtube": "https://www.youtube.com/@jkepe",
     "bandcamp": "https://kepe.bandcamp.com/"
   },
@@ -57,7 +57,7 @@
       "toki: mostly english"
     ],
     "language": "mostly english",
-    "description": "<div lang=\"en\"><p>come join a fun game of kahoot about toki pona trivia and history!</p>\n</div><div lang=\"tok\"><p>sona sina li wawa ala wawa? o musi e musi Kahoot tawa sona pi toki pona, tawa sona pi tenpo pini!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>come join a fun game of kahoot about toki pona trivia and history!</p>\n</div>",
     "website": "https://kala.li.pona.la"
   },
   {
@@ -76,7 +76,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>toki pona adaptation of an episode from Escape This Podcast</p>\n</div><div lang=\"tok\"><p>nasa li lon ma. sina o alasa e sona. sina lukin li pali la mi toki e ijo tan lukin e kama tan pali.</p>\n</div>"
+    "description": "<div lang=\"en\"><p>toki pona adaptation of an episode from Escape This Podcast</p>\n</div>"
   },
   {
     "duration": 30,
@@ -87,7 +87,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>Singing my own songs (probably no covers due to copyright issues)</p>\n</div><div lang=\"tok\"><p>mi kalama uta e kalama musi mi. tan lawa jo la, mi kalama ala e kalama musi pi jan ante</p>\n</div>",
+    "description": "<div lang=\"en\"><p>Singing my own songs (probably no covers due to copyright issues)</p>\n</div>",
     "youtube": "https://www.youtube.com/@jansepulon",
     "spotify": "https://open.spotify.com/intl-fr/artist/6pBxNPaoCWn1zTXEKo2zEu"
   },
@@ -100,7 +100,7 @@
       "toki: english taso"
     ],
     "language": "english taso",
-    "description": "<div lang=\"en\"><p>Opening the annual word survey. Talking about past word surveys</p>\n</div><div lang=\"tok\"><p>mi wile sona e nasin nimi pi jan ale. mi toki e wile sona pini mi.</p>\n</div>",
+    "description": "<div lang=\"en\"><p>Opening the annual word survey. Talking about past word surveys</p>\n</div>",
     "website": "https://linku.la/wile/"
   },
   {
@@ -112,7 +112,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>Discussing the organization and results of this year’s North America meetup.</p>\n</div><div lang=\"tok\"><p>mi toki e ni tawa jan: tenpo kulupu li seme? mi pali e seme lon tenpo ni? nasin seme la mi kama e ona?</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Discussing the organization and results of this year’s North America meetup.</p>\n</div>"
   },
   {
     "duration": 20,
@@ -130,7 +130,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>toki pona adaptation of an episode from Escape This Podcast</p>\n</div><div lang=\"tok\"><p>nasa li lon ma. sina o alasa e sona. sina lukin li pali la mi toki e ijo tan lukin e kama tan pali.</p>\n</div>"
+    "description": "<div lang=\"en\"><p>toki pona adaptation of an episode from Escape This Podcast</p>\n</div>"
   },
   {
     "duration": 30,
@@ -141,7 +141,7 @@
       "toki: luka pona"
     ],
     "language": "luka pona",
-    "description": "<div lang=\"en\"><p>LPSL (luka pona sign language) is the most popular sign language in the toki pona community. Curious about luka pona but don’t know where to start? This thirty-minute tutorial will show you the basics!</p>\n</div><div lang=\"tok\"><p>sina sona ala sona e luka pona? luka pona li toki luka pi toki pona tan kulupu pi toki luka. mi wile pana e sona tawa sina pi sona ala. o kama lukin la sina ken luka pona lili!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>LPSL (luka pona sign language) is the most popular sign language in the toki pona community. Curious about luka pona but don’t know where to start? This thirty-minute tutorial will show you the basics!</p>\n</div>",
     "website": "https://sona.pona.la/wiki/luka_pona"
   },
   {
@@ -153,7 +153,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div><div lang=\"tok\"><p>mi pana e kalama musi pi toki pona. mi pona e kalama mi pi sin ala tan suno pi toki pona lon tenpo sike pini. kalama li pini la, ken la, mi toki e kalama musi mi.</p>\n</div>",
+    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div>",
     "youtube": "https://youtube.com/@janKepi",
     "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
     "bandcamp": "https://wubbass.bandcamp.com",
@@ -169,7 +169,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>Practice your Toki Pona listening skills, learn about Laban Movement Analysis, and move around in a bunch of fun ways! This will be a toki pona taso lesson on a few basic ideas from Laban Movement Analysis, a system for describing human movement used in dance, theatre, voice acting, and more—and a chance to move around and be a little silly during the livestream.</p>\n</div><div lang=\"tok\"><p>o kute e toki pona, o kama sona e nasin Lapan, o tawa musi! ni li pana sona pi nasin Lapan. nasin Lapan li nasin pi sona tawa. jan musi mute li kepeken nasin ni—sina ken li ken sona! mi toki pona taso lon pana sona ni. sina ken kama sona, li ken tawa e sijelo sina lon tenpo pi ilo sona, li ken musi ^^</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Practice your Toki Pona listening skills, learn about Laban Movement Analysis, and move around in a bunch of fun ways! This will be a toki pona taso lesson on a few basic ideas from Laban Movement Analysis, a system for describing human movement used in dance, theatre, voice acting, and more—and a chance to move around and be a little silly during the livestream.</p>\n</div>"
   },
   {
     "duration": 20,
@@ -180,7 +180,7 @@
       "toki: mostly english"
     ],
     "language": "mostly english",
-    "description": "<div lang=\"en\"><p>music from my tp selection (maybe a new song if its finished - dont count on it) plus improvising for the audience. will be with my live guitar setup where i sing, play guitar, and play cajon and cabasa with foot drums</p>\n</div><div lang=\"tok\"><p>kalama musi mi li pona! kalama musi sin li pona. mi pali e musi sin. sina pona!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>music from my tp selection (maybe a new song if its finished - dont count on it) plus improvising for the audience. will be with my live guitar setup where i sing, play guitar, and play cajon and cabasa with foot drums</p>\n</div>"
   },
   {
     "duration": 20,
@@ -191,7 +191,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>some songs from my newest album!</p>\n</div><div lang=\"tok\"><p>kalama musi tan kulupu kalama sin mi!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>some songs from my newest album!</p>\n</div>",
     "youtube": "https://www.youtube.com/@jkepe",
     "bandcamp": "https://kepe.bandcamp.com/"
   },
@@ -204,7 +204,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>You can listen to the podcast ‘kalama sin’ on many platforms. It’s a small community project done exclusively in toki pona. On suno pi toki pona, tune in to a live edition with jan Deni, jan Luke, jan Tepo, and maybe others!</p>\n</div><div lang=\"tok\"><p>sina ken kute e ‘kalama sin’ lon ilo mute. kulupu lili li pali e kalama sin. suno pi toki pona la o kute e ni: jan Deni en jan Luke en jan Tepo en jan ante li kalama sin!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>You can listen to the podcast ‘kalama sin’ on many platforms. It’s a small community project done exclusively in toki pona. On suno pi toki pona, tune in to a live edition with jan Deni, jan Luke, jan Tepo, and maybe others!</p>\n</div>"
   },
   {
     "duration": 20,
@@ -215,7 +215,7 @@
       "toki: mostly english"
     ],
     "language": "mostly english",
-    "description": "<div lang=\"en\"><p>music from my tp selection (maybe a new song if its finished - dont count on it) plus improvising for the audience. will be with my live guitar setup where i sing, play guitar, and play cajon and cabasa with foot drums (all this but over again. will figure out what songs to play the night before.)</p>\n</div><div lang=\"tok\"><p>kalama musi mi li pona! kalama musi sin li pona. mi pali e musi sin. sina pona!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>music from my tp selection (maybe a new song if its finished - dont count on it) plus improvising for the audience. will be with my live guitar setup where i sing, play guitar, and play cajon and cabasa with foot drums (all this but over again. will figure out what songs to play the night before.)</p>\n</div>",
     "bandcamp": "(bandcamp.com)"
   },
   {
@@ -245,7 +245,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>Sonja Lang, the creator of toki pona, will be answering some of your questions in this segment!</p>\n</div><div lang=\"tok\"><p>jan Sonja li mama pi toki pona. ona li pana e sona pi wile sina lon tenpo ni!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>Sonja Lang, the creator of toki pona, will be answering some of your questions in this segment!</p>\n</div>",
     "website": "http://www.lang.sg/"
   },
   {
@@ -257,7 +257,7 @@
       "toki: mostly english"
     ],
     "language": "mostly english",
-    "description": "<div lang=\"en\"><p>tiling solo game</p>\n</div><div lang=\"tok\"><p>mi pana e lipu lili mute lon poka la sitelen li kama tan selo lipu</p>\n</div>"
+    "description": "<div lang=\"en\"><p>tiling solo game</p>\n</div>"
   },
   {
     "duration": 30,
@@ -268,7 +268,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>Singing toki pona songs of mine—and while I likely can’t do some of the covers on it, celebrating the release of toki Gaming!</p>\n</div><div lang=\"tok\"><p>mi pana e kalama uta mi tawa sina! kin la toki Gaming li lon a!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>Singing toki pona songs of mine—and while I likely can’t do some of the covers on it, celebrating the release of toki Gaming!</p>\n</div>",
     "bandcamp": "https://janusawi.bandcamp.com/",
     "youtube": "https://www.youtube.com/@janusawi8794"
   },
@@ -281,7 +281,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div><div lang=\"tok\"><p>mi pana e kalama musi pi toki pona. mi pona e kalama mi pi sin ala tan suno pi toki pona lon tenpo sike pini. kalama li pini la, ken la, mi toki e kalama musi mi.</p>\n</div>",
+    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div>",
     "youtube": "https://youtube.com/@janKepi",
     "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
     "bandcamp": "https://wubbass.bandcamp.com",
@@ -297,7 +297,7 @@
       "toki: mostly toki pona"
     ],
     "language": "mostly toki pona",
-    "description": "<div lang=\"en\"><p>Social deduction game, played in toki pona. Figure out who the werewolves are, and exile them before they kill you!</p>\n</div><div lang=\"tok\"><p>musi toki pi toki pona. o kama sona e kulupu ike. o weka e ona a!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Social deduction game, played in toki pona. Figure out who the werewolves are, and exile them before they kill you!</p>\n</div>"
   },
   {
     "duration": 145,
@@ -315,7 +315,7 @@
       "toki: english taso"
     ],
     "language": "english taso",
-    "description": "<div lang=\"en\"><p>Opening the annual word survey. Talking about past word surveys</p>\n</div><div lang=\"tok\"><p>mi wile sona e nasin nimi pi jan ale. mi toki e wile sona pini mi.</p>\n</div>",
+    "description": "<div lang=\"en\"><p>Opening the annual word survey. Talking about past word surveys</p>\n</div>",
     "website": "https://linku.la/wile/"
   },
   {
@@ -325,7 +325,7 @@
     "categories": [
       "informational"
     ],
-    "description": "<div lang=\"en\"><p>Scientific, political, and similar sets of terminology are know to be a weak spot for Toki Pona, but is there a way to effectively use (at leas some) jargons in Toki Pona while still staying true to the language? In this conversational discussion, I’ll share some of the principles I used to translate the terminology of Laban Movement Analysis into Toki Pona, how these might apply more broadly, and the possible benefits of using Toki Pona in these situations. This will also serve as an English-language Q&amp;A for those coming from o tawa kepeken nasin Lapan!</p>\n</div><div lang=\"tok\"><p>toki pona li ken ala toki e ale pi nasin sona ale, taso jan li ken ala ken toki pona e nasin ni? toki ni la, mi pana e sona mi li toki e pona pi ante toki ni. sina tawa lon “o tawa kepeken nasin Lapan!” la, o kama o pana e toki seme sina!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Scientific, political, and similar sets of terminology are know to be a weak spot for Toki Pona, but is there a way to effectively use (at leas some) jargons in Toki Pona while still staying true to the language? In this conversational discussion, I’ll share some of the principles I used to translate the terminology of Laban Movement Analysis into Toki Pona, how these might apply more broadly, and the possible benefits of using Toki Pona in these situations. This will also serve as an English-language Q&amp;A for those coming from o tawa kepeken nasin Lapan!</p>\n</div>"
   },
   {
     "duration": 30,
@@ -336,7 +336,7 @@
       "toki: luka pona"
     ],
     "language": "luka pona",
-    "description": "<div lang=\"en\"><p>LPSL (luka pona sign language) is the most popular sign language in the toki pona community. Curious about luka pona but don’t know where to start? This thirty-minute tutorial will show you the basics!</p>\n</div><div lang=\"tok\"><p>sina sona ala sona e luka pona? luka pona li toki luka pi toki pona tan kulupu pi toki luka. mi wile pana e sona tawa sina pi sona ala. o kama lukin la sina ken luka pona lili!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>LPSL (luka pona sign language) is the most popular sign language in the toki pona community. Curious about luka pona but don’t know where to start? This thirty-minute tutorial will show you the basics!</p>\n</div>"
   },
   {
     "duration": 10,
@@ -347,7 +347,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>Maybe you’ve heard of no-dig gardening… now, try no weeding! This video will show you how to salvage a runaway vege garden with some shears and sheer willpower, all in Toki Pona.</p>\n</div><div lang=\"tok\"><p>jan mute li pali e ma kili la, ona li pana selo e ko ma mute. jan o kipisi o pana selo e kasi “ike” kin! ni la, ma pi kasi ike li ken kama sin ma kili. sitelen tawa ni la, jan Minasa li pana e sona pi nasin pali, kepeken toki pona.</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Maybe you’ve heard of no-dig gardening… now, try no weeding! This video will show you how to salvage a runaway vege garden with some shears and sheer willpower, all in Toki Pona.</p>\n</div>"
   },
   {
     "duration": 10,
@@ -358,7 +358,7 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you!</p>\n</div><div lang=\"tok\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona.</p>\n</div>"
+    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you!</p>\n</div>"
   },
   {
     "duration": 10,
@@ -369,7 +369,7 @@
       "toki: english taso"
     ],
     "language": "english taso",
-    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you! (Translation of previous scheduled segment- but not translated like you think!)</p>\n</div><div lang=\"tok\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona. (mi ante e toki ni tan toki poka- taso ni li sama ala nasin ante!)</p>\n</div>"
+    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you! (Translation of previous scheduled segment- but not translated like you think!)</p>\n</div>"
   },
   {
     "duration": 20,
@@ -380,7 +380,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div><div lang=\"tok\"><p>mi pana e kalama musi pi toki pona. mi pona e kalama mi pi sin ala tan suno pi toki pona lon tenpo sike pini. kalama li pini la, ken la, mi toki e kalama musi mi.</p>\n</div>",
+    "description": "<div lang=\"en\"><p>showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available</p>\n</div>",
     "youtube": "https://youtube.com/@janKepi",
     "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
     "bandcamp": "https://wubbass.bandcamp.com",
@@ -396,7 +396,7 @@
       "toki: mostly toki pona"
     ],
     "language": "mostly toki pona",
-    "description": "<div lang=\"en\"><p>once, kulupu pi toki musi was a flourishing youtube channel, but one day it disappeared into oblivion… now, it has returned! what’s up?</p>\n</div><div lang=\"tok\"><p>tenpo pini la, kulupu pi toki musi li lon, li wawa. taso ona li weka lon sona ala… tenpo ni la, ona li kama sin! seme li lon?</p>\n</div>",
+    "description": "<div lang=\"en\"><p>once, kulupu pi toki musi was a flourishing youtube channel, but one day it disappeared into oblivion… now, it has returned! what’s up?</p>\n</div>",
     "youtube": "https://www.youtube.com/@kulupupitokimusi/featured",
     "discord": "https://discord.gg/7CAw8jTfvf"
   },
@@ -409,7 +409,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>Singing toki pona songs of mine—and while I likely can’t do some of the covers on it, celebrating the release of toki Gaming!</p>\n</div><div lang=\"tok\"><p>mi pana e kalama uta mi tawa sina! kin la toki Gaming li lon a!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>Singing toki pona songs of mine—and while I likely can’t do some of the covers on it, celebrating the release of toki Gaming!</p>\n</div>",
     "bandcamp": "https://janusawi.bandcamp.com/",
     "youtube": "https://www.youtube.com/@janusawi8794"
   },
@@ -422,6 +422,6 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>Toki Pona Day is drawing to an close… let’s end it with a bang!</p>\n</div><div lang=\"tok\"><p>suno pi toki pona li kama pini… ona o pini pona!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Toki Pona Day is drawing to an close… let’s end it with a bang!</p>\n</div>"
   }
 ]
