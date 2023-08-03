@@ -38,7 +38,7 @@
   {
     "duration": 20,
     "performer": "jan Kepe",
-    "title": "kalama musi pi jan Kepe | kalama musi pi jan Kepe",
+    "title": "music by jan Kepe | kalama musi pi jan Kepe",
     "categories": [
       "music",
       "toki: toki pona taso"
@@ -135,7 +135,7 @@
   {
     "duration": 30,
     "performer": "jan Lakuse",
-    "title": "sona open pi luka pona | sona open pi luka pona",
+    "title": "The Basics of luka pona | sona open pi luka pona",
     "categories": [
       "informational",
       "toki: luka pona"
@@ -163,7 +163,7 @@
   {
     "duration": 40,
     "performer": "jan Usawi",
-    "title": "o tawa kepeken nasin Lapan!  | o tawa kepeken nasin Lapan! ",
+    "title": "Let's Move with Laban Movement Analysis! | o tawa kepeken nasin Lapan! ",
     "categories": [
       "informational",
       "toki: toki pona taso"
@@ -185,7 +185,7 @@
   {
     "duration": 20,
     "performer": "jan Kepe",
-    "title": "kalama musi pi jan Kepe | kalama musi pi jan Kepe",
+    "title": "music by jan Kepe | kalama musi pi jan Kepe",
     "categories": [
       "music",
       "toki: toki pona taso"
@@ -227,7 +227,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>game of gartic phone</p>\n</div>"
+    "description": "<div lang=\"en\"><p>mostly a placeholder for now but i plan on playing shelter 2 or hosting a game of gartic phone</p>\n</div>"
   },
   {
     "duration": 100,
@@ -262,7 +262,7 @@
   {
     "duration": 30,
     "performer": "jan Usawi",
-    "title": "kalama musi pi jan Usawi | kalama musi pi jan Usawi",
+    "title": "music by jan Usawi | kalama musi pi jan Usawi",
     "categories": [
       "music",
       "toki: mixed"
@@ -330,7 +330,7 @@
   {
     "duration": 30,
     "performer": "jan Lakuse",
-    "title": "sona open pi luka pona | sona open pi luka pona",
+    "title": "The Basics of luka pona | sona open pi luka pona",
     "categories": [
       "informational",
       "toki: luka pona"
@@ -352,18 +352,18 @@
   {
     "duration": 10,
     "performer": "jan Kekan San",
-    "title": "ale li nanpa | ale li nanpa",
+    "title": "Everything is Numbers (toki pona) | ale li nanpa (toki pona)",
     "categories": [
       "entertainment",
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona.</p>\n</div><div lang=\"tok\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona.</p>\n</div>"
+    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you!</p>\n</div><div lang=\"tok\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona.</p>\n</div>"
   },
   {
     "duration": 10,
     "performer": "jan Kekan San",
-    "title": "Everything is Numbers | ale li nanpa",
+    "title": "Everything is Numbers (English) | ale li nanpa (toki Inli)",
     "categories": [
       "entertainment",
       "toki: english taso"
@@ -403,7 +403,7 @@
   {
     "duration": 30,
     "performer": "jan Usawi",
-    "title": "kalama musi pi jan Usawi | kalama musi pi jan Usawi",
+    "title": "music by jan Usawi | kalama musi pi jan Usawi",
     "categories": [
       "music",
       "toki: mixed"
