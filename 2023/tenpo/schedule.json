@@ -8,7 +8,8 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>Welcome to Toki Pona Day!</p>\n</div><div lang=\"tok\"><p>o kama pona tawa suno pi toki pona!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Welcome to Toki Pona Day!</p>\n</div><div lang=\"tok\"><p>o kama pona tawa suno pi toki pona!</p>\n</div>",
+    "website": "https://suno.pona.la/2023"
   },
   {
     "duration": 60,
@@ -135,7 +136,7 @@
   {
     "duration": 30,
     "performer": "jan Lakuse",
-    "title": "The Basics of luka pona | sona open pi luka pona",
+    "title": "Tutorial: Luka Pona Sign Language Basics | sona open pi luka pona",
     "categories": [
       "informational",
       "toki: luka pona"
@@ -230,7 +231,7 @@
     "description": "<div lang=\"en\"><p>mostly a placeholder for now but i plan on playing shelter 2 or hosting a game of gartic phone</p>\n</div>"
   },
   {
-    "duration": 100,
+    "duration": 75,
     "performer": "break",
     "title": "",
     "categories": [],
@@ -246,10 +247,10 @@
     ],
     "language": "mixed",
     "description": "<div lang=\"en\"><p>Sonja Lang, the creator of toki pona, will be answering some of your questions in this segment!</p>\n</div><div lang=\"tok\"><p>jan Sonja li mama pi toki pona. ona li pana e sona pi wile sina lon tenpo ni!</p>\n</div>",
-    "website": "http://www.lang.sg/"
+    "website": "https://tokipona.org"
   },
   {
-    "duration": 10,
+    "duration": 15,
     "performer": "jan Ke Tami",
     "title": "a puzzle | sitelen poka",
     "categories": [
@@ -300,7 +301,7 @@
     "description": "<div lang=\"en\"><p>Social deduction game, played in toki pona. Figure out who the werewolves are, and exile them before they kill you!</p>\n</div><div lang=\"tok\"><p>musi toki pi toki pona. o kama sona e kulupu ike. o weka e ona a!</p>\n</div>"
   },
   {
-    "duration": 145,
+    "duration": 140,
     "performer": "break",
     "title": "",
     "categories": [],
@@ -339,7 +340,7 @@
     "description": "<div lang=\"en\"><p>LPSL (luka pona sign language) is the most popular sign language in the toki pona community. Curious about luka pona but don’t know where to start? This thirty-minute tutorial will show you the basics!</p>\n</div><div lang=\"tok\"><p>sina sona ala sona e luka pona? luka pona li toki luka pi toki pona tan kulupu pi toki luka. mi wile pana e sona tawa sina pi sona ala. o kama lukin la sina ken luka pona lili!</p>\n</div>"
   },
   {
-    "duration": 10,
+    "duration": 15,
     "performer": "jan Minasa",
     "title": "Salvage the Spinach Bed: No-weeding garden technique! | nasin pali: o kipisi e kasi, o kama e kili!",
     "categories": [
@@ -422,6 +423,7 @@
       "toki: mixed"
     ],
     "language": "mixed",
-    "description": "<div lang=\"en\"><p>Toki Pona Day is drawing to an close… let’s end it with a bang!</p>\n</div><div lang=\"tok\"><p>suno pi toki pona li kama pini… ona o pini pona!</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Toki Pona Day is drawing to an close… let’s end it with a bang!</p>\n</div><div lang=\"tok\"><p>suno pi toki pona li kama pini… ona o pini pona!</p>\n</div>",
+    "website": "https://suno.pona.la/2023"
   }
 ]
