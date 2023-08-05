@@ -62,6 +62,17 @@
     "website": "https://kala.li.pona.la"
   },
   {
+    "duration": 5,
+    "performer": "kala Asi",
+    "title": "covers by kala Asi | kalama musi pi kala Asi",
+    "categories": [
+      "music",
+      "toki: toki pona taso"
+    ],
+    "language": "toki pona taso",
+    "description": "<div lang=\"en\"><p>kala Asi covers two songs</p>\n</div><div lang=\"tok\"><p>kala Asi li kalama e ijo tu tan jan ante.</p>\n</div>"
+  },
+  {
     "duration": 150,
     "performer": "break",
     "title": "",
@@ -71,7 +82,7 @@
   {
     "duration": 90,
     "performer": "jan Ke Tami",
-    "title": "sick of farming | jaki seme li lon ma",
+    "title": "farm whisperers | nasa waso",
     "categories": [
       "game",
       "toki: toki pona taso"
@@ -125,7 +136,7 @@
   {
     "duration": 130,
     "performer": "jan Ke Tami",
-    "title": "farm whisperers | nasa waso",
+    "title": "sick of farming | jaki seme li lon ma",
     "categories": [
       "game",
       "toki: toki pona taso"
@@ -231,11 +242,22 @@
     "description": "<div lang=\"en\"><p>mostly a placeholder for now but i plan on playing shelter 2 or hosting a game of gartic phone</p>\n</div>"
   },
   {
-    "duration": 75,
+    "duration": 70,
     "performer": "break",
     "title": "",
     "categories": [],
     "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 5,
+    "performer": "kala Asi",
+    "title": "covers by kala Asi | kalama musi pi kala Asi",
+    "categories": [
+      "music",
+      "toki: toki pona taso"
+    ],
+    "language": "toki pona taso",
+    "description": "<div lang=\"en\"><p>kala Asi covers two songs</p>\n</div><div lang=\"tok\"><p>kala Asi li kalama e ijo tu tan jan ante.</p>\n</div>"
   },
   {
     "duration": 20,
@@ -290,6 +312,18 @@
     "website": "https://wubbass.neocities.org"
   },
   {
+    "duration": 15,
+    "performer": "jan Asiku",
+    "title": "Rap in toki pona | nasin Wa pi kalama musi kepeken toki pona",
+    "categories": [
+      "informational",
+      "toki: toki pona taso "
+    ],
+    "language": "toki pona taso ",
+    "description": "<div lang=\"en\"><p>Explaining how toki pona’s quirks relate to rap music; explaining basic principles of rap using toki pona</p>\n</div><div lang=\"tok\"><p>seme la jan li ken pali e kalama musi pi nasin Wa? mi pana e sona ni. sona ni li ken tawa toki ale kin.</p>\n</div>",
+    "discord": "discord"
+  },
+  {
     "duration": 70,
     "performer": "akesi Jan",
     "title": "Mappo | o musi Mapo!",
@@ -301,7 +335,7 @@
     "description": "<div lang=\"en\"><p>Social deduction game, played in toki pona. Figure out who the werewolves are, and exile them before they kill you!</p>\n</div><div lang=\"tok\"><p>musi toki pi toki pona. o kama sona e kulupu ike. o weka e ona a!</p>\n</div>"
   },
   {
-    "duration": 140,
+    "duration": 125,
     "performer": "break",
     "title": "",
     "categories": [],
@@ -359,7 +393,8 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you!</p>\n</div><div lang=\"tok\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona.</p>\n</div>"
+    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you!</p>\n</div><div lang=\"tok\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona.</p>\n</div>",
+    "website": "https://youtu.be/AgkDx8dIAio"
   },
   {
     "duration": 10,
@@ -370,7 +405,8 @@
       "toki: english taso"
     ],
     "language": "english taso",
-    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you! (Translation of previous scheduled segment- but not translated like you think!)</p>\n</div><div lang=\"tok\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona. (mi ante e toki ni tan toki poka- taso ni li sama ala nasin ante!)</p>\n</div>"
+    "description": "<div lang=\"en\"><p>You’ve heard before that everything could be numbers. Why is this? I’ll tell you! (Translation of previous scheduled segment- but not translated like you think!)</p>\n</div><div lang=\"tok\"><p>tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona. (mi ante e toki ni tan toki poka- taso ni li sama ala nasin ante!)</p>\n</div>",
+    "website": "https://youtu.be/I0ChKSLEqB0"
   },
   {
     "duration": 20,
