@@ -12,7 +12,7 @@
     "website": "https://suno.pona.la/2023"
   },
   {
-    "duration": 60,
+    "duration": 80,
     "performer": "jan Lakuse + others",
     "title": "writing contest celebration! | utala musi pi pali lipu",
     "categories": [
@@ -37,7 +37,7 @@
     "spotify": "https://open.spotify.com/intl-fr/artist/6pBxNPaoCWn1zTXEKo2zEu"
   },
   {
-    "duration": 20,
+    "duration": 10,
     "performer": "jan Kepe",
     "title": "music by jan Kepe | kalama musi pi jan Kepe",
     "categories": [
@@ -73,7 +73,7 @@
     "description": "<div lang=\"en\"><p>kala Asi covers two songs</p>\n</div><div lang=\"tok\"><p>kala Asi li kalama e ijo tu tan jan ante.</p>\n</div>"
   },
   {
-    "duration": 150,
+    "duration": 125,
     "performer": "break",
     "title": "",
     "categories": [],
@@ -231,18 +231,7 @@
     "bandcamp": "(bandcamp.com)"
   },
   {
-    "duration": 90,
-    "performer": "goose",
-    "title": "jan goose plays/goose's gartic phone | jan kuse musi",
-    "categories": [
-      "game",
-      "toki: mixed"
-    ],
-    "language": "mixed",
-    "description": "<div lang=\"en\"><p>mostly a placeholder for now but i plan on playing shelter 2 or hosting a game of gartic phone</p>\n</div>"
-  },
-  {
-    "duration": 65,
+    "duration": 155,
     "performer": "break",
     "title": "",
     "categories": [],
@@ -250,14 +239,15 @@
   },
   {
     "duration": 5,
-    "performer": "gadoodle (jan Kepijona)",
-    "title": "music by jan Kepijona",
+    "performer": "jan kepijona",
+    "title": "music by jan kepijona | kalama musi pi jan kepijona",
     "categories": [
       "music",
       "toki: mostly toki pona"
     ],
     "language": "mostly toki pona",
-    "description": "<div lang=\"en\"><p>i will perform a song that i wrote</p>\n</div>"
+    "description": "<div lang=\"en\"><p>i will perform a song that i wrote</p>\n</div><div lang=\"tok\"><p>mi kepijona li kalama musi e li toki musi e musi ni: mi pali e ona</p>\n</div>",
+    "youtube": "https://www.youtube.com/@jankepijona"
   },
   {
     "duration": 5,
@@ -346,7 +336,18 @@
     "description": "<div lang=\"en\"><p>Social deduction game, played in toki pona. Figure out who the werewolves are, and exile them before they kill you!</p>\n</div><div lang=\"tok\"><p>musi toki pi toki pona. o kama sona e kulupu ike. o weka e ona a!</p>\n</div>"
   },
   {
-    "duration": 125,
+    "duration": 90,
+    "performer": "goose",
+    "title": "jan goose plays/goose's gartic phone | jan kuse musi",
+    "categories": [
+      "game",
+      "toki: mixed"
+    ],
+    "language": "mixed",
+    "description": "<div lang=\"en\"><p>mostly a placeholder for now but i plan on playing shelter 2 or hosting a game of gartic phone</p>\n</div>"
+  },
+  {
+    "duration": 35,
     "performer": "break",
     "title": "",
     "categories": [],
@@ -464,7 +465,7 @@
   {
     "duration": 30,
     "performer": "suno pi toki pona (kala pona Tonyu, jan Kepe)",
-    "title": "Finale | pini",
+    "title": "Finale | Toki Pona Day is drawing to an close... let's end it with a bang!",
     "categories": [
       "other/meta",
       "toki: mixed"
