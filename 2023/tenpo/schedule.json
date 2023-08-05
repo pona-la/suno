@@ -347,11 +347,23 @@
     "description": "<div lang=\"en\"><p>mostly a placeholder for now but i plan on playing shelter 2 or hosting a game of gartic phone</p>\n</div>"
   },
   {
-    "duration": 35,
+    "duration": 30,
     "performer": "break",
     "title": "",
     "categories": [],
     "description": "<div lang=\"en\">\n</div>"
+  },
+  {
+    "duration": 5,
+    "performer": "jan kepijona",
+    "title": "music by jan kepijona | kalama musi pi jan kepijona",
+    "categories": [
+      "music",
+      "toki: mostly toki pona"
+    ],
+    "language": "mostly toki pona",
+    "description": "<div lang=\"en\"><p>i will perform a song that i wrote</p>\n</div><div lang=\"tok\"><p>mi kepijona li kalama musi e li toki musi e musi ni: mi pali e ona</p>\n</div>",
+    "youtube": "https://www.youtube.com/@jankepijona"
   },
   {
     "duration": 20,
