@@ -121,9 +121,9 @@
     "title": "Meetup updates | toki pi tenpo kulupu pi ma Amelika lete",
     "categories": [
       "informational",
-      "toki: mixed"
+      "toki: toki pona taso"
     ],
-    "language": "mixed",
+    "language": "toki pona taso",
     "description": "<div lang=\"en\"><p>Discussing the organization and results of this year’s North America meetup.</p>\n</div><div lang=\"tok\"><p>mi toki e ni tawa jan: tenpo kulupu li seme? mi pali e seme lon tenpo ni? nasin seme la mi kama e ona?</p>\n</div>"
   },
   {
@@ -461,5 +461,16 @@
     "language": "mixed",
     "description": "<div lang=\"en\"><p>Toki Pona Day is drawing to an close… let’s end it with a bang!</p>\n</div><div lang=\"tok\"><p>suno pi toki pona li kama pini… ona o pini pona!</p>\n</div>",
     "website": "https://suno.pona.la/2023"
+  },
+  {
+    "duration": 5,
+    "performer": "gadoodle (jan Kepijona)",
+    "title": "music by jan Kepijona",
+    "categories": [
+      "music",
+      "toki: mostly toki pona"
+    ],
+    "language": "mostly toki pona",
+    "description": "<div lang=\"en\"><p>i will perform a song that i wrote</p>\n</div>"
   }
 ]
