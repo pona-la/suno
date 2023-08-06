@@ -406,7 +406,8 @@
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>Maybe you’ve heard of no-dig gardening… now, try no weeding! This video will show you how to salvage a runaway vege garden with some shears and sheer willpower, all in Toki Pona.</p>\n</div><div lang=\"tok\"><p>jan mute li pali e ma kili la, ona li pana selo e ko ma mute. jan o kipisi o pana selo e kasi “ike” kin! ni la, ma pi kasi ike li ken kama sin ma kili. sitelen tawa ni la, jan Minasa li pana e sona pi nasin pali, kepeken toki pona.</p>\n</div>"
+    "description": "<div lang=\"en\"><p>Maybe you’ve heard of no-dig gardening… now, try no weeding! This video will show you how to salvage a runaway vege garden with some shears and sheer willpower, all in Toki Pona.</p>\n</div><div lang=\"tok\"><p>jan mute li pali e ma kili la, ona li pana selo e ko ma mute. jan o kipisi o pana selo e kasi “ike” kin! ni la, ma pi kasi ike li ken kama sin ma kili. sitelen tawa ni la, jan Minasa li pana e sona pi nasin pali, kepeken toki pona.</p>\n</div>",
+    "youtube": "https://www.youtube.com/@astrodonunt"
   },
   {
     "duration": 10,
@@ -433,7 +434,7 @@
     "website": "https://youtu.be/I0ChKSLEqB0"
   },
   {
-    "duration": 20,
+    "duration": 15,
     "performer": "jan Kepi",
     "title": "toki pona music by jan Kepi | kalama musi pi toki pona tan jan Kepi",
     "categories": [
@@ -449,7 +450,20 @@
     "website": "https://wubbass.neocities.org"
   },
   {
-    "duration": 20,
+    "duration": 10,
+    "performer": "we Luke",
+    "title": "the time I hijacked a golf car | tenpo pi lanpan pi ilo tawa",
+    "categories": [
+      "entertainment",
+      "toki: mostly toki pona"
+    ],
+    "language": "mostly toki pona",
+    "description": "<div lang=\"en\"><p>a long time ago, I tried to hijack a golf car with my friend</p>\n</div><div lang=\"tok\"><p>tenpo weka la, mi alasa lanpan e ilo tawa lon poka pi jan musi mi</p>\n</div>",
+    "youtube": "https://www.youtube.com/channel/UC97_ovnr8xQuvXu3pGbf9Gw",
+    "discord": "https://discord.gg/Xsz2UGMcw5"
+  },
+  {
+    "duration": 15,
     "performer": "kulupu pi toki musi",
     "title": "The Return of kulupu pi toki musi | kama sin pi kulupu pi toki musi",
     "categories": [
