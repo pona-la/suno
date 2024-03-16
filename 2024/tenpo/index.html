@@ -1,0 +1,40 @@
+---
+layout: default
+title: suno pi toki pona
+description: schedule of the 2024 edition of the day of toki pona
+image: /assets/sitelen/suno.png
+favicon: suno.ico
+color: "#3584e4"
+---
+<main>
+<noscript><p class="notice">This site really requires JavaScript, I'm sorry!</p></noscript>
+<script defer src="schedule.js"></script>
+<div class="container" style="margin: 0 -2rem">
+	<div class="inline-center">
+		<a href="/2024/">
+			<img src="/assets/sitelen/suno-2024.svg" style="height: 3.5rem" alt="suno pi toki pona | day of toki pona"></a>
+		{% include discord.html %}
+		{% include youtube.html link="https://www.youtube.com/watch?v=boT-mLyNzoo" %}
+		{% include twitch.html %}
+	</div>
+	<div class="overflow-scroll" id="timeline">
+		<table width="11520">
+			<thead>
+				<tr id="hours">
+				</tr>
+				<tr id="minutes">
+				</tr>
+			</thead>
+			<colgroup id="delimiters"></colgroup>
+			<tbody>
+				<tr id="room1">
+				</tr>
+			</tbody>
+		</table>
+		<div id="overlay" onclick="follow_indicator()" onkeydown="follow_indicator()" tabindex=0></div>
+	</div>
+	<div id="tz-info"></div>
+	<div id="info">
+	</div>
+</div>
+</main>
