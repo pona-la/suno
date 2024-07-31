@@ -12,49 +12,42 @@ function setOverlay() {
     wipeOverlay();
     const now = new Date();
     const upcomingEvent = findUpcomingEvent(now);
-    const currentEvent = findCurrentEvent(now, upcomingEvent);
-    
-    if (!currentEvent) return;
+    const currentEvent = findCurrentEvent(now);
+    console.log(upcomingEvent);
+    console.log(currentEvent);
+
     if (!upcomingEvent) return;
 
     let time, event;
-    if (isWithinTimeFrame(upcomingEvent.startTime, oneMinute, now)) {
+    if (isWithinTimeFrame(new Date(upcomingEvent.startTime.getTime() - oneMinute), oneMinute, now)) {
         time = 'up next';
-    } else if (isWithinTimeFrame(currentEvent.endTime, oneMinute, now)) {
+    } else if (currentEvent && isWithinTimeFrame(new Date(currentEvent.endTime.getTime() - oneMinute), oneMinute, now)) {
         time = relativeTime(upcomingEvent.startTime);
-    } else if (isWithinTimeFrame(upcomingEvent.startTime - fifteenMinutes, oneMinute, now)) {
+    } else if (isWithinTimeFrame(new Date(upcomingEvent.startTime.getTime() - fifteenMinutes), oneMinute, now)) {
         time = relativeTime(upcomingEvent.startTime);
     } else {
         return;
     }
 
+    console.log(time);
     displayOverlay(time, upcomingEvent);
 }
 
-function findCurrentEvent(now, upcomingEvent) {
-    const times = Object.keys(timings).map(Number).sort((a, b) => a - b);
-    let currentEvent = null;
-    times.forEach(time => {
-        const event = timings[time];
-        if (!upcomingEvent || event.startTime < upcomingEvent.startTime) {
-            currentEvent = event;
-        }
-    });
-    return currentEvent;
+function findUpcomingEvent(now) {
+    const times = Object.keys(timings).map(Number).sort((a, b) =>  a - b);
+    const current = times.find((curr) => curr > now.getTime());
+    const upcomingIndex = times.indexOf(current) + 1;
+    return timings[times[upcomingIndex]];
 }
 
-function findUpcomingEvent(now) {
-    const times = Object.keys(timings).map(Number).sort((a, b) =>  b - a);
-    return times.reduce((acc, curr) => {
-        if (curr > now.getTime()) {
-            return timings[curr];
-        }
-        return acc;
-    }, null);
+function findCurrentEvent(now) {
+    const times = Object.keys(timings).map(Number).sort((a, b) =>  a - b);
+    const current = times.find((curr) => curr > now.getTime());
+    return timings[current];
 }
 
 function isWithinTimeFrame(time, duration, now) {
-    return time < now && time + duration > now;
+    return time < now && new Date(time.getTime() + duration) >= now;
 }
 
 function displayOverlay(time, event) {
@@ -99,7 +92,7 @@ function expandMinutes(minutes) {
     }
 }
 
-const startTime = new Date(1722443400 * 1000); // test value; change to 1723267800 on the 10th
+const startTime = new Date(1722447000 * 1000); // test value; change to 1723267800 on the 10th
 let latestTime = startTime;
 
 fetch('schedule.json')
