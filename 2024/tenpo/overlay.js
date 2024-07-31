@@ -99,10 +99,10 @@ function expandMinutes(minutes) {
     }
 }
 
-const startTime = new Date(1722441600 * 1000);
+const startTime = new Date(1722443400 * 1000); // test value; change to 1723267800 on the 10th
 let latestTime = startTime;
 
-fetch('../../2023/tenpo/schedule.json')
+fetch('schedule.json')
     .then(res => res.json())
     .then(schedule => {
         schedule.forEach(element => {
