@@ -14,7 +14,8 @@ function setOverlay() {
     const upcomingEvent = findUpcomingEvent(now);
     const currentEvent = findCurrentEvent(now, upcomingEvent);
     
-    if (!upcomingEvent && !currentEvent) return;
+    if (!currentEvent) return;
+    if (!upcomingEvent) return;
 
     let time, event;
     if (isWithinTimeFrame(upcomingEvent.startTime, oneMinute, now)) {
