@@ -13,8 +13,6 @@ function setOverlay() {
     const now = new Date();
     const upcomingEvent = findUpcomingEvent(now);
     const currentEvent = findCurrentEvent(now);
-    console.log(upcomingEvent);
-    console.log(currentEvent);
 
     if (!upcomingEvent) return;
 
@@ -29,7 +27,6 @@ function setOverlay() {
         return;
     }
 
-    console.log(time);
     displayOverlay(time, upcomingEvent);
 }
 
