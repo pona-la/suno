@@ -3,6 +3,7 @@
     --application-foreground-color: #fff;
     --application-background-color: #241f31;
     --secondary-background-color: #3d3846;
+    --link-color: #f6d32d;
     --accent-color: #f6d32d;
     --accent-foreground-color: #000;
     --accent-blue-color: #9CC3F3;
@@ -13,11 +14,12 @@
       --application-foreground-color: #000;
       --application-background-color: #F6F5F4;
       --secondary-background-color: #fff;
+      --link-color: #7b6915;
   }
 }
 
 a {
-    color: var(--accent-color);
+    color: var(--link-color);
 }
 
 body {
