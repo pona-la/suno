@@ -16,6 +16,10 @@
   }
 }
 
+a {
+    color: var(--accent-color);
+}
+
 body {
     text-align: center;
     background-color: var(--application-background-color);
