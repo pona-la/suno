@@ -1,0 +1,103 @@
+
+:root {
+    --application-foreground-color: #fff;
+    --application-background-color: #241f31;
+    --secondary-background-color: #3d3846;
+    --accent-color: #f6d32d;
+    --accent-foreground-color: #000;
+    --accent-blue-color: #9CC3F3;
+}
+
+@media (prefers-color-scheme: light) {
+ 	:root {
+      --application-foreground-color: #000;
+      --application-background-color: #F6F5F4;
+      --secondary-background-color: #fff;
+  }
+}
+
+body {
+    text-align: center;
+    background-color: var(--application-background-color);
+    color: var(--application-foreground-color);
+    font-family: sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 1800px;
+}
+
+img {
+    width: 100%;
+}
+
+.big {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.segment {
+    background-color: var(--secondary-background-color);
+    margin-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 5fr 100px;
+    grid-template-areas:
+        "time heading pfp"
+        "time desc pfp";
+}
+
+.segment > * {
+    padding: 10px;
+}
+
+.time {
+    grid-area: time;
+    background-color: var(--accent-color);
+    color: var(--accent-foreground-color);
+    line-height: 0.9em;
+}
+
+.heading {
+    grid-area: heading;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+.desc {
+    grid-area: desc;
+}
+.desc p {
+		margin: 0;
+}
+.pfp {
+    grid-area: pfp;
+    background-color: var(--secondary-background-color);
+    /*border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;*/
+}
+.pfp figure {
+    margin: 0;
+}
+
+.categories {
+	padding: 0;
+}
+
+.category {
+	display: inline-block;
+	background-color: var(--accent-blue-color);
+	color: var(--accent-foreground-color);
+	margin-top: 0.1em;
+	padding: 0 0.5em;
+	border-radius: 0.5em;
+}
+
+@media (min-width: 1000px) {
+  .cols {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-gap: 30px;
+  }
+}
