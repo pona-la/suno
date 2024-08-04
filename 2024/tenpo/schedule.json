@@ -238,7 +238,7 @@
   {
     "duration": 15,
     "performer": "jan Simiman",
-    "title": "",
+    "title": "jan Simiman li pana e sona pona | jan Simiman li pana e sona pona",
     "categories": [
       "informational",
       "toki: toki pona taso"
@@ -637,17 +637,17 @@
   },
   {
     "duration": 30,
-    "performer": "jan Peton en jan Ke Tami",
+    "performer": "jan Peton en jan Simiman en jan Mateja",
     "title": "tenpo kulupu Pelin en tenpo kulupu Sikako",
     "categories": [
       "informational",
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\"><p>jan Ke Tami en jan Peton li toki e tenpo kulupu pi ma Elopa e tenpo kulupu pi ma Amelika lete.</p>\n</div>",
+    "description": "<div lang=\"en\"><p>jan Peton en jan Simiman en jan Mateja li toki e tenpo kulupu pi ma Elopa e tenpo kulupu pi ma Amelika lete.</p>\n</div>",
     "stamp_start": "1723333800",
     "stamp_end": "1723335600",
-    "img": "jan-peton-en-jan-ke-tami.png"
+    "img": "jan-peton-en-jan-simiman-en-jan-mateja.png"
   },
   {
     "duration": 10,
