@@ -56,6 +56,18 @@ img {
     padding: 10px;
 }
 
+.date-card {
+	padding: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	background-color: var(--accent-blue-color);
+	color: var(--accent-foreground-color);
+}
+
+.hide-when-one-column {
+  	display: none;
+}
+
 .time {
     grid-area: time;
     background-color: var(--accent-color);
@@ -105,5 +117,8 @@ img {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       grid-gap: 30px;
+  }
+  .hide-when-one-column {
+  	display: block;
   }
 }

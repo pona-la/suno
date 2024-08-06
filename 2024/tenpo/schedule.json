@@ -287,26 +287,12 @@
     "img": "kala-asi.png"
   },
   {
-    "duration": 15,
-    "performer": "jan Kiwali",
-    "title": "My work in toki pona | pali mi kepeken toki pona",
-    "categories": [
-      "entertainment",
-      "toki: mostly toki pona"
-    ],
-    "language": "mostly toki pona",
-    "description": "<div lang=\"en\"><p>Inspired by the “3 minute thesis” competition, speakers will be invited to talk about their work or studies, entirely in toki pona. (Can also work as a booth)</p>\n</div><div lang=\"tok\"><p>sina pali e seme ? jan mute li toki e pali ona kepeken toki pona taso.</p>\n</div>",
-    "stamp_start": "1723295100",
-    "stamp_end": "1723296000",
-    "img": "jan-kiwali.png"
-  },
-  {
-    "duration": 10,
+    "duration": 25,
     "performer": "break",
     "title": "",
     "categories": [],
     "description": "<div lang=\"en\">\n</div>",
-    "stamp_start": "1723296000",
+    "stamp_start": "1723295100",
     "stamp_end": "1723296600"
   },
   {
@@ -417,17 +403,17 @@
   },
   {
     "duration": 30,
-    "performer": "jan Janka",
-    "title": " | musi pi \"jan ike\"",
+    "performer": "kala Asi",
+    "title": "Sketchful | musi Sketchful",
     "categories": [
       "game",
       "toki: mostly toki pona"
     ],
     "language": "mostly toki pona",
-    "description": "<div lang=\"en\">\n</div><div lang=\"tok\"><p>jan pona mute li sona e ma. jan ike li sona ala e ma. jan nanpa wan li toki e nimi pi wile sona tawa jan nanpa tu. jan pona mute li wile sona e ni: jan ike li seme? jan ike li wile sona e ma! tenpo li pini la jan ike li kama pona!</p>\n</div>",
+    "description": "<div lang=\"en\"><p>jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.</p>\n</div><div lang=\"tok\"><p>jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.</p>\n</div>",
     "stamp_start": "1723311000",
     "stamp_end": "1723312800",
-    "img": "jan-janka.png"
+    "img": "suno-pi-toki-pona.png"
   },
   {
     "duration": 25,
@@ -505,17 +491,17 @@
   },
   {
     "duration": 30,
-    "performer": "jan Janka",
-    "title": " | musi sitelen",
+    "performer": "kala Asi",
+    "title": "Cards Against Humanity | musi Cards Against Humanity",
     "categories": [
       "game",
       "toki: mostly toki pona"
     ],
     "language": "mostly toki pona",
-    "description": "<div lang=\"en\">\n</div><div lang=\"tok\"><p>musi li open la sina jo e sitelen (sitelen ni li pona). jan nanpa wan li pana e ijo sin tawa sitelen la sitelen li kama ike. jan nanpa tu li pana e ijo sin tawa sitelen la sitelen li kama pona. ni li awen.</p>\n</div>",
+    "description": "<div lang=\"en\"><p>o musi e toki kepeken lipu!</p>\n</div><div lang=\"tok\"><p>o musi e toki kepeken lipu!</p>\n</div>",
     "stamp_start": "1723318800",
     "stamp_end": "1723320600",
-    "img": "jan-janka.png"
+    "img": "kala-asi.png"
   },
   {
     "duration": 15,
@@ -578,27 +564,13 @@
     "img": "jan-usawi.png"
   },
   {
-    "duration": 10,
+    "duration": 30,
     "performer": "break",
     "title": "",
     "categories": [],
     "description": "<div lang=\"en\">\n</div>",
     "stamp_start": "1723327200",
-    "stamp_end": "1723327800"
-  },
-  {
-    "duration": 20,
-    "performer": "jan Janka",
-    "title": "Who am I? | musi pi \"mi seme?\"",
-    "categories": [
-      "game",
-      "toki: mostly toki pona"
-    ],
-    "language": "mostly toki pona",
-    "description": "<div lang=\"en\">\n</div>",
-    "stamp_start": "1723327800",
-    "stamp_end": "1723329000",
-    "img": "jan-janka.png"
+    "stamp_end": "1723329000"
   },
   {
     "duration": 40,
@@ -858,7 +830,7 @@
     "img": "jan-kepe.png"
   },
   {
-    "duration": 15,
+    "duration": 14,
     "performer": "kulupu suno",
     "title": "Finale | pini",
     "categories": [
@@ -868,7 +840,7 @@
     "language": "mixed",
     "description": "<div lang=\"en\"><p>Toki Pona Day is drawing to an close… let’s end it with a bang!</p>\n</div><div lang=\"tok\"><p>suno pi toki pona li kama pini… ona o pini pona!</p>\n</div>",
     "stamp_start": "1723353300",
-    "stamp_end": "1723267800",
+    "stamp_end": "1723354200",
     "img": "suno-pi-toki-pona.png"
   }
 ]
