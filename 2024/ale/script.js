@@ -40,31 +40,43 @@ function setDates() {
 	document.getElementById('date-change-card').remove()
 	const cols = document.querySelectorAll('.cols > div')
 	for (let col of cols) {
-		const firstTimestamp = col.querySelector('.timestamp')
-		const date = dateFromTimestampElement(firstTimestamp).getDate()
-		col.querySelector('.date-card').innerHTML = dates[language][date]
-		console.log(firstTimestamp, date)
+
 	}
 
-	const segments = document.querySelectorAll('.segment:not(:nth-child(2))')
-	for (let segment of segments) {
-		const segmentStartDate = dateFromTimestampElement(segment.querySelector('.timestamp')).getDate()
-		if (segmentStartDate !== firstDay) {
-			console.log(firstDay, segmentStartDate)
-			const dateCard = document.createElement('div')
-			dateCard.classList.add('date-card')
-			dateCard.innerHTML = dates[language][segmentStartDate]
-			segment.parentElement.insertBefore(dateCard, segment)
-			break
+	const schedules = document.querySelectorAll('.cols')
+	schedules.forEach(schedule => {
+		let scheduleHasDateBreak = false
+		const cols = schedule.querySelectorAll('.cols > div')
+		console.log(cols)
+		for (let col of cols) {
+			const firstTimestamp = col.querySelector('.timestamp')
+			const date = dateFromTimestampElement(firstTimestamp).getDate()
+			col.querySelector('.date-card').innerHTML = dates[language][date]
+
+			if (scheduleHasDateBreak) continue
+
+			const segments = col.querySelectorAll('.segment')
+			Array.from(segments).every(function (segment, i) {
+				if (scheduleHasDateBreak) return false
+
+				const segmentStartDate = dateFromTimestampElement(segment.querySelector('.timestamp')).getDate()
+				console.log(i, segmentStartDate)
+				if (segmentStartDate !== firstDay) {
+					console.log(firstDay, segmentStartDate)
+					const dateCard = document.createElement('div')
+					dateCard.classList.add('date-card')
+					if (i === 0) {
+						dateCard.classList.add('hide-when-three-columns')
+					}
+					dateCard.innerHTML = dates[language][segmentStartDate]
+					segment.parentElement.insertBefore(dateCard, segment)
+					scheduleHasDateBreak = true
+				}
+				return true
+			})
 		}
-	}
+	})
 }
-
 function dateFromTimestampElement(ts) {
 	return new Date(parseInt(ts.dataset.timestamp))
-}
-
-function makeDateCard(date) {
-
-	return el
 }
