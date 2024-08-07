@@ -89,7 +89,7 @@ function expandMinutes(minutes) {
     }
 }
 
-const startTime = new Date(1722447000 * 1000); // test value; change to 1723267800 on the 10th
+const startTime = new Date(1723267800 * 1000); // correct start time for suno 2024
 let latestTime = startTime;
 
 fetch('schedule.json')
