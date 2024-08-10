@@ -765,7 +765,7 @@
     "stamp_end": "1723347900"
   },
   {
-    "duration": 20,
+    "duration": 10,
     "performer": "jan Teja",
     "title": "mije weka | mije weka",
     "categories": [
@@ -775,8 +775,22 @@
     "language": "mostly toki pona",
     "description": "<div lang=\"en\"><p>A story about a guy under a self-imposed exile. Based on personal experience.</p>\n</div><div lang=\"tok\"><p>sona tan mije weka. ni li kama tan kon mi.</p>\n</div>",
     "stamp_start": "1723347900",
-    "stamp_end": "1723349100",
+    "stamp_end": "1723348500",
     "img": "jan-teja.png"
+  },
+  {
+    "duration": 10,
+    "performer": "jan Tanijelun",
+    "title": "Toki Pona cover",
+    "categories": [
+      "entertainment",
+      "toki: toki pona"
+    ],
+    "language": "toki pona",
+    "description": "<div lang=\"en\"><p>my first complete Toki Pona cover</p>\n</div>",
+    "stamp_start": "1723348500",
+    "stamp_end": "1723349100",
+    "img": "suno-pi-toki-pona.png"
   },
   {
     "duration": 10,
