@@ -793,7 +793,7 @@
     "img": "suno-pi-toki-pona.png"
   },
   {
-    "duration": 10,
+    "duration": 5,
     "performer": "kala Asi",
     "title": "Covers by kala Asi | kalama musi pi kala Asi",
     "categories": [
@@ -803,8 +803,22 @@
     "language": "toki pona taso",
     "description": "<div lang=\"en\"><p>kala Asi covers two songs</p>\n</div><div lang=\"tok\"><p>kala Asi li kalama e ijo tu tan jan ante.</p>\n</div>",
     "stamp_start": "1723349100",
-    "stamp_end": "1723349700",
+    "stamp_end": "1723349400",
     "img": "kala-asi.png"
+  },
+  {
+    "duration": 15,
+    "performer": "jan Ke Tami",
+    "title": "Music",
+    "categories": [
+      "music",
+      "toki: toki pona taso"
+    ],
+    "language": "toki pona taso",
+    "description": "<div lang=\"en\"></div>",
+    "stamp_start": "1723349400",
+    "stamp_end": "1723349700",
+    "img": "jan-ke-tami.png"
   },
   {
     "duration": 10,
