@@ -1,0 +1,98 @@
+---
+layout: default
+title: suno pi toki pona
+description: day of toki pona 2025
+image: /assets/sitelen/suno.png
+favicon: suno.ico
+color: "#3584e4"
+---
+<main style="align-items: center">
+<img src="/assets/sitelen/suno-2025.svg" style="width: 100%" alt="suno pi toki pona: toki pona day 2025"/>
+<div class="container w-40">
+	<div id="until"></div>
+	<div class="dates">
+		<span class="date" data-value="1754717220">9 Aug 05:27 UTC</span>
+		-
+		<span class="date" data-value="1754803620">10 Aug 05:27 UTC</span>
+	</div>
+
+	<div>
+		<p>toki, jan ale o! suno pi toki pona li kama!</p>
+
+		<p>this year, toki pona day will be from <span class="date" data-value="1754717220">9 Aug 05:27 UTC</span> to <span class="date" data-value="1754803620">10 Aug 05:27 UTC</span>, on a weekend. well, what is toki pona day?</p>
+
+		<p>suno pi toki pona, also known as toki pona day, is a yearly toki pona event held on ma pona pi toki pona, started in 2021. on this day (a whole 24 hours of it!), we come together to celebrate toki pona and the community :) (we are moving it forward this year so that it can be on a weekend, where everyone is free.)</p>
+
+		<p>the event consists of a main track show,  24-hour stream in one of the discord voice channels in ma pona pi toki pona, mirrored on various other platforms such as youtube and twitch, filled with performances, talks, games, and presentations. the schedule will be put together in July.
+
+		<p>hope you're excited for toki pona day!</p>
+	</div>
+
+	<div class="inline-center">
+		{% include discord.html %}
+		{% include mastodon.html %}
+		{% include youtube.html link="https://www.youtube.com/@maponapitokipona" %}
+		{% include twitch.html %}
+	</div>
+	<script>
+		var elements = document.getElementsByClassName("date");
+		Array.from(elements).forEach(function(element) {
+			var date = new Date(element.dataset.value*1000);
+			var string = new Intl.DateTimeFormat('en-GB', { dateStyle: 'medium', timeStyle: 'long' });
+			element.innerHTML = string.format(date).replace(/(2025, |:00)/g, "");
+		});
+
+		function display_time(diff) {
+			var until = document.getElementById("until");
+			until.innerHTML = "";
+
+			var month = Math.floor(diff/(60 * 60 * 24 * 30 * 1000));
+			if (month == 1) {
+				until.innerHTML += `${month} month `;
+			} else if (month > 1) {
+				until.innerHTML += `${month} months `;
+			}
+			var day = Math.floor(diff/(60 * 60 * 24 * 1000)) - month * 30;
+			if (day == 1) {
+				until.innerHTML += `${day} day `;
+			} else if (day > 1) {
+				until.innerHTML += `${day} days `;
+			} else if (month == 0) {
+				if (hour > 0) {
+					until.innerHTML += `${hour}:`;
+				}
+				var hour = Math.floor(diff/(60 * 60 * 1000)%60);
+				if (hour > 0) {
+					until.innerHTML += `${hour}:`;
+				}
+				var minute = Math.floor(diff/(60 * 1000)%60);
+				if (hour > 0 || minute > 0) {
+					if(minute < 10)
+						minute = "0" + minute;
+					until.innerHTML += `${minute}:`;
+				}
+				var second = Math.floor(diff/1000%60);
+				if(second < 10)
+					second = "0" + second;
+				until.innerHTML += second;
+			}
+			until.innerHTML += " left";
+		}
+
+		function countdown() {
+			var until = document.getElementById("until");
+			var now = new Date();
+			var start = new Date(1754717220 * 1000);
+			var end = new Date(1754803620 * 1000);
+			if (start > now) {
+				display_time(start.getTime() - now.getTime());
+			} else if (end > now) {
+				display_time(end.getTime() - now.getTime());
+			} else {
+				until.innerHTML = "";
+			}
+		}
+		setInterval(countdown, 1000);
+	</script>
+</div>
+</main>
