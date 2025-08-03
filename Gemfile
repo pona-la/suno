@@ -1,4 +1,5 @@
 source "https://rubygems.org"
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll'
+gem 'pona-la-kule-lipu', git: 'https://github.com/pona-la/kule-lipu.git'
 
-gem "webrick", "~> 1.8"
+gem "webrick"

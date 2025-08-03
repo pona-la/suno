@@ -152,6 +152,10 @@ th.minute {
   margin-bottom: 0.4rem;
 }
 
+#info .title {
+  font-size: 1.5rem;
+}
+
 #info .performer {
   font-size: 0.9rem;
   display: flex;
@@ -221,4 +225,90 @@ th.minute {
   width: 3rem;
   height: 3rem;
   top: 1rem;
+}
+
+.schedule {
+  padding: 1rem;
+}
+
+.schedule .events {
+  display: grid;
+  grid-template-rows: min-content [header] repeat(1441, 1fr);
+  grid-template-columns: min-content [minutes] repeat(var(--tracks), 1fr);
+}
+
+.schedule .events .logo {
+  display: block;
+  width: 5rem;
+  padding: 0 1rem;
+}
+
+.schedule .events .logo img {
+  max-width: 100%;
+}
+
+.schedule .events .track {
+  grid-column: var(--track) / span 1;
+  align-content: end;
+}
+
+.schedule .events .event-time {
+  display: block;
+  padding: var(--card-padding);
+  text-decoration: none;
+  color: var(--focus-link-text-color);
+  background-color: var(--focus-background-color);
+  border: var(--border-width) solid var(--focus-border-color);
+  border-radius: var(--button-border-radius);
+  grid-row-start: calc(var(--row-start) + 2);
+  grid-row-end: calc(var(--row-end) + 2);
+  grid-column: var(--track) / span 1;
+  margin: 0 1rem 0.5rem 0;
+}
+
+.schedule .events .event-time.current {
+  border-color: red;
+}
+
+.schedule .events .event-time .live {
+  display: none;
+}
+
+.schedule .events .event-time.current .live {
+  display: unset;
+  color: red;
+}
+
+.schedule .events .minute {
+  grid-row-start: calc(var(--row-start) + 2);
+  grid-row-end: span 5;
+  border-top: var(--border-width) solid var(--focus-border-color);
+  opacity: 50%;
+  text-align: end;
+  padding: var(--card-padding);
+}
+
+.schedule .events .minute.current {
+  border-color: red;
+  color: red;
+}
+
+.schedule .events .event-time .title {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.schedule .events .event-time .performer {
+  font-size: var(--font-size-x-small);
+}
+
+.phone-only { display: none; }
+.not-phone { display: unset; }
+
+@media (max-width: 1200px) {
+  .phone-only { display: unset; }
+  .not-phone { display: none; }
+  .schedule .events {
+    display: block;
+  }
 }

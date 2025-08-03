@@ -1,0 +1,91 @@
+---
+layout: default
+title: 'suno pi toki pona 2025'
+description: day of toki pona 2025
+image: /assets/sitelen/suno.png
+favicon: suno.ico
+color: "#3584e4"
+start: 1723267800
+year: 2025
+---
+<script src="{{ '/assets/js/schedule.js' | absolute_url }}" type="module"></script>
+{% assign year = page.year | append: '' %}
+<div class="schedule">
+  {% assign tracks = site.data[year] | map: 'track' | uniq %}
+  <div class="events" style="--tracks:{{ tracks | size }}">
+    <a href="{{ '/' | append: year | absolute_url }}" class="logo">
+      <img src="{{ '/assets/sitelen/suno.png' | absolute_url}}" alt="suno pi toki pona | day of toki pona"/>
+    </a>
+    {% for track in tracks %}
+      <div class="track not-phone" style="--track:{% if event.track %}{{event.track | slugify}}{% else %}default{% endif %}">
+        {{ track }}
+      </div>
+    {% endfor %}
+    {% for i in (0..287) %}
+      {% assign time = i | times: 300 | plus: page.start %}
+      {% assign end_time = time | plus: 300 %}
+      <div id="time-{{time}}" class="minute not-phone" style="--row-start: {{time | minus: page.start | divided_by: 60}}">{% include time.html value=time format='%H:%M' %}</div>
+      <script>
+        if (new Date({{ end_time | times: '1000' }}) - new Date() > 0) {
+          if (new Date({{ time | times: '1000' }}) - new Date() <= 0) {
+            document.getElementById("time-{{ time }}").classList.add('current');
+            document.getElementById("time-{{ time }}").scrollIntoView({behavior: 'instant', block: 'center'});
+          } else {
+            setTimeout(function () {
+              document.getElementById("time-{{ time }}").classList.add('current');
+              document.getElementById("time-{{ time }}").scrollIntoView({behavior: 'smooth', block: 'center'});
+            }, new Date({{ time | times: '1000' }}) - new Date());
+          }
+        
+          setTimeout(function () {
+            document.getElementById("time-{{ time }}").classList.remove('current');
+          }, new Date({{ end_time | times: '1000' }}) - new Date());
+        }
+      </script>
+    {% endfor %}
+    {% for event in site.data[year] %}
+      {% if event.performer == "break" %}
+      {% else %}
+      {% assign start = event.stamp_start | minus: page.start | divided_by: 60 %}
+      {% assign end = event.stamp_end | minus: page.start | divided_by: 60 %}
+      {% assign track = event.track | default: 'default' %}
+      <a id="{{ track | slugify }}-{{ start }}" class="event-time" style="--row-start: {{start}}; --row-end: {{ end }};--track:{% for track in tracks %}{% if track == event.track %}{{ forloop.index | plus: 1 }}{% endif %}{% endfor %}" href="{{ '/' | append: year | append: '/tenpo/' | append: track | append: '/' | append: event.stamp_start | append: '/' | absolute_url }}">
+        <div class="time phone-only">{% include time.html value=event.stamp_start format='%H:%M' %} - {% include time.html value=event.stamp_end format='%H:%M %Z' %}</div>
+        {% if event.duration >= 10 %}
+        <div class="performer">{{ event.performer }}</div>
+        {% endif %}
+        <div class="title"><span class="live">LIVE</span> {% if event.track %}<span class="track phone-only">{{ event.track }}: </span>{% endif %}{{ event.title }}</div>
+        {% if event.duration >= 10 %}
+        <div class="categories">
+        {% for category in event.categories %}
+        <li>{{ category }}</li>
+        {% endfor %}
+        </div>
+        {% endif %}
+      </a>
+      <script>
+        if (new Date({{ event.stamp_end | times: '1000' }}) - new Date() > 0) {
+          if (new Date({{ event.stamp_start | times: '1000' }}) - new Date() <= 0) {
+            document.getElementById("{{ track | slugify }}-{{ start }}").classList.add('current');
+          } else {
+            setTimeout(function () {
+              document.getElementById("{{ track | slugify }}-{{ start }}").classList.add('current');
+            }, new Date({{ event.stamp_start | times: '1000' }}) - new Date());
+          }
+
+          setTimeout(function () {
+            document.getElementById("{{ track | slugify }}-{{ start }}").classList.remove('current');
+          }, new Date({{ event.stamp_end | times: '1000' }}) - new Date());
+        }
+      </script>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="inline-center">
+  {% include discord.html %}
+  {% include mastodon.html %}
+  {% include youtube.html link="https://www.youtube.com/@maponapitokipona" %}
+  {% include twitch.html %}
+</div>

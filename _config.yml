@@ -3,5 +3,5 @@ description: day of toki pona 2021
 email: hel@lcp.world
 url: "https://suno.pona.la"
 
-remote_theme: pona-la/kule-lipu
+theme: pona-la-kule-lipu
 exclude: [Gemfile, Gemfile.lock,LICENSE,README.md,bin]

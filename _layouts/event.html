@@ -1,0 +1,37 @@
+---
+layout: pona
+image: /assets/sitelen/suno.png
+favicon: suno.ico
+color: "#3584e4"
+---
+<script src="{{ '/assets/js/schedule.js' | absolute_url }}" type="module"></script>
+<img src="/assets/sitelen/suno-{{ page.year }}.svg" style="width: 100%" alt="suno pi toki pona: toki pona day {{ page.year }}"/>
+
+<a href="{{ '/' | append: page.year | append: '/tenpo/' | absolute_url }}" class='button'>Back to schedule</a>
+<div id="info">
+<div class="time">{% include time.html value=page.event.stamp_start format='%d. %b, %H:%M' %} - {% include time.html value=page.event.stamp_end format='%H:%M %Z' %}</div>
+
+<div class="performer">{{ page.event.performer }}
+  {% if page.event.youtube %}<span title="YouTube"><a href="{{ page.event.youtube }}" target="_blank">{% include youtube.svg %}</a></span>{% endif %}
+  {% if page.event.spotify %}<span title="Spotify"><a href="{{ page.event.spotify }}" target="_blank">{% include spotify.svg %}</a></span>{% endif %}
+  {% if page.event.bandcamp %}<span title="Bandcamp"><a href="{{ page.event.bandcamp }}" target="_blank">{% include bandcamp.svg %}</a></span>{% endif %}
+  {% if page.event.soundcloud %}<span title="Soundcloud"><a href="{{ page.event.soundcloud }}" target="_blank">{% include soundcloud.svg %}</a></span>{% endif %}
+  {% if page.event.discord %}<span title="Discord"><a href="{{ page.event.discord }}" target="_blank">{% include discord.svg %}</a></span>{% endif %}
+  {% if page.event.website %}<span title="Website"><a href="{{ page.event.website }}" target="_blank">{% include website.svg %}</a></span>{% endif %}
+</div>
+<div class="title">{{ page.event.title }}</div>
+<div class="categories">
+{% for category in page.event.categories %}
+<li>{{ category }}</li>
+{% endfor %}
+</div>
+<div>Language: {{ page.event.language }}</div>
+{{ page.event.description }}
+</div>
+
+<div class="inline-center">
+  {% include discord.html %}
+  {% include mastodon.html %}
+  {% include youtube.html link="https://www.youtube.com/@maponapitokipona" %}
+  {% include twitch.html %}
+</div>
