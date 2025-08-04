@@ -267,23 +267,23 @@ th.minute {
 }
 
 .schedule .events .event-time.entertainment {
-  background-color: #db8907;
-  border-color: #f5c211;
+  background-color: light-dark(#f0bd0b, #d17005);
+  border-color: light-dark(#f5c211, #f5c211);
 }
 
 .schedule .events .event-time.informational {
-  background-color: #12459b;
-  border-color: #1c71d8;
+  background-color: light-dark(#2ea1f4, #144ca4);
+  border-color: light-dark(#1c71d8, #1c71d8);
 }
 
 .schedule .events .event-time.game {
-  background-color: #1a864e;
-  border-color: #2ec27e;
+  background-color: light-dark(#2ecc86, #167a44);
+  border-color: light-dark(#2ec27e, #2ec27e);
 }
 
 .schedule .events .event-time.music {
-  background-color: #b23100;
-  border-color: #e66100;
+  background-color: light-dark(#fc8600, #b83500);
+  border-color: light-dark(#e66100, #e66100);
 }
 
 .schedule .events .event-time.current {
