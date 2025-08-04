@@ -51,11 +51,11 @@ year: 2025
       {% assign track = event.track | default: 'default' %}
       <a id="{{ track | slugify }}-{{ start }}" class="event-time" style="--row-start: {{start}}; --row-end: {{ end }};--track:{% for track in tracks %}{% if track == event.track %}{{ forloop.index | plus: 1 }}{% endif %}{% endfor %}" href="{{ '/' | append: year | append: '/tenpo/' | append: track | append: '/' | append: event.stamp_start | append: '/' | absolute_url }}">
         <div class="time phone-only">{% include time.html value=event.stamp_start format='%H:%M' %} - {% include time.html value=event.stamp_end format='%H:%M %Z' %}</div>
-        {% if event.duration >= 10 %}
+        {% if event.duration >= 20 %}
         <div class="performer">{{ event.performer }}</div>
         {% endif %}
         <div class="title"><span class="live">LIVE</span> {% if event.track %}<span class="track phone-only">{{ event.track }}: </span>{% endif %}{{ event.title }}</div>
-        {% if event.duration >= 10 %}
+        {% if event.duration >= 20 %}
         <div class="categories">
         {% for category in event.categories %}
         <li>{{ category }}</li>
