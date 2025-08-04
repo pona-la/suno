@@ -49,7 +49,20 @@ year: 2025
       {% assign start = event.stamp_start | minus: page.start | divided_by: 60 %}
       {% assign end = event.stamp_end | minus: page.start | divided_by: 60 %}
       {% assign track = event.track | default: 'default' %}
-      <a id="{{ track | slugify }}-{{ start }}" class="event-time" style="--row-start: {{start}}; --row-end: {{ end }};--track:{% for track in tracks %}{% if track == event.track %}{{ forloop.index | plus: 1 }}{% endif %}{% endfor %}" href="{{ '/' | append: year | append: '/tenpo/' | append: track | append: '/' | append: event.stamp_start | append: '/' | absolute_url }}">
+      {% assign classname = "event-time" %}
+      {% if event.categories contains "entertainment" %}
+        {% assign classname = classname | append: " entertainment" %}
+      {% endif %}
+      {% if event.categories contains "informational" %}
+        {% assign classname = classname | append: " informational" %}
+      {% endif %}
+      {% if event.categories contains "music" %}
+        {% assign classname = classname | append: " music" %}
+      {% endif %}
+      {% if event.categories contains "game" %}
+        {% assign classname = classname | append: " game" %}
+      {% endif %}
+      <a id="{{ track | slugify }}-{{ start }}" class="{{classname}}" style="--row-start: {{start}}; --row-end: {{ end }};--track:{% for track in tracks %}{% if track == event.track %}{{ forloop.index | plus: 1 }}{% endif %}{% endfor %}" href="{{ '/' | append: year | append: '/tenpo/' | append: track | append: '/' | append: event.stamp_start | append: '/' | absolute_url }}">
         <div class="time phone-only">{% include time.html value=event.stamp_start format='%H:%M' %} - {% include time.html value=event.stamp_end format='%H:%M %Z' %}</div>
         {% if event.duration >= 20 %}
         <div class="performer">{{ event.performer }}</div>
