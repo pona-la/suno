@@ -605,57 +605,17 @@
     "stamp_end": 1754801400
   },
   {
-    "duration": 5,
-    "performer": "jan Apen",
-    "title": "Gila Monster cover - toki pona taso | akesi Ila",
+    "duration": 20,
+    "performer": "jan Apen + jan Upmost + jan Alin + kala Asi",
+    "title": "song covers by several creators! | jan tu tu li kalama musi pona tan toki ante!",
     "categories": [
       "music",
       "toki: toki pona taso"
     ],
     "language": "toki pona taso",
-    "description": "<div lang=\"en\">A toki pona translation and  cover of the song Gila Monster by KGatLW, translation and vocals by me</div><div lang=\"tok\">jan Apen li toki pona e kalama Gila Monster pi kulupu KGatLW!</div>",
+    "description": "<div lang=\"en\">jan Apen covers Gila Monster by KGatLW! jan Upmost covers Can't Stop Singing! jan Alin covers \"Der Mond ist aufgegangen\"! kala Asi covers \"What is autumn?\"!</div><div lang=\"tok\">jan tu tu li kalama musi pona tan toki ni^ ante!</div>",
     "stamp_start": 1754801400,
-    "stamp_end": 1754801700
-  },
-  {
-    "duration": 5,
-    "performer": "jan Upmost",
-    "title": "\"Cant stop singing\" (toki pona) | \"pini ala e musi toki\" (toki pona)",
-    "categories": [
-      "music",
-      "toki: toki pona taso"
-    ],
-    "language": "toki pona taso",
-    "description": "<div lang=\"en\">A toki pona translation and cover of the song Cant Stop Singing...</div><div lang=\"tok\">toki pona pi kalama musi \"Cant Stop Singing\" li ante e nimi li kalama sin...</div>",
-    "stamp_start": 1754801700,
-    "stamp_end": 1754802000
-  },
-  {
-    "duration": 5,
-    "performer": "jan Alin",
-    "title": "Song translation: mun sike li lon sewi | kalama musi: mun sike li lon sewi",
-    "categories": [
-      "music",
-      "toki: toki pona taso"
-    ],
-    "language": "toki pona taso",
-    "description": "<div lang=\"en\">A toki pona translation and cover of the German lullaby \"Der Mond ist aufgegangen\"</div><div lang=\"tok\">mi ante e kalama musi pona tan toki Tosi tawa toki pona. o kute!</div>",
-    "stamp_start": 1754802000,
-    "stamp_end": 1754802300
-  },
-  {
-    "duration": 5,
-    "performer": "kala Asi",
-    "title": "Covers by kala Asi | kalama musi pi kala Asi",
-    "categories": [
-      "music",
-      "toki: toki pona taso"
-    ],
-    "language": "toki pona taso",
-    "description": "<div lang=\"en\">kala Asi covers songs</div><div lang=\"tok\">kala Asi li kalama e ijo tan jan ante.</div>",
-    "stamp_start": 1754802300,
-    "stamp_end": 1754802600,
-    "img": "kala-asi.png"
+    "stamp_end": 1754802600
   },
   {
     "duration": 19,

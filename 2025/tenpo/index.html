@@ -21,9 +21,9 @@ year: 2025
         {{ track }}
       </div>
     {% endfor %}
-    {% for i in (0..287) %}
-      {% assign time = i | times: 300 | plus: page.start %}
-      {% assign end_time = time | plus: 300 %}
+    {% for i in (0..143) %}
+      {% assign time = i | times: 600 | plus: page.start %}
+      {% assign end_time = time | plus: 600 %}
       <div id="time-{{time}}" class="minute not-phone" style="--row-start: {{time | minus: page.start | divided_by: 60}}">{% include time.html value=time format='%H:%M' %}</div>
       <script>
         if (new Date({{ end_time | times: '1000' }}) - new Date() > 0) {
