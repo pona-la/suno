@@ -281,7 +281,7 @@ th.minute {
 
 .schedule .events .minute {
   grid-row-start: calc(var(--row-start) + 2);
-  grid-row-end: span 5;
+  grid-row-end: span 10;
   border-top: var(--border-width) solid var(--focus-border-color);
   opacity: 50%;
   text-align: end;
