@@ -266,6 +266,26 @@ th.minute {
   margin: 0 1rem 0.5rem 0;
 }
 
+.schedule .events .event-time.entertainment {
+  background-color: #db8907;
+  border-color: #f5c211;
+}
+
+.schedule .events .event-time.informational {
+  background-color: #12459b;
+  border-color: #1c71d8;
+}
+
+.schedule .events .event-time.game {
+  background-color: #1a864e;
+  border-color: #2ec27e;
+}
+
+.schedule .events .event-time.music {
+  background-color: #b23100;
+  border-color: #e66100;
+}
+
 .schedule .events .event-time.current {
   border-color: red;
 }
