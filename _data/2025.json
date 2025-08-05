@@ -290,16 +290,25 @@
     "stamp_end": 1754760600
   },
   {
-    "duration": 40,
-    "performer": "kala Asi",
-    "title": "Sketchful | musi Sketchful",
+    "duration": 30,
+    "performer": "jan Sonja",
+    "title": "Live and spontaneous Q and A | sina wile sona la jan Sonja li pana e sona",
     "categories": [
-      "game",
-      "toki: toki pona taso"
+      "informational",
+      "toki: mixed"
     ],
-    "language": "toki pona taso",
-    "description": "<div lang=\"en\">jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.</div><div lang=\"tok\">jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.</div>",
+    "language": "mixed",
+    "description": "<div lang=\"en\">sonja will read the chat and answer on the fly</div><div lang=\"tok\">jan Sonja li lukin e toki sina li pana e sona ona</div>",
     "stamp_start": 1754760600,
+    "stamp_end": 1754762400
+  },
+  {
+    "duration": 10,
+    "performer": "break",
+    "title": "",
+    "categories": [],
+    "description": "",
+    "stamp_start": 1754762400,
     "stamp_end": 1754763000
   },
   {
