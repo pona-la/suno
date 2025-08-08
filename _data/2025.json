@@ -10,8 +10,7 @@
     "language": "mixed",
     "description": "<div lang=\"en\">Welcome to Toki Pona Day!</div><div lang=\"tok\">o kama pona tawa suno pi toki pona!</div>",
     "stamp_start": 1754717400,
-    "stamp_end": 1754718600,
-    "img": "suno-pi-toki-pona.png"
+    "stamp_end": 1754718600
   },
   {
     "duration": 30,
@@ -37,14 +36,14 @@
   },
   {
     "duration": 20,
-    "performer": "jan Minasa",
-    "title": "Let's make string dolls! | mi ale o pali e jan linja!",
+    "performer": "jan Kasape + maybe others",
+    "title": "how a lipu tenpo is made",
     "categories": [
       "informational",
-      "toki: toki pona taso"
+      "toki: mostly english"
     ],
-    "language": "toki pona taso",
-    "description": "<div lang=\"en\">Learn how to make string dolls with this Toki Pona craft tutorial! Perfect for gifts, magic and decor, these little fellas only need string and scissors to come to life. A tapestry needle or small stick will also come in handy.</div><div lang=\"tok\">o kama sona e nasin pali pi jan linja kepeken sitelen tawa ni! jan musi ni li pona tawa ijo mute. sina ken pana e ona tawa jan ante anu insa tomo. ilo pali la sina wile e linja pi kule wile, e ilo kipisi. palisa pi lupa linja suli li ilo pona.</div>",
+    "language": "mostly english",
+    "description": "",
     "stamp_start": 1754721000,
     "stamp_end": 1754722200
   },
@@ -553,7 +552,7 @@
     "stamp_end": 1754793000
   },
   {
-    "duration": 30,
+    "duration": 20,
     "performer": "soweli Kapi",
     "title": "soweli Kapi's story time | tenpo pi sitelen musi",
     "categories": [
@@ -563,29 +562,20 @@
     "language": "mostly toki pona",
     "description": "<div lang=\"en\">I'll do a reading of the first chapter of Alice in Wonderland translated into Toki Pona by me</div><div lang=\"tok\">mi wile toki e sitelen musi ni tawa sina: jan Alisu lon ma nasa</div>",
     "stamp_start": 1754793000,
-    "stamp_end": 1754794800
+    "stamp_end": 1754794200
   },
   {
-    "duration": 30,
-    "performer": "kili potato",
-    "title": "Fossilized Phatics in toki pona | toki pona la toki pilin li awen tan seme",
+    "duration": 40,
+    "performer": "kala Asi",
+    "title": "Sketchful | musi Sketchful",
     "categories": [
-      "informational",
-      "toki: mixed"
+      "game",
+      "toki: toki pona taso"
     ],
-    "language": "mixed",
-    "description": "<div lang=\"en\">toki! why do we hear so many common toki pona phrases repeated in conversation? how did they get there?</div><div lang=\"tok\">toki a! seme la mi pana mute e toki pilin ni lon toki pona? toki nasin ni li tan seme?</div>",
-    "stamp_start": 1754794800,
+    "language": "toki pona taso",
+    "description": "<div lang=\"en\">jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.</div><div lang=\"tok\">jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.</div>",
+    "stamp_start": 1754794200,
     "stamp_end": 1754796600
-  },
-  {
-    "duration": 10,
-    "performer": "break",
-    "title": "",
-    "categories": [],
-    "description": "",
-    "stamp_start": 1754796600,
-    "stamp_end": 1754797200
   },
   {
     "duration": 20,
@@ -597,7 +587,16 @@
     ],
     "language": "luka pona",
     "description": "",
-    "stamp_start": 1754797200,
+    "stamp_start": 1754796600,
+    "stamp_end": 1754797800
+  },
+  {
+    "duration": 10,
+    "performer": "break",
+    "title": "",
+    "categories": [],
+    "description": "",
+    "stamp_start": 1754797800,
     "stamp_end": 1754798400
   },
   {
@@ -637,8 +636,6 @@
     "language": "mixed",
     "description": "<div lang=\"en\">Toki Pona Day is drawing to a close... let's end it with a bang!</div><div lang=\"tok\">suno pi toki pona li kama pini... ona o pini pona!</div>",
     "stamp_start": 1754802600,
-    "stamp_end": 1754803740,
-    "img": "suno-pi-toki-pona.png"
+    "stamp_end": 1754803740
   }
 ]
-
