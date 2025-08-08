@@ -162,7 +162,7 @@
     "stamp_end": 1754742000
   },
   {
-    "duration": 40,
+    "duration": 20,
     "performer": "jan 56i",
     "title": "The Zaŋ language - a brief guide | toki Zaŋ (San)",
     "categories": [
@@ -172,6 +172,15 @@
     "language": "mostly toki pona",
     "description": "<div lang=\"en\">An introduction to the Zaŋ language, where every string of valid syllables is grammatically correct and 4.7 million words are possible</div><div lang=\"tok\">o kama sona lili e toki Zaŋ. toki Zaŋ la ale kalama li pona sona. toki Zaŋ li jo ~4,700,000 (kalama: \"mute\") nimi</div>",
     "stamp_start": 1754742000,
+    "stamp_end": 1754743200
+  },
+  {
+    "duration": 20,
+    "performer": "break",
+    "title": "",
+    "categories": [],
+    "description": "",
+    "stamp_start": 1754743200,
     "stamp_end": 1754744400
   },
   {
