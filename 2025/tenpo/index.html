@@ -16,6 +16,10 @@ year: 2025
     <a href="{{ '/' | append: year | absolute_url }}" class="logo">
       <img src="{{ '/assets/sitelen/suno.png' | absolute_url}}" alt="suno pi toki pona | day of toki pona"/>
     </a>
+    <div class="timezone">Timezone: <span id="timezone">UTC</span></div>
+    <script>
+      document.querySelector('#timezone').textContent = new Date().toLocaleTimeString('en-US', {timeZoneName: 'short'}).split(' ')[2];
+    </script>
     {% for track in tracks %}
       <div class="track not-phone" style="--track:{% if event.track %}{{event.track | slugify}}{% else %}default{% endif %}">
         {{ track }}

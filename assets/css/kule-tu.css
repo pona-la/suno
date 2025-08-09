@@ -247,6 +247,11 @@ th.minute {
   max-width: 100%;
 }
 
+.schedule .events .timezone {
+  opacity: 0.5;
+  margin-top: 1.5rem;
+}
+
 .schedule .events .track {
   grid-column: var(--track) / span 1;
   align-content: end;
@@ -330,5 +335,8 @@ th.minute {
   .not-phone { display: none; }
   .schedule .events {
     display: block;
+  }
+  .schedule .events .timezone {
+    display: none;
   }
 }
