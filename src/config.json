@@ -1,0 +1,10 @@
+{
+  "hostname": "suno.pona.la",
+  "title": "suno pi toki pona: Toki Pona Day",
+  "description": "Our yearly festival of all things Toki Pona!",
+  "url_goatcounter": "https://suno-pona-la.goatcounter.com/",
+  "url_github": "https://github.com/pona-la/suno/",
+
+  "use_navbar": false,
+  "use_language_toggle": true
+}
