@@ -26,7 +26,7 @@ interface Props {
 
 const { lang, from, start } = Astro.props;
 
-let events = JSON.parse(fs.readFileSync(`content/schedules-new/${from}`).toString()) as EventData[];
+let events = JSON.parse(fs.readFileSync(`content/schedules/${from}`).toString()) as EventData[];
 
 let cumulativeTimestamp = start;
 console.log(cumulativeTimestamp);

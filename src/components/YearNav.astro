@@ -1,0 +1,19 @@
+---
+interface Props {
+  lang: "en" | "tok";
+}
+const years = ["2025", "2024", "2023", "2022", "2021"];
+const { lang } = Astro.props;
+---
+
+<center>
+  {
+    years
+      .map((year) => <a href={`/${lang}/${year}`}>{year}</a>)
+      .reduce((prev, curr, i) => (
+        <>
+          {prev} <b>{" · "}</b> {curr}
+        </>
+      ))
+  }
+</center>
