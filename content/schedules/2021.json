@@ -1,0 +1,357 @@
+[
+  {
+    "duration": 30,
+    "title": "opening | open",
+    "description": "<p lang=\"en\">Opening ceremony to the entire event - welcoming, introducing, information, et cetera.</p><p lang=\"tok\">open pi suno pi toki pona - kama pona pi jan ale, pana pi sona ale, en ijo ante mute.</p>"
+  },
+  {
+    "duration": 30,
+    "performer": "jan Sate",
+    "title": "Let's make ilo nanpa lili! | o pali e ilo nanpa lili!",
+    "categories": ["toki musi"],
+    "description": "<p lang=\"en\">It's time for DIY! Let's learn building ilo nanpa lili on breadboard!\nKits for ilo nanpa lili will be available for sale at cost price.\nQ&A session available at the end of this session. You can ask me about anything, related to ilo nanpa lili or not.</p><p lang=\"tok\">mi wile pali e ilo nanpa lili. sina lukin la sina ken kama sona e nasin pali.\nni la sina ken esun e ijo li pali e ilo nanpa lili sina. ona li mani lili.\ntenpo pi kama sona li pini la sina ken toki tawa mi.</p>"
+  },
+  {
+    "duration": 30,
+    "performer": "jan Katapin",
+    "title": "toki pona Gartic Phone | musi Gartic Phone pi toki pona",
+    "description": "<p lang=\"en\">Gartic Phone (an implementation of the game Telestrations or \"paper telephone\") but in Toki Pona! Write a description of an image, then draw an image of a description, and see how strange things can get!</p><p lang=\"tok\">o musi e musi Katikapon (Gartic Phone)! musi ni li kepeken e sitelen toki e sitelen musi.</p>",
+    "categories": ["musi musi"]
+  },
+  {
+    "duration": 10,
+    "performer": "jan Lakuse",
+    "title": "luka pona",
+    "description": "<p lang=\"en\">luka pona (or LPSL) is a constructed signed language derived from toki pona and intended for usage in toki pona contexts. It borrows classifier features and storytelling devices from natural signed languages, giving it unique expressive potential. jan Lakuse transposes her original toki pona story 'tu lukin lon' into luka pona.</p><p lang=\"tok\">luka pona li toki luka pali li tawa kulupu pi toki pona. kepeken nasin pi toki luka suli, la nasin toki pona mute li lon luka pona. jan lakuse li kepeken luka pona e  toki ona \"tu lukin lon\" tawa ni: jan li ken sona e pona namako pi luka pona. </p>",
+    "categories": ["toki sona"]
+  },
+  {
+    "duration": 20,
+    "performer": "jan Mali",
+    "title": "A poem by any other name | toki musi pi nasin nimi ante: o sitelen!",
+    "description": "<p lang=\"en\">From the sound of the sonnet to the design of the diamante, there are several styles of poems in the world. This workshop will pilot a format of poetry native to Toki Pona, so come along to write and share a piece! Presentation mostly in English, jan sin welcome.</p><p lang=\"tok\">toki musi lili la, nasin sitelen mute li lon. nasin Sone li pona. nasin Sijamante li ante. a, nasin pi toki pona li seme? toki ni la, mi pana e nasin sitelen sin. jan ale li ken sitelen e toki musi kepeken nasin sin ni, li ken toki e ona! mi kepeken mute e toki Inli. jan sin li ken kama pona.</p>",
+    "categories": ["kalama musi"]
+  },
+  {
+    "duration": 20,
+    "performer": "kala pona",
+    "title": "songs by kala pona | kalama musi pi kala pona",
+    "description": "<p lang=\"en\">kala pona will sing a few songs!</p>\n<p lang=\"tok\">kala pona li kalama e kalama musi ona!</p>\n<ul>\n<li>kule olin</li>\n<li>pipi li kon</li>\n<li>suno nanpa wan</li>\n<li>luka sike</li>\n<li>o tawa noka</li>\n<li>o lape (<span lang=\"en\">extended</span> | <span lang=\"tok\">suli</span>)</li>\n</ul>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/channel/UCydEFeCJBY3uu9gA_m_dg-g",
+    "soundcloud": "https://soundcloud.com/kala-pona"
+  },
+  {
+    "duration": 40,
+    "performer": "waso Atemi",
+    "categories": ["musi musi"],
+    "title": "Hey Let's Do an Adventure!!!  | o tawa musi!!!",
+    "description": "<p lang=\"en\">Learn how to play a one page rpg by playing!</p><p lang=\"tok\">o kama sona musi lili!</p><a href=\"https://metalsnail.itch.io/hey-lets-do-an-adventure\">Link</a>"
+  },
+  {
+    "duration": 30,
+    "performer": "jan Telakoman",
+    "categories": ["toki sona"],
+    "title": "The Genius of Toki Pona | toki pona li nasin toki pi wawa ante",
+    "description": "<p lang=\"en\">a lecture The Genius of Toki Pona, explaining what it means to be the world's first speakable semantic metalanguage</p><p lang=\"tok\">nasin wan pi sona toki la jan sona li alasa e kon suli lon toki jan. toki pona li sama nasin ni! toki pona li jo e wawa ante tan ni.</p>"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Sotan",
+    "title": "mostly spoken word renditions of pieces written in toki pona, released or otherwise | jaki mi",
+    "description": "<p lang=\"en\">Program*:</p><ul><li>intro</li><li>open</li><li>olin li toki tawa jan ale</li><li>jan lili pi ma ante</li><li>toki ike awen</li><li>toki Tokipokalama</li><li>mi toki pini</li></ul><p lang=\"en\">*: we reserve the right to change the program</p><p lang=\"tok\">mi wile e ni: mi toki la sina musi. sina musi ala la sina ken pakala e mi.</p>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/c/aedschorsaanjo",
+    "website": "https://dschorsaanjo.hu/"
+  },
+  {
+    "duration": 50,
+    "performer": "jan Tamalu",
+    "title": "Codenames",
+    "categories": ["musi musi"],
+    "description": "Codenames is a popular board game about relating several words or\npictures on the board by giving just one word as a hint. You can\nread the rules <a href=\"https://czechgames.com/files/rules/codenames-rules-en.pdf\" target=\"_blank\">here</a>. We\nwill be playing in toki pona allowing two words (noun+adjective) per\nhint. We will use either <a href=\"https://playingcards.io/d3njd7\" target=\"_blank\">playingcards.io</a> or\n<a href=\"https://codenames.game/\" target=\"_blank\">codenames.game</a> \n"
+  },
+  {
+    "duration": 20,
+    "performer": "kala pona",
+    "title": "songs by kala pona | kalama musi pi kala pona",
+    "description": "<p lang=\"en\">kala pona will sing a couple more songs :D</p>\n<p lang=\"tok\">kala pona li kalama sin e kalama musi ona :D</p>\n<ul>\n<li>suno nanpa wan</li>\n<li>o tawa noka</li>\n<li>sina taso</li>\n<li>o kute (<span lang=\"en\">new unreleased song!</span> | <span lang=\"tok\">kalama musi sin!</span>)</li>\n<li>kule olin</li>\n<li>o lape</li>\n</ul>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/channel/UCydEFeCJBY3uu9gA_m_dg-g",
+    "soundcloud": "https://soundcloud.com/kala-pona"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Melon + kala pona",
+    "title": "sitelen pona Kahoot | musi Kahoot pi sitelen pona",
+    "categories": ["musi musi"],
+    "description": "<p lang=\"en\">test your sitelen pona knowledge in this kahoot against everyone else!</p><p lang=\"tok\">sina sona ala sona pona e sitelen pona? o musi e musi Kahoot tawa sona ni!</p>"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Alonola + jan Ke Tami",
+    "title": "sona sin en sona pi sin ala",
+    "categories": ["toki sona"],
+    "description": "<p lang=\"en\">News about the world and toki pona, a small documentation about the first conlang and a discussion and tier list of nasin nanpa</p><p lang=\"tok\">mi mute li toki e sona sin, e sona pi toki pali pi nanpa wan. kin la, mi mute li toki e ni: nasin nanpa seme li pona?</p>",
+    "youtube": "https://www.youtube.com/c/aronora"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Pensa",
+    "title": "music by jan Pensa | kalama musi pi jan Pensa",
+    "categories": ["kalama musi"],
+    "description": "<p lang=\"en\">Singing songs in Toki Pona, accompanied by ukulele.</p><p lang=\"tok\">mi kalama musi kepeken toki pona.</p><p>Will include | kalama musi ni en kalama musi ante li lon:</p><ul><li>o sona e mi (Remember Me)</li><li>tawa Panpa (La Bamba)</li><li>soweli mute (Dek Bovinoj)</li></ul>",
+    "youtube": "https://www.youtube.com/channel/UCo27SyuT3kdd12RCH_4HAgA"
+  },
+  {
+    "duration": 120,
+    "title": "break"
+  },
+  {
+    "duration": 30,
+    "performer": "kala Asi",
+    "title": "Applying language change to Toki Pona | mi ante e toki pona",
+    "categories": ["kalama musi"],
+    "description": "<p lang=\"en\">A video description of the tpka concept, and my implementation of it.</p><p lang=\"tok\">kon pi sitelen tawa li ni: toki pi kama ante li lon. mi pali e toki sama ni.</p><a href=\"https://www.youtube.com/watch?v=4VvSLCnKTeA\" target=\"_blank\"></a>",
+    "youtube": "https://www.youtube.com/channel/UCRNqg0LMqeV_03qnOA-htYA"
+  },
+  {
+    "duration": 10,
+    "performer": "jan Epen",
+    "title": "My exprience in Toki Pona communites | ijo pi kulupu pi toki pona",
+    "description": "<p lang=\"en\">My exprience about Toki Pona in Korean community and ma pona</p><p lang=\"tok\">mi toki e ijo pi toki pona lon kulupu pi toki pona</p>",
+    "categories": ["toki sona"]
+  },
+  {
+    "duration": 30,
+    "performer": "jan Wijan",
+    "title": "toki pona Drawful | musi Drawful",
+    "description": "<p lang=\"en\">A game of toki pona Drawful 2!</p><p lang=\"tok\">mi ale li musi e musi Drawful pi toki pona!</p><a href=\"https://jackbox.tv/\" target=\"_blank\">jackbox.tv</a>",
+    "categories": ["musi musi"]
+  },
+  {
+    "duration": 30,
+    "title": "break"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Sotan",
+    "title": "mostly spoken word renditions of pieces written in toki pona, released or otherwise | jaki mi",
+    "description": "<p lang=\"en\">Program*:</p><ul><li>intro</li><li>open</li><li>olin li toki tawa jan ale</li><li>jan lili pi ma ante</li><li>toki ike awen</li><li>toki Tokipokalama</li><li>mi toki pini</li></ul><p lang=\"en\">*: we reserve the right to change the program</p><p lang=\"tok\">mi wile e ni: mi toki la sina musi. sina musi ala la sina ken pakala e mi.</p>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/c/aedschorsaanjo",
+    "website": "https://dschorsaanjo.hu/"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Nikoleta (kqa)",
+    "categories": ["kalama musi"]
+  },
+  {
+    "duration": 20,
+    "performer": "jan Usawi",
+    "title": "musi kalama pi jan Usawi | musi kalama pi jan Usawi",
+    "description": "<p lang=\"en\">Singing songs of mine in toki pona, and sharing the thoughts and stories behind them. Some new songs might make an appearance 👀</p><p lang=\"tok\">mi toki e kalama musi mi li toki e pilin tan pi musi ni. kalama musi sin pi kute ala li ken lon 👀</p><p>Setlist:</p><ul><li>omekalike</li><li>tawa lon linja</li><li>o toki sin</li><li>monsuta</li></ul>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/channel/UCmV2kx0jLTcR2TijtGGxeAQ",
+    "bandcamp": "https://janusawi.bandcamp.com"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Alonola + jan Ke Tami",
+    "title": "sona sin en sona pi sin ala",
+    "categories": ["toki sona"],
+    "description": "<p lang=\"en\">News about the world and toki pona, a small documentation about the first conlang and a discussion and tier list of nasin nanpa</p><p lang=\"tok\">mi mute li toki e sona sin, e sona pi toki pali pi nanpa wan. kin la, mi mute li toki e ni: nasin nanpa seme li pona?</p>",
+    "youtube": "https://www.youtube.com/c/aronora"
+  },
+  {
+    "duration": 20,
+    "performer": "Vacon Sartirani",
+    "title": "Drawing in toki pona | pali sitelen kepeken toki pona",
+    "description": "<ul lang=\"en\"><li lang=\"en\">Presentation of the comic \"nasin nasa\" written in toki pona sitelen sitelen <a href=\"https://tapas.io/series/Nasin-Nasa/\" target=\"_blank\">See it on Tapas</a></li><li lang=\"en\">Presentation of the illustration work for \"ku\", the new Toki Pona dictionary</li></ul>",
+    "categories": ["toki sona"]
+  },
+  {
+    "duration": 50,
+    "performer": "jan Tamalu",
+    "title": "Codenames",
+    "categories": ["musi musi"],
+    "description": "Codenames is a popular board game about relating several words or\npictures on the board by giving just one word as a hint. You can\nread the rules <a href=\"https://czechgames.com/files/rules/codenames-rules-en.pdf\" target=\"_blank\">here</a>. We\nwill be playing in toki pona allowing two words (noun+adjective) per\nhint. We will use either <a href=\"https://playingcards.io/d3njd7\" target=\"_blank\">playingcards.io</a> or\n<a href=\"https://codenames.game/\" target=\"_blank\">codenames.game</a> \n"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Nikoleta (kqa)",
+    "categories": ["kalama musi"]
+  },
+  {
+    "duration": 20,
+    "performer": "jan Sotan",
+    "title": "mostly spoken word renditions of pieces written in toki pona, released or otherwise | jaki mi",
+    "description": "<p lang=\"en\">Program*:</p><ul><li>intro</li><li>open</li><li>olin li toki tawa jan ale</li><li>jan lili pi ma ante</li><li>toki ike awen</li><li>toki Tokipokalama</li><li>mi toki pini</li></ul><p lang=\"en\">*: we reserve the right to change the program</p><p lang=\"tok\">mi wile e ni: mi toki la sina musi. sina musi ala la sina ken pakala e mi.</p>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/c/aedschorsaanjo",
+    "website": "https://dschorsaanjo.hu/"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Kala"
+  },
+  {
+    "duration": 20,
+    "performer": "sicto",
+    "categories": ["kalama musi"]
+  },
+  {
+    "duration": 30,
+    "title": "break"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Pensa",
+    "title": "music by jan Pensa | kalama musi pi jan Pensa",
+    "categories": ["kalama musi"],
+    "description": "<p lang=\"en\">Singing songs in Toki Pona, accompanied by ukulele.</p><p lang=\"tok\">mi kalama musi kepeken toki pona.</p><p>Will include | kalama musi ni en kalama musi ante li lon:</p><ul><li>o sona e mi (Remember Me)</li><li>tawa Panpa (La Bamba)</li><li>soweli mute (Dek Bovinoj)</li></ul>",
+    "youtube": "https://www.youtube.com/channel/UCo27SyuT3kdd12RCH_4HAgA"
+  },
+  {
+    "duration": 40,
+    "title": "break"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Misali",
+    "title": "the perfect tokirap [epiku] | nimi ale lon toki pona [epiku]",
+    "categories": ["toki musi", "kalama musi"],
+    "description": "<p lang=\"en\">creating the tokirap (you know, like the pokerap, but with toki pona words instead of pokemon)</p><p lang=\"tok\">mi pali e kalama musi pi nimi ale lon toki pona</p>",
+    "youtube": "https://www.youtube.com/channel/UCJOh5FKisc0hUlEeWFBlD-w"
+  },
+  {
+    "duration": 50,
+    "performer": "jan Emalan",
+    "title": "musi Quiplash kepeken toki pona",
+    "description": "<p lang=\"en\">We play a game of Quiplash 2 with custom prompts in toki pona. The participants attempt to interpret the toki pona prompts into English in humorous ways. The participants must be sufficiently proficient in toki pona to participate.</p><p lang=\"tok\">mi ali o musi e musi Quiplash kepeken toki pi toki pona. jan li alasa ante e toki pi toki pona tawa toki musi pi toki Inli. jan musi o ken kepeken pona e toki pona.</p><a href=\"https://jackbox.tv/\" target=\"_blank\">jackbox.tv</a>",
+    "categories": ["musi musi"]
+  },
+  {
+    "duration": 20,
+    "performer": "jan Nikoleta (kqa)",
+    "categories": ["kalama musi"]
+  },
+  {
+    "duration": 10,
+    "performer": "jan Lakuse",
+    "title": "luka pona",
+    "description": "<p lang=\"en\">luka pona (or LPSL) is a constructed signed language derived from toki pona and intended for usage in toki pona contexts. It borrows classifier features and storytelling devices from natural signed languages, giving it unique expressive potential. jan Lakuse transposes her original toki pona story 'tu lukin lon' into luka pona.</p><p lang=\"tok\">luka pona li toki luka pali li tawa kulupu pi toki pona. kepeken nasin pi toki luka suli, la nasin toki pona mute li lon luka pona. jan lakuse li kepeken luka pona e  toki ona \"tu lukin lon\" tawa ni: jan li ken sona e pona namako pi luka pona. </p>",
+    "categories": ["toki sona"]
+  },
+  {
+    "duration": 20,
+    "performer": "jan Alonola + jan Ke Tami",
+    "title": "sona sin en sona pi sin ala",
+    "categories": ["toki sona"],
+    "description": "<p lang=\"en\">News about the world and toki pona, a small documentation about the first conlang and a discussion and tier list of nasin nanpa</p><p lang=\"tok\">mi mute li toki e sona sin, e sona pi toki pali pi nanpa wan. kin la, mi mute li toki e ni: nasin nanpa seme li pona?</p>",
+    "youtube": "https://www.youtube.com/c/aronora"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Usawi",
+    "title": "musi kalama pi jan Usawi | musi kalama pi jan Usawi",
+    "description": "<p lang=\"en\">Singing songs of mine in toki pona, and sharing the thoughts and stories behind them. Some new songs might make an appearance 👀</p><p lang=\"tok\">mi toki e kalama musi mi li toki e pilin tan pi musi ni. kalama musi sin pi kute ala li ken lon 👀</p><p>Setlist:</p><ul><li>o toki sin</li><li>ma pi lon ala</li><li>pilin Weliko</li><li>omekalike</li></ul>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/channel/UCmV2kx0jLTcR2TijtGGxeAQ",
+    "bandcamp": "https://janusawi.bandcamp.com"
+  },
+  {
+    "duration": 20,
+    "performer": "soweli Konomu"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Mali",
+    "title": "A poem by any other name | toki musi pi nasin nimi ante: o sitelen!",
+    "description": "<p lang=\"en\">From the sound of the sonnet to the design of the diamante, there are several styles of poems in the world. This workshop will pilot a format of poetry native to Toki Pona, so come along to write and share a piece! Presentation mostly in English, jan sin welcome.</p><p lang=\"tok\">toki musi lili la, nasin sitelen mute li lon. nasin Sone li pona. nasin Sijamante li ante. a, nasin pi toki pona li seme? toki ni la, mi pana e nasin sitelen sin. jan ale li ken sitelen e toki musi kepeken nasin sin ni, li ken toki e ona! mi kepeken mute e toki Inli. jan sin li ken kama pona.</p>",
+    "categories": ["kalama musi"]
+  },
+  {
+    "duration": 20,
+    "performer": "jan Nikoleta (kqa)",
+    "categories": ["kalama musi"]
+  },
+  {
+    "duration": 30,
+    "performer": "jan Lakuse",
+    "title": "Intermediate Toki Pona: Building from jan Misali's Twelve Days | sona namako lon sitelen tawa sona pi jan Misali",
+    "description": "<p lang=\"en\">jan Misali's 12 days of toki pona is the most popular beginner's course for learning toki pona. Fast paced with catchy music and entertaining delivery, it provides many with a workable foundation in the language. In this lecture, jan Lakuse strives to solidify this foundation with an in-depth review of intermediate to advanced toki pona grammar.</p><p lang=\"tok\">jan Misali li pali e sitelen tawa \"sona pi toki pona\" la jan sin mute li kepeken. ona li pona mute a tawa kulupu. sitelen tawa li toki ala e ijo la jan lakuse li lukin pana e sona ni tawa jan sin. </p>",
+    "categories": ["toki sona"]
+  },
+  {
+    "duration": 20,
+    "performer": "kala pona",
+    "title": "songs by kala pona | kalama musi pi kala pona",
+    "description": "<p lang=\"en\">kala pona will be back to sing a couple more songs :)</p>\n<p lang=\"tok\">kala pona li kama sin li kalama e kalama musi ona :)</p>\n<ul>\n<li>o tawa noka</li>\n<li>kule olin</li>\n<li>pipi li kon</li>\n<li>pini</li>\n<li>suno nanpa wan</li>\n<li>o kute (<span lang=\"en\">new unreleased song!</span> | <span lang=\"tok\">kalama musi sin!</span>)</li>\n</ul>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/channel/UCydEFeCJBY3uu9gA_m_dg-g",
+    "soundcloud": "https://soundcloud.com/kala-pona"
+  },
+  {
+    "duration": 20,
+    "performer": "soweli Konomu"
+  },
+  {
+    "duration": 30,
+    "performer": "jan Sonja + jan Tepo",
+    "categories": ["toki sona", "toki musi"]
+  },
+  {
+    "duration": 40,
+    "performer": "jan Alonola",
+    "title": "Let's read lipu tenpo nanpa akesi | mi toki e lipu tenpo nanpa akesi",
+    "description": "<a href=\"https://youtu.be/OYuvVEB0q2Q\" target=\"_blank\">YouTube Premiere</a>",
+    "youtube": "https://www.youtube.com/c/aronora"
+  },
+  {
+    "duration": 20,
+    "title": "break"
+  },
+  {
+    "duration": 30,
+    "performer": "jan Lakuse",
+    "categories": ["toki sona"]
+  },
+  {
+    "duration": 30,
+    "performer": "jan Telakoman",
+    "title": "Toki Pona Translation Workshop | nasin pona pi ante toki",
+    "categories": ["toki sona"],
+    "description": "<p lang=\"en\">a translation workshop with audience participation (chat) where I share some of my training in translation techniques</p><p lang=\"tok\">jan li ante e toki tawa toki pona la ken la jan ala li sona e kon. nasin pona pi ante toki li seme?</p>"
+  },
+  {
+    "duration": 20,
+    "performer": "jan Usawi",
+    "title": "musi kalama pi jan Usawi | musi kalama pi jan Usawi",
+    "description": "<p lang=\"en\">Singing songs of mine in toki pona, and sharing the thoughts and stories behind them. Some new songs might make an appearance 👀</p><p lang=\"tok\">mi toki e kalama musi mi li toki e pilin tan pi musi ni. kalama musi sin pi kute ala li ken lon 👀</p><p>Setlist:</p><ul><li>tawa lon linja</li><li>omekalike</li><li>ma pi lon ala</li><li>monsuta?</li></ul>",
+    "categories": ["kalama musi"],
+    "youtube": "https://www.youtube.com/channel/UCmV2kx0jLTcR2TijtGGxeAQ",
+    "bandcamp": "https://janusawi.bandcamp.com"
+  },
+  {
+    "duration": 20,
+    "performer": "soweli Konomu"
+  },
+  {
+    "duration": 30,
+    "performer": "jan Bleis",
+    "title": "sketchful.io",
+    "categories": ["musi musi"],
+    "description": "<p lang=\"en\"><a href=\"https://sketchful.io\">sketchful.io</a> - a Pictionary-like game where one player draws a word and the other players attempt to guess it. Will make a custom toki pona word list for the game</p><p lang=\"tok\">musi ni la jan wan li sitelen e sitelen tan nimi. jan ante li lukin sona/toki e sitelen</p>"
+  },
+  {
+    "duration": 30,
+    "title": "break"
+  },
+  {
+    "duration": 20,
+    "title": "finale | pini",
+    "description": "<p lang=\"en\">A grand finale and wrap-up to the event! Thanking, credits, support, and a secret item :)</p><p lang=\"tok\">pini pi suno pi toki pona! pana pona tawa jan lukin ale, pana pi sona pi jan pana ale, linja tawa lipu pi jan pana ale, ijo pi sona ala :)</p>"
+  }
+]

@@ -1,10 +1,6 @@
 ---
-import eventsData from "./2025.json";
 import LocalTime from "@/components/LocalTime.astro";
-
-interface Props {
-  lang: "en" | "tok";
-}
+import fs from "fs";
 
 export interface EventData {
   duration: number;
@@ -17,15 +13,34 @@ export interface EventData {
   stamp_end: number;
 }
 
-const { lang } = Astro.props;
+interface Props {
+  lang: "en" | "tok";
+  from: string;
+  start: number;
+}
 
-const start = 1754717400;
+const { lang, from, start } = Astro.props;
+
+let events = JSON.parse(fs.readFileSync(`content/schedules/${from}`).toString()) as EventData[];
+
+let cumulativeTimestamp = start;
+console.log(cumulativeTimestamp);
+
+events = events.map(event => {
+  const stamp_start = cumulativeTimestamp;       // sum before current
+  const stamp_end = cumulativeTimestamp + event.duration * 60; // sum after current
+  cumulativeTimestamp = stamp_end;             // update running total
+  return { ...event, stamp_start, stamp_end };
+});
+
+console.log(cumulativeTimestamp);
+
 const year = 2025;
 const tracks = ["default"];
 const track = "default";
 
 // Filter events for this year
-const events = eventsData as EventData[];
+// const events = eventsData as EventData[];
 const durationMinutes = 1440;
 ---
 
@@ -55,12 +70,12 @@ const durationMinutes = 1440;
 
     <!-- Events -->
     {events
-      .filter((event) => event.performer !== "break")
+      .filter((event) => event.performer !== "break" && event.title !== "break")
       .map((event) => {
         const startRow = (event.stamp_start - start) / 60;
         const endRow = (event.stamp_end - start) / 60;
         // const trackIndex = tracks.findIndex((t) => t === event.track) + 1;
-        const classNames = [...(new Set(event.categories).intersection(new Set(["entertainment", "informational", "music", "game"])))].join(" ");
+        const classNames = ["event-time", ...(new Set(event.categories).intersection(new Set(["entertainment", "informational", "music", "game"])))].join(" ");
 
         const href = `/${year}/tenpo/${event.stamp_start}/`;
 
@@ -78,9 +93,9 @@ const durationMinutes = 1440;
             {event.duration >= 20 && <div class="performer">{event.performer}</div>}
             <div class="title">
               <span class="live">LIVE</span>
-              {event.title.includes(" | ") ? event.title.split(" | ")[lang == "tok" ? 1 : 0] : event.title}
+              {event.title && event.title.includes(" | ") ? event.title.split(" | ")[lang == "tok" ? 1 : 0] : event.title}
             </div>
-              <div class={`description ${event.duration < 25 ? "phone-only" : ""}`} set:html={event.description.split(/(?<=>)(?=<)/)[lang == "tok" ? 1 : 0]}>
+              <div class={`description ${event.duration < 25 ? "phone-only" : ""}`} set:html={event.description}>
               </div>
             <!-- {event.duration >= 20 && (
               <ul class="categories">
@@ -136,7 +151,7 @@ const durationMinutes = 1440;
   color: red;
 }
 
-a {
+.event-time {
   display: block;
   margin-bottom: 1px;
   padding: 0.5rem 1rem;
@@ -153,48 +168,48 @@ a {
   border-bottom-left-radius: 5px;
 }
 
-a:hover {
+.event-time:hover {
     background-color: var(--bg-2);
     border-color: var(--bg-2);
 }
 
-a.entertainment {
+.event-time.entertainment {
   border-left-color: light-dark(#f5c211, #f5c211)
 }
 
-a.informational {
+.event-time.informational {
     border-left-color: light-dark(#1c71d8, #1c71d8);]
 }
 
-a.game {
+.event-time.game {
     border-left-color: light-dark(#2ec27e, #2ec27e);
 }
 
-a.music {
+.event-time.music {
     border-left-color: light-dark(#e66100, #e66100);
 }
 
-a .performer,
-a .description {
+.event-time .performer,
+.event-time .description {
   font-size: 85%;
   line-height: 1.4em;
 }
 
-a .title {
+.event-time .title {
   font-weight: bold;
 }
 
-a .live {
+.event-time .live {
   display: none;
 }
 
-a.current {
+.event-time.current {
   border-top-color: red;
   border-right-color: red;
   border-bottom-color: red;
 }
 
-a.current .live {
+.event-time.current .live {
   display: unset;
   color: red;
 }
