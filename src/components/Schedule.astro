@@ -4,11 +4,16 @@ import fs from "fs";
 
 export interface EventData {
   duration: number;
-  performer: string;
-  title: string;
-  categories: string[];
+  panelist: string;
+  category: "informational" | "entertainment" | "music" | "game" | "other";
+  title_en: string;
+  title_tok: string;
+  description_en: string;
+  description_tok: string;
   language: string;
-  description: string;
+  links: Record<string, string>;
+  vod: string;
+
   stamp_start: number;
   stamp_end: number;
 }
@@ -21,7 +26,7 @@ interface Props {
 
 const { lang, from, start } = Astro.props;
 
-let events = JSON.parse(fs.readFileSync(`content/schedules/${from}`).toString()) as EventData[];
+let events = JSON.parse(fs.readFileSync(`content/schedules-new/${from}`).toString()) as EventData[];
 
 let cumulativeTimestamp = start;
 console.log(cumulativeTimestamp);
@@ -35,13 +40,9 @@ events = events.map(event => {
 
 console.log(cumulativeTimestamp);
 
-const year = 2025;
-const tracks = ["default"];
-const track = "default";
-
 // Filter events for this year
 // const events = eventsData as EventData[];
-const durationMinutes = 1440;
+const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
 ---
 
 <div class="schedule" style={`--duration:${durationMinutes}`}>
@@ -51,11 +52,6 @@ const durationMinutes = 1440;
     document.querySelector('#timezone')!.textContent =
       new Date().toLocaleTimeString('en-US', { timeZoneName: 'short' }).split(' ')[2];
   </script> -->
-
-    <!-- Track Headers -->
-    <!-- {tracks.map((track) => (
-      <div class="track not-phone" style={`--track:${track}`}>{track}</div>
-    ))} -->
 
     <!-- Time Slots -->
     {Array.from({ length: Math.floor(durationMinutes / 10) }).map((_, i) => {
@@ -70,32 +66,33 @@ const durationMinutes = 1440;
 
     <!-- Events -->
     {events
-      .filter((event) => event.performer !== "break" && event.title !== "break")
+      .filter((event) => event.panelist !== undefined)
       .map((event) => {
         const startRow = (event.stamp_start - start) / 60;
         const endRow = (event.stamp_end - start) / 60;
         // const trackIndex = tracks.findIndex((t) => t === event.track) + 1;
-        const classNames = ["event-time", ...(new Set(event.categories).intersection(new Set(["entertainment", "informational", "music", "game"])))].join(" ");
+        const classNames = `event-time ${event.category}`;
 
-        const href = `/${year}/tenpo/${event.stamp_start}/`;
+        // const href = `/${year}/tenpo/${event.stamp_start}/`;
 
         const startTime = new Date(event.stamp_start * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
         const endTime = new Date(event.stamp_end * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", timeZoneName: "short" });
 
         return (
           <a
-            id={`${track}-${startRow}`}
+            id={`card-${startRow}`}
             class={classNames}
             style={`--row-start:${startRow}; --row-end:${endRow}`}
-            href={href}
           >
+            <!-- href={href} -->
             <div class="time phone-only">{startTime} - {endTime}</div>
-            {event.duration >= 20 && <div class="performer">{event.performer}</div>}
+            {event.duration >= 20 && <div class="performer">{event.panelist}</div>}
             <div class="title">
               <span class="live">LIVE</span>
-              {event.title && event.title.includes(" | ") ? event.title.split(" | ")[lang == "tok" ? 1 : 0] : event.title}
+              {lang == "tok" ? event.title_tok : event.title_en}
             </div>
-              <div class={`description ${event.duration < 25 ? "phone-only" : ""}`} set:html={event.description}>
+              <div class={`description ${event.duration < 25 ? "phone-only" : ""}`}>
+                {lang == "tok" ? event.description_tok : event.description_en}
               </div>
             <!-- {event.duration >= 20 && (
               <ul class="categories">
@@ -154,7 +151,7 @@ const durationMinutes = 1440;
 .event-time {
   display: block;
   margin-bottom: 1px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.8rem;
   border: 1px solid var(--bg-1);
   border-left: 7px solid var(--bg-1);
   font-weight: unset;
@@ -164,8 +161,7 @@ const durationMinutes = 1440;
   grid-row-start: calc(var(--row-start) + 2);
   grid-row-end: calc(var(--row-end) + 2);
   grid-column: 2;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 7px;
 }
 
 .event-time:hover {

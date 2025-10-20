@@ -1,4 +1,4 @@
-import events from "content/schedules/2021.json";
+import events from "content/schedules/2025.json";
 
 export function GET() {
   let panels = events.map((event) =>
@@ -8,10 +8,12 @@ export function GET() {
           duration: event.duration,
           panelist: event.performer || "unknown",
           category: (() => {
-            if (event.categories?.includes("toki sona")) return "informational";
-            if (event.categories?.includes("toki musi")) return "entertainment";
-            if (event.categories?.includes("kalama musi")) return "music";
-            if (event.categories?.includes("musi musi")) return "game";
+            if (event.categories?.includes("informational"))
+              return "informational";
+            if (event.categories?.includes("entertainment"))
+              return "entertainment";
+            if (event.categories?.includes("music")) return "music";
+            if (event.categories?.includes("game")) return "game";
             return "other";
           })(),
           title_en: event.title?.split(" | ")[0]?.trim() || "unknown",
@@ -19,20 +21,25 @@ export function GET() {
           description_en:
             event.description
               ?.replaceAll("\n", " ")
-              .match(/(?<=lang=\"en\"\>).*?(?=\<\/p\>)/gm)
+              .match(/(?<=lang=\"en\"\>).*?(?=\<\/div\>)/gm)
+              // .match(/(?<=lang=\"en\"\>\<p\>).*?(?=\<\/p\>)/gm)
               ?.join(" ")
               .trim() || "unknown",
           description_tok:
             event.description
               ?.replaceAll("\n", " ")
-              .match(/(?<=lang=\"tok\"\>).*?(?=\<\/p\>)/gm)
+              .match(/(?<=lang=\"tok\"\>).*?(?=\<\/div\>)/gm)
+              // .match(/(?<=lang=\"tok\"\>\<p\>).*?(?=\<\/p\>)/gm)
               ?.join(" ")
               .trim() || "unknown",
           links: {
             youtube: event.youtube,
             soundcloud: event.soundcloud,
             bandcamp: event.bandcamp,
+            spotify: event.spotify,
+            kofi: event.kofi,
             website: event.website,
+            discord: event.discord,
           },
           vod: "",
         },

@@ -37,7 +37,7 @@
     "panelist": "jan Lakuse",
     "category": "informational",
     "title_en": "luka pona",
-    "title_tok": "unknown",
+    "title_tok": "luka pona",
     "description_en": "luka pona (or LPSL) is a constructed signed language derived from toki pona and intended for usage in toki pona contexts. It borrows classifier features and storytelling devices from natural signed languages, giving it unique expressive potential. jan Lakuse transposes her original toki pona story 'tu lukin lon' into luka pona.",
     "description_tok": "luka pona li toki luka pali li tawa kulupu pi toki pona. kepeken nasin pi toki luka suli, la nasin toki pona mute li lon luka pona. jan lakuse li kepeken luka pona e  toki ona \"tu lukin lon\" tawa ni: jan li ken sona e pona namako pi luka pona.",
     "links": {},
@@ -149,7 +149,7 @@
     "panelist": "jan Alonola + jan Ke Tami",
     "category": "informational",
     "title_en": "sona sin en sona pi sin ala",
-    "title_tok": "unknown",
+    "title_tok": "sona sin en sona pi sin ala",
     "description_en": "News about the world and toki pona, a small documentation about the first conlang and a discussion and tier list of nasin nanpa",
     "description_tok": "mi mute li toki e sona sin, e sona pi toki pali pi nanpa wan. kin la, mi mute li toki e ni: nasin nanpa seme li pona?",
     "links": {
@@ -257,7 +257,7 @@
     "panelist": "jan Alonola + jan Ke Tami",
     "category": "informational",
     "title_en": "sona sin en sona pi sin ala",
-    "title_tok": "unknown",
+    "title_tok": "sona sin en sona pi sin ala",
     "description_en": "News about the world and toki pona, a small documentation about the first conlang and a discussion and tier list of nasin nanpa",
     "description_tok": "mi mute li toki e sona sin, e sona pi toki pali pi nanpa wan. kin la, mi mute li toki e ni: nasin nanpa seme li pona?",
     "links": {
@@ -272,7 +272,7 @@
     "title_en": "Drawing in toki pona",
     "title_tok": "pali sitelen kepeken toki pona",
     "description_en": "Presentation of the comic \"nasin nasa\" written in toki pona sitelen sitelen (see it on Tapas). Presentation of the illustration work for \"ku\", the new Toki Pona dictionary.",
-    "description_tok": "unknown",
+    "description_tok": "",
     "links": {
       "website": "https://tapas.io/series/Nasin-Nasa/"
     },
@@ -319,7 +319,7 @@
   {
     "duration": 20,
     "panelist": "jan Kala",
-    "category": "other",
+    "category": "informational",
     "title_en": "about ma pona",
     "title_tok": "kama pi ma pona",
     "description_en": "kala talks about the past, present, and future of ma pona.",
@@ -374,8 +374,8 @@
     "duration": 50,
     "panelist": "jan Emalan",
     "category": "game",
-    "title_en": "musi Quiplash kepeken toki pona",
-    "title_tok": "unknown",
+    "title_en": "Quiplash in toki pona",
+    "title_tok": "musi Quiplash kepeken toki pona",
     "description_en": "We play a game of Quiplash 2 with custom prompts in toki pona. The participants attempt to interpret the toki pona prompts into English in humorous ways. The participants must be sufficiently proficient in toki pona to participate.",
     "description_tok": "mi ali o musi e musi Quiplash kepeken toki pi toki pona. jan li alasa ante e toki pi toki pona tawa toki musi pi toki Inli. jan musi o ken kepeken pona e toki pona.",
     "links": {
@@ -515,7 +515,7 @@
   {
     "duration": 40,
     "panelist": "jan Alonola",
-    "category": "other",
+    "category": "entertainment",
     "title_en": "Let's read lipu tenpo nanpa akesi",
     "title_tok": "mi toki e lipu tenpo nanpa akesi",
     "description_en": "",

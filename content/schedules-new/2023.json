@@ -1,0 +1,511 @@
+[
+  {
+    "duration": 20,
+    "panelist": "suno pi toki pona (kala pona Tonyu, jan Kepe)",
+    "category": "other",
+    "title_en": "Opening",
+    "title_tok": "open",
+    "description_en": "Welcome to Toki Pona Day!",
+    "description_tok": "o kama pona tawa suno pi toki pona!",
+    "links": {
+      "website": "https://suno.pona.la/"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 80,
+    "panelist": "jan Lakuse + others",
+    "category": "informational",
+    "title_en": "writing contest celebration!",
+    "title_tok": "utala musi pi pali lipu",
+    "description_en": "Let’s celebrate the amazing work of everyone who submitted to the writing contest. Tune in to hear people reading excerpts of their work on air, some elementary Toki Pona literature analysis, and the contest results!",
+    "description_tok": "utala musi pi tenpo poka la ale li pali e lipu pi pona mute e toki pi pona mute a! tenpo ni la o kute e ni: kulupu li kalama e lipu. kin la jan Lakuse li toki e nasin lipu pi toki pona! o kama sona e ni: kulupu la lipu seme en toki seme li pona nanpa wan!",
+    "links": {
+      "website": "http://utala.pona.la/"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Sepulon",
+    "category": "music",
+    "title_en": "jan Sepulon sings their songs live",
+    "title_tok": "jan Sepulon li kalama lon",
+    "description_en": "Singing my own songs (probably no covers due to copyright issues)",
+    "description_tok": "mi kalama uta e kalama musi mi. tan lawa jo la, mi kalama ala e kalama musi pi jan ante",
+    "links": {
+      "youtube": "https://www.youtube.com/@jansepulon",
+      "spotify": "https://open.spotify.com/intl-fr/artist/6pBxNPaoCWn1zTXEKo2zEu"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Kepe",
+    "category": "music",
+    "title_en": "music by jan Kepe",
+    "title_tok": "kalama musi pi jan Kepe",
+    "description_en": "some songs from my newest album!",
+    "description_tok": "kalama musi tan kulupu kalama sin mi!",
+    "links": {
+      "youtube": "https://www.youtube.com/@jkepe",
+      "bandcamp": "https://kepe.bandcamp.com/"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "kala pona",
+    "category": "game",
+    "title_en": "toki pona kahoot!",
+    "title_tok": "musi Kahoot pi toki pona!",
+    "description_en": "come join a fun game of kahoot about toki pona trivia and history!",
+    "description_tok": "sona sina li wawa ala wawa? o musi e musi Kahoot tawa sona pi toki pona, tawa sona pi tenpo pini!",
+    "links": {
+      "website": "https://kala.li.pona.la"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 5,
+    "panelist": "kala Asi",
+    "category": "music",
+    "title_en": "covers by kala Asi",
+    "title_tok": "kalama musi pi kala Asi",
+    "description_en": "kala Asi covers two songs",
+    "description_tok": "kala Asi li kalama e ijo tu tan jan ante.",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 125
+  },
+  {
+    "duration": 90,
+    "panelist": "jan Ke Tami",
+    "category": "game",
+    "title_en": "farm whisperers",
+    "title_tok": "nasa waso",
+    "description_en": "toki pona adaptation of an episode from Escape This Podcast",
+    "description_tok": "nasa li lon ma. sina o alasa e sona. sina lukin li pali la mi toki e ijo tan lukin e kama tan pali.",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Sepulon",
+    "category": "music",
+    "title_en": "jan Sepulon sings their songs live",
+    "title_tok": "jan Sepulon li kalama lon",
+    "description_en": "Singing my own songs (probably no covers due to copyright issues)",
+    "description_tok": "mi kalama uta e kalama musi mi. tan lawa jo la, mi kalama ala e kalama musi pi jan ante",
+    "links": {
+      "youtube": "https://www.youtube.com/@jansepulon",
+      "spotify": "https://open.spotify.com/intl-fr/artist/6pBxNPaoCWn1zTXEKo2zEu"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "kala Asi",
+    "category": "informational",
+    "title_en": "Surveying words",
+    "title_tok": "wile sona nimi",
+    "description_en": "Opening the annual word survey. Talking about past word surveys",
+    "description_tok": "mi wile sona e nasin nimi pi jan ale. mi toki e wile sona pini mi.",
+    "links": {
+      "website": "https://linku.la/wile/"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Peton",
+    "category": "informational",
+    "title_en": "Meetup updates",
+    "title_tok": "toki pi tenpo kulupu pi ma Amelika lete",
+    "description_en": "Discussing the organization and results of this year’s North America meetup.",
+    "description_tok": "mi toki e ni tawa jan: tenpo kulupu li seme? mi pali e seme lon tenpo ni? nasin seme la mi kama e ona?",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 20
+  },
+  {
+    "duration": 130,
+    "panelist": "jan Ke Tami",
+    "category": "game",
+    "title_en": "sick of farming",
+    "title_tok": "jaki seme li lon ma",
+    "description_en": "toki pona adaptation of an episode from Escape This Podcast",
+    "description_tok": "nasa li lon ma. sina o alasa e sona. sina lukin li pali la mi toki e ijo tan lukin e kama tan pali.",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Lakuse",
+    "category": "informational",
+    "title_en": "Tutorial: Luka Pona Sign Language Basics",
+    "title_tok": "sona open pi luka pona",
+    "description_en": "LPSL (luka pona sign language) is the most popular sign language in the toki pona community. Curious about luka pona but don’t know where to start? This thirty-minute tutorial will show you the basics!",
+    "description_tok": "sina sona ala sona e luka pona? luka pona li toki luka pi toki pona tan kulupu pi toki luka. mi wile pana e sona tawa sina pi sona ala. o kama lukin la sina ken luka pona lili!",
+    "links": {
+      "website": "https://sona.pona.la/wiki/luka_pona"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kepi",
+    "category": "music",
+    "title_en": "toki pona music by jan Kepi",
+    "title_tok": "kalama musi pi toki pona tan jan Kepi",
+    "description_en": "showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available",
+    "description_tok": "mi pana e kalama musi pi toki pona. mi pona e kalama mi pi sin ala tan suno pi toki pona lon tenpo sike pini. kalama li pini la, ken la, mi toki e kalama musi mi.",
+    "links": {
+      "youtube": "https://youtube.com/@janKepi",
+      "bandcamp": "https://wubbass.bandcamp.com",
+      "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
+      "kofi": "https://ko-fi.com/jankepi",
+      "website": "https://wubbass.neocities.org"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 40,
+    "panelist": "jan Usawi",
+    "category": "informational",
+    "title_en": "Let's Move with Laban Movement Analysis!",
+    "title_tok": "o tawa kepeken nasin Lapan!",
+    "description_en": "Practice your Toki Pona listening skills, learn about Laban Movement Analysis, and move around in a bunch of fun ways! This will be a toki pona taso lesson on a few basic ideas from Laban Movement Analysis, a system for describing human movement used in dance, theatre, voice acting, and more—and a chance to move around and be a little silly during the livestream.",
+    "description_tok": "o kute e toki pona, o kama sona e nasin Lapan, o tawa musi! ni li pana sona pi nasin Lapan. nasin Lapan li nasin pi sona tawa. jan musi mute li kepeken nasin ni—sina ken li ken sona! mi toki pona taso lon pana sona ni. sina ken kama sona, li ken tawa e sijelo sina lon tenpo pi ilo sona, li ken musi ^^",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Nikoleta",
+    "category": "music",
+    "title_en": "creativity!!",
+    "title_tok": "musi a",
+    "description_en": "music from my tp selection (maybe a new song if its finished - dont count on it) plus improvising for the audience. will be with my live guitar setup where i sing, play guitar, and play cajon and cabasa with foot drums",
+    "description_tok": "kalama musi mi li pona! kalama musi sin li pona. mi pali e musi sin. sina pona!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Kepe",
+    "category": "music",
+    "title_en": "music by jan Kepe",
+    "title_tok": "kalama musi pi jan Kepe",
+    "description_en": "some songs from my newest album!",
+    "description_tok": "kalama musi tan kulupu kalama sin mi!",
+    "links": {
+      "youtube": "https://www.youtube.com/@jkepe",
+      "bandcamp": "https://kepe.bandcamp.com/"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "kalama sin",
+    "category": "entertainment",
+    "title_en": "kalama sin podcast",
+    "title_tok": "kalama sin",
+    "description_en": "You can listen to the podcast ‘kalama sin’ on many platforms. It’s a small community project done exclusively in toki pona. On suno pi toki pona, tune in to a live edition with jan Deni, jan Luke, jan Tepo, and maybe others!",
+    "description_tok": "sina ken kute e ‘kalama sin’ lon ilo mute. kulupu lili li pali e kalama sin. suno pi toki pona la o kute e ni: jan Deni en jan Luke en jan Tepo en jan ante li kalama sin!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Nikoleta",
+    "category": "music",
+    "title_en": "creativity!! (again)",
+    "title_tok": "musi a (tu)",
+    "description_en": "music from my tp selection (maybe a new song if its finished - dont count on it) plus improvising for the audience. will be with my live guitar setup where i sing, play guitar, and play cajon and cabasa with foot drums (all this but over again. will figure out what songs to play the night before.)",
+    "description_tok": "kalama musi mi li pona! kalama musi sin li pona. mi pali e musi sin. sina pona!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 155
+  },
+  {
+    "duration": 5,
+    "panelist": "jan kepijona",
+    "category": "music",
+    "title_en": "music by jan kepijona",
+    "title_tok": "kalama musi pi jan kepijona",
+    "description_en": "i will perform a song that i wrote",
+    "description_tok": "mi kepijona li kalama musi e li toki musi e musi ni: mi pali e ona",
+    "links": {
+      "youtube": "https://www.youtube.com/@jankepijona"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 5,
+    "panelist": "kala Asi",
+    "category": "music",
+    "title_en": "covers by kala Asi",
+    "title_tok": "kalama musi pi kala Asi",
+    "description_en": "kala Asi covers two songs",
+    "description_tok": "kala Asi li kalama e ijo tu tan jan ante.",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Sonja",
+    "category": "informational",
+    "title_en": "QnA by Sonja!",
+    "title_tok": "pana pi wile sona tan jan Sonja",
+    "description_en": "Sonja Lang, the creator of toki pona, will be answering some of your questions in this segment!",
+    "description_tok": "jan Sonja li mama pi toki pona. ona li pana e sona pi wile sina lon tenpo ni!",
+    "links": {
+      "website": "https://tokipona.org"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Ke Tami",
+    "category": "game",
+    "title_en": "a puzzle",
+    "title_tok": "sitelen poka",
+    "description_en": "tiling solo game",
+    "description_tok": "mi pana e lipu lili mute lon poka la sitelen li kama tan selo lipu",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Usawi",
+    "category": "music",
+    "title_en": "music by jan Usawi",
+    "title_tok": "kalama musi pi jan Usawi",
+    "description_en": "Singing toki pona songs of mine—and while I likely can’t do some of the covers on it, celebrating the release of toki Gaming!",
+    "description_tok": "mi pana e kalama uta mi tawa sina! kin la toki Gaming li lon a!",
+    "links": {
+      "youtube": "https://www.youtube.com/@janusawi8794",
+      "bandcamp": "https://janusawi.bandcamp.com/"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kepi",
+    "category": "music",
+    "title_en": "toki pona music by jan Kepi",
+    "title_tok": "kalama musi pi toki pona tan jan Kepi",
+    "description_en": "showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available",
+    "description_tok": "mi pana e kalama musi pi toki pona. mi pona e kalama mi pi sin ala tan suno pi toki pona lon tenpo sike pini. kalama li pini la, ken la, mi toki e kalama musi mi.",
+    "links": {
+      "youtube": "https://youtube.com/@janKepi",
+      "bandcamp": "https://wubbass.bandcamp.com",
+      "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
+      "kofi": "https://ko-fi.com/jankepi",
+      "website": "https://wubbass.neocities.org"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Asiku",
+    "category": "informational",
+    "title_en": "Rap in toki pona",
+    "title_tok": "nasin Wa pi kalama musi kepeken toki pona",
+    "description_en": "Explaining how toki pona’s quirks relate to rap music; explaining basic principles of rap using toki pona",
+    "description_tok": "seme la jan li ken pali e kalama musi pi nasin Wa? mi pana e sona ni. sona ni li ken tawa toki ale kin.",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 70,
+    "panelist": "akesi Jan",
+    "category": "game",
+    "title_en": "Mappo",
+    "title_tok": "o musi Mapo!",
+    "description_en": "Social deduction game, played in toki pona. Figure out who the werewolves are, and exile them before they kill you!",
+    "description_tok": "musi toki pi toki pona. o kama sona e kulupu ike. o weka e ona a!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 90,
+    "panelist": "goose",
+    "category": "game",
+    "title_en": "jan goose plays/goose's gartic phone",
+    "title_tok": "jan kuse musi",
+    "description_en": "mostly a placeholder for now but i plan on playing shelter 2 or hosting a game of gartic phone",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 5,
+    "panelist": "jan kepijona",
+    "category": "music",
+    "title_en": "music by jan kepijona",
+    "title_tok": "kalama musi pi jan kepijona",
+    "description_en": "i will perform a song that i wrote",
+    "description_tok": "mi kepijona li kalama musi e li toki musi e musi ni: mi pali e ona",
+    "links": {
+      "youtube": "https://www.youtube.com/@jankepijona"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "kala Asi",
+    "category": "informational",
+    "title_en": "Surveying words",
+    "title_tok": "wile sona nimi",
+    "description_en": "Opening the annual word survey. Talking about past word surveys",
+    "description_tok": "mi wile sona e nasin nimi pi jan ale. mi toki e wile sona pini mi.",
+    "links": {
+      "website": "https://linku.la/wile/"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Usawi",
+    "category": "informational",
+    "title_en": "How to Use Jargons in Toki Pona? nasin Lapan and more",
+    "title_tok": "toki pi nasin ante lon toki pona? nasin Lapan en sin",
+    "description_en": "Scientific, political, and similar sets of terminology are know to be a weak spot for Toki Pona, but is there a way to effectively use (at leas some) jargons in Toki Pona while still staying true to the language? In this conversational discussion, I’ll share some of the principles I used to translate the terminology of Laban Movement Analysis into Toki Pona, how these might apply more broadly, and the possible benefits of using Toki Pona in these situations. This will also serve as an English-language Q&amp;A for those coming from o tawa kepeken nasin Lapan!",
+    "description_tok": "toki pona li ken ala toki e ale pi nasin sona ale, taso jan li ken ala ken toki pona e nasin ni? toki ni la, mi pana e sona mi li toki e pona pi ante toki ni. sina tawa lon “o tawa kepeken nasin Lapan!” la, o kama o pana e toki seme sina!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Lakuse",
+    "category": "informational",
+    "title_en": "Tutorial: Luka Pona Sign Language Basics",
+    "title_tok": "sona open pi luka pona",
+    "description_en": "LPSL (luka pona sign language) is the most popular sign language in the toki pona community. Curious about luka pona but don’t know where to start? This thirty-minute tutorial will show you the basics!",
+    "description_tok": "sina sona ala sona e luka pona? luka pona li toki luka pi toki pona tan kulupu pi toki luka. mi wile pana e sona tawa sina pi sona ala. o kama lukin la sina ken luka pona lili!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Minasa",
+    "category": "informational",
+    "title_en": "Salvage the Spinach Bed: No-weeding garden technique!",
+    "title_tok": "nasin pali: o kipisi e kasi, o kama e kili!",
+    "description_en": "Maybe you’ve heard of no-dig gardening… now, try no weeding! This video will show you how to salvage a runaway vege garden with some shears and sheer willpower, all in Toki Pona.",
+    "description_tok": "jan mute li pali e ma kili la, ona li pana selo e ko ma mute. jan o kipisi o pana selo e kasi “ike” kin! ni la, ma pi kasi ike li ken kama sin ma kili. sitelen tawa ni la, jan Minasa li pana e sona pi nasin pali, kepeken toki pona.",
+    "links": {
+      "youtube": "https://www.youtube.com/@astrodonunt"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 10,
+    "panelist": "jan Kekan San",
+    "category": "entertainment",
+    "title_en": "Everything is Numbers (toki pona)",
+    "title_tok": "ale li nanpa (toki pona)",
+    "description_en": "You’ve heard before that everything could be numbers. Why is this? I’ll tell you!",
+    "description_tok": "tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona.",
+    "links": {
+      "website": "https://youtu.be/AgkDx8dIAio"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 10,
+    "panelist": "jan Kekan San",
+    "category": "entertainment",
+    "title_en": "Everything is Numbers (English)",
+    "title_tok": "ale li nanpa (toki Inli)",
+    "description_en": "You’ve heard before that everything could be numbers. Why is this? I’ll tell you! (Translation of previous scheduled segment- but not translated like you think!)",
+    "description_tok": "tenpo la sina kute e nasin nasa: ale li ken nanpa. ni li tan seme? mi pana a e sona. (mi ante e toki ni tan toki poka- taso ni li sama ala nasin ante!)",
+    "links": {
+      "website": "https://youtu.be/I0ChKSLEqB0"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kepi",
+    "category": "music",
+    "title_en": "toki pona music by jan Kepi",
+    "title_tok": "kalama musi pi toki pona tan jan Kepi",
+    "description_en": "showing off a remastered version of the two songs i presented last sptp. might talk for a bit after about the music stuff, if i’m available",
+    "description_tok": "mi pana e kalama musi pi toki pona. mi pona e kalama mi pi sin ala tan suno pi toki pona lon tenpo sike pini. kalama li pini la, ken la, mi toki e kalama musi mi.",
+    "links": {
+      "youtube": "https://youtube.com/@janKepi",
+      "bandcamp": "https://wubbass.bandcamp.com",
+      "spotify": "https://open.spotify.com/artist/0Vy6LQdNhVtuMfz2gtca6o",
+      "kofi": "https://ko-fi.com/jankepi",
+      "website": "https://wubbass.neocities.org"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 10,
+    "panelist": "we Luke",
+    "category": "entertainment",
+    "title_en": "the time I hijacked a golf car",
+    "title_tok": "tenpo pi lanpan pi ilo tawa",
+    "description_en": "a long time ago, I tried to hijack a golf car with my friend",
+    "description_tok": "tenpo weka la, mi alasa lanpan e ilo tawa lon poka pi jan musi mi",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UC97_ovnr8xQuvXu3pGbf9Gw",
+      "discord": "https://discord.gg/Xsz2UGMcw5"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "kulupu pi toki musi",
+    "category": "entertainment",
+    "title_en": "The Return of kulupu pi toki musi",
+    "title_tok": "kama sin pi kulupu pi toki musi",
+    "description_en": "once, kulupu pi toki musi was a flourishing youtube channel, but one day it disappeared into oblivion… now, it has returned! what’s up?",
+    "description_tok": "tenpo pini la, kulupu pi toki musi li lon, li wawa. taso ona li weka lon sona ala… tenpo ni la, ona li kama sin! seme li lon?",
+    "links": {
+      "youtube": "https://www.youtube.com/@kulupupitokimusi/featured",
+      "discord": "https://discord.gg/7CAw8jTfvf"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 40,
+    "panelist": "jan Usawi",
+    "category": "music",
+    "title_en": "music by jan Usawi",
+    "title_tok": "kalama musi pi jan Usawi",
+    "description_en": "Singing toki pona songs of mine—and while I likely can’t do some of the covers on it, celebrating the release of toki Gaming!",
+    "description_tok": "mi pana e kalama uta mi tawa sina! kin la toki Gaming li lon a!",
+    "links": {
+      "youtube": "https://www.youtube.com/@janusawi8794",
+      "bandcamp": "https://janusawi.bandcamp.com/"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 20,
+    "panelist": "suno pi toki pona (kala pona Tonyu, jan Kepe)",
+    "category": "other",
+    "title_en": "Finale",
+    "title_tok": "pini",
+    "description_en": "Toki Pona Day is drawing to an close… let’s end it with a bang!",
+    "description_tok": "suno pi toki pona li kama pini… ona o pini pona!",
+    "links": {
+      "website": "https://suno.pona.la/"
+    },
+    "vod": ""
+  }
+]
