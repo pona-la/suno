@@ -172,10 +172,10 @@
     "vod": ""
   },
   {
-    "duration": 10
+    "duration": 5
   },
   {
-    "duration": 5,
+    "duration": 10,
     "panelist": "Nardi",
     "category": "music",
     "title_en": "weka ike acoustic version",
@@ -420,7 +420,7 @@
     "duration": 10
   },
   {
-    "duration": 15,
+    "duration": 10,
     "panelist": "jan Pawasi",
     "category": "informational",
     "title_en": "Cave Story Translation Mod",
@@ -431,7 +431,7 @@
     "vod": ""
   },
   {
-    "duration": 5,
+    "duration": 10,
     "panelist": "Nardi",
     "category": "music",
     "title_en": "weka ike acoustic version",
@@ -506,7 +506,7 @@
     "vod": ""
   },
   {
-    "duration": 10
+    "duration": 5
   },
   {
     "duration": 10,
@@ -531,7 +531,7 @@
     "vod": ""
   },
   {
-    "duration": 5,
+    "duration": 10,
     "panelist": "kala Asi",
     "category": "music",
     "title_en": "Covers by kala Asi",
@@ -575,7 +575,7 @@
     "vod": ""
   },
   {
-    "duration": 14,
+    "duration": 15,
     "panelist": "kulupu suno",
     "category": "other",
     "title_en": "Finale",

@@ -86,7 +86,7 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
           >
             <!-- href={href} -->
             <div class="time phone-only">{startTime} - {endTime}</div>
-            {event.duration >= 20 && <div class="performer">{event.panelist}</div>}
+            {event.duration >= 15 && <div class="performer">{event.panelist}</div>}
             <div class="title">
               <span class="live">LIVE</span>
               {lang == "tok" ? event.title_tok : event.title_en}
@@ -132,7 +132,7 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
 <style>
 .schedule {
   display: grid;
-  grid-template-rows: min-content [header] repeat(var(--duration)+1, 1fr); /* TODO: calc 1441 */
+  grid-template-rows: min-content [header] repeat(1440, 1fr); /* TODO: calc 1441 */
   grid-template-columns: min-content 1fr;
 }
 .minute {
@@ -141,6 +141,7 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
   padding: 5px 10px;
   border-top: 1px solid var(--bg-2);
   color: var(--grey);
+  font-size: 85%;
 }
 
 .minute.current {
@@ -156,6 +157,7 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
   border-left: 7px solid var(--bg-1);
   font-weight: unset;
   color: inherit;
+  line-height: 1.4em;
   text-decoration: none;
   background-color: var(--bg-1);
   grid-row-start: calc(var(--row-start) + 2);
@@ -164,9 +166,11 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
   border-radius: 7px;
 }
 
+.event-time:active,
 .event-time:hover {
     background-color: var(--bg-2);
     border-color: var(--bg-2);
+    color: unset !important;
 }
 
 .event-time.entertainment {
@@ -188,11 +192,17 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
 .event-time .performer,
 .event-time .description {
   font-size: 85%;
-  line-height: 1.4em;
 }
 
 .event-time .title {
   font-weight: bold;
+  padding: 0.25em 0;
+}
+
+.event-time:active .title,
+.event-time:hover .title {
+    color: var(--accent);
+    /*text-decoration: 1px dotted underline;*/
 }
 
 .event-time .live {
@@ -217,7 +227,7 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
 .phone-only { display: none; }
 .not-phone { display: unset; }
 
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
   .phone-only { display: unset; }
   .not-phone { display: none; }
   .schedule {
@@ -226,7 +236,7 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
   .timezone {
     display: none;
   }
-}
+}*/
 </style>
 
 <!-- <style>

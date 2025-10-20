@@ -256,7 +256,7 @@
     "vod": ""
   },
   {
-    "duration": null,
+    "duration": 20,
     "panelist": "kalama Ojuta",
     "category": "music",
     "title_en": "kalama Ojuta",
@@ -445,7 +445,7 @@
     "vod": ""
   },
   {
-    "duration": 19,
+    "duration": 20,
     "panelist": "kulupu suno",
     "category": "other",
     "title_en": "Finale",
