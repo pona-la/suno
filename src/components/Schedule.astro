@@ -83,6 +83,8 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
             id={`card-${startRow}`}
             class={classNames}
             style={`--row-start:${startRow}; --row-end:${endRow}`}
+            href={event.vod || undefined}
+            target="_blank"
           >
             <!-- href={href} -->
             <div class="time phone-only">{startTime} - {endTime}</div>
