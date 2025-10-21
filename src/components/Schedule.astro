@@ -1,0 +1,405 @@
+---
+import LocalTime from "@/components/LocalTime.astro";
+import fs from "fs";
+
+export interface EventData {
+  duration: number;
+  panelist: string;
+  category: "informational" | "entertainment" | "music" | "game" | "other";
+  title_en: string;
+  title_tok: string;
+  description_en: string;
+  description_tok: string;
+  language: string;
+  links: Record<string, string>;
+  vod: string;
+
+  stamp_start: number;
+  stamp_end: number;
+}
+
+interface Props {
+  lang: "en" | "tok";
+  from: string;
+  start: number;
+}
+
+const { lang, from, start } = Astro.props;
+
+let events = JSON.parse(fs.readFileSync(`content/schedules/${from}`).toString()) as EventData[];
+
+let cumulativeTimestamp = start;
+console.log(cumulativeTimestamp);
+
+events = events.map(event => {
+  const stamp_start = cumulativeTimestamp;       // sum before current
+  const stamp_end = cumulativeTimestamp + event.duration * 60; // sum after current
+  cumulativeTimestamp = stamp_end;             // update running total
+  return { ...event, stamp_start, stamp_end };
+});
+
+console.log(cumulativeTimestamp);
+
+// Filter events for this year
+// const events = eventsData as EventData[];
+const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
+---
+
+<div class="schedule" style={`--duration:${durationMinutes}`}>
+  <!-- Timezone Display -->
+  <div class="timezone">Timezone: <span id="timezone">UTC</span></div>
+  <script>
+    document.querySelector('#timezone')!.textContent =
+      new Date().toLocaleTimeString('en-US', { timeZoneName: 'short' }).split(' ')[2];
+  </script>
+
+    <!-- Time Slots -->
+    {Array.from({ length: Math.floor(durationMinutes / 10) }).map((_, i) => {
+      const time = start + i * 600;
+      const formatted = new Date(time * 1000);
+      return (
+        <div id={`time-${time}`} class="minute not-phone" style={`--row-start:${(time - start) / 60}`}>
+          <LocalTime time={formatted} options={{hour: "2-digit", minute: "2-digit", hour12: false}}></LocalTime>
+        </div>
+      );
+    })}
+
+    <!-- Events -->
+    {events
+      .filter((event) => event.panelist !== undefined)
+      .map((event) => {
+        const startRow = (event.stamp_start - start) / 60;
+        const endRow = (event.stamp_end - start) / 60;
+        // const trackIndex = tracks.findIndex((t) => t === event.track) + 1;
+        const classNames = `event-time ${event.category}`;
+
+        // const href = `/${year}/tenpo/${event.stamp_start}/`;
+
+        return (
+          <a
+            id={`card-${startRow}`}
+            class={classNames}
+            style={`--row-start:${startRow}; --row-end:${endRow}`}
+            href={event.vod || undefined}
+            target="_blank"
+          >
+            <!-- href={href} -->
+            <div class="time phone-only">
+              <LocalTime time={new Date(event.stamp_start * 1000)} options={{ hour: "2-digit", minute: "2-digit" }} />
+              {" – "}
+              <LocalTime time={new Date(event.stamp_end * 1000)} options={{ hour: "2-digit", minute: "2-digit", timeZoneName: "short" }} />
+            </div>
+            {event.duration >= 15 && <div class="performer">{event.panelist}</div>}
+            <div class="title">
+              <span class="live">LIVE</span>
+              {lang == "tok" ? event.title_tok : event.title_en}
+            </div>
+              <div class={`description ${event.duration < 25 ? "phone-only" : ""}`}>
+                {lang == "tok" ? event.description_tok : event.description_en}
+              </div>
+            <!-- {event.duration >= 20 && (
+              <ul class="categories">
+                {event.categories.map((cat) => <li>{cat}</li>)}
+              </ul>
+            )} -->
+          </a>
+        );
+      })}
+</div>
+
+<script is:inline>
+  // Highlight the current time and event dynamically
+  const now = new Date();
+
+  document.querySelectorAll("[id^='time-']").forEach((el) => {
+    const time = parseInt(el.id.split('-')[1]);
+    const endTime = time + 600;
+    const diff = new Date(endTime * 1000).getTime() - now.getTime();
+
+    if (diff > 0) {
+      if (new Date(time * 1000).getTime() - now.getTime() <= 0) {
+        el.classList.add("current");
+        el.scrollIntoView({ behavior: "instant", block: "center" });
+      } else {
+        setTimeout(() => {
+          el.classList.add("current");
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, new Date(time * 1000).getTime() - now.getTime());
+      }
+
+      setTimeout(() => el.classList.remove("current"), diff);
+    }
+  });
+</script>
+
+<style>
+.schedule {
+  display: grid;
+  grid-template-rows: min-content [header] repeat(1440, 1fr); /* TODO: calc 1441 */
+  grid-template-columns: min-content 1fr;
+}
+.minute {
+  grid-row-start: calc(var(--row-start) + 2);
+  grid-row-end: span 10;
+  padding: 5px 10px;
+  border-top: 1px solid var(--bg-2);
+  color: var(--grey);
+  font-size: 85%;
+}
+
+.minute.current {
+  border-color: red;
+  color: red;
+}
+
+.event-time {
+  display: block;
+  margin-bottom: 1px;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--bg-1);
+  border-left: 7px solid var(--bg-1);
+  font-weight: unset;
+  color: inherit;
+  line-height: 1.2em;
+  text-decoration: none;
+  background-color: var(--bg-1);
+  grid-row-start: calc(var(--row-start) + 2);
+  grid-row-end: calc(var(--row-end) + 2);
+  grid-column: 2;
+  border-radius: 7px;
+}
+
+.event-time:active,
+.event-time:hover {
+    background-color: var(--bg-2);
+    border-color: var(--bg-2);
+    color: unset !important;
+}
+
+.event-time.entertainment {
+  border-left-color: light-dark(#f5c211, #f5c211)
+}
+
+.event-time.informational {
+    border-left-color: light-dark(#1c71d8, #1c71d8);]
+}
+
+.event-time.game {
+    border-left-color: light-dark(#2ec27e, #2ec27e);
+}
+
+.event-time.music {
+    border-left-color: light-dark(#e66100, #e66100);
+}
+
+.event-time .performer,
+.event-time .description,
+.event-time .time {
+  font-size: 85%;
+}
+
+.event-time .title {
+  font-weight: bold;
+  padding: 0.25em 0;
+}
+
+.event-time:active .title,
+.event-time:hover .title {
+    color: var(--accent-1);
+    /*text-decoration: 1px dotted underline;*/
+}
+
+.event-time .live {
+  display: none;
+}
+
+.event-time.current {
+  border-top-color: red;
+  border-right-color: red;
+  border-bottom-color: red;
+}
+
+.event-time.current .live {
+  display: unset;
+  color: red;
+}
+
+.timezone {
+  color: var(--grey);
+  grid-column: span 2;
+}
+
+.phone-only { display: none; }
+.not-phone { display: unset; }
+
+@media (max-width: 600px) {
+  .phone-only { display: unset; }
+  .not-phone { display: none; }
+  .schedule {
+    display: block;
+  }
+  .timezone {
+    display: none;
+  }
+  .event-time .performer,
+  .event-time .description {
+    font-size: 85%;
+  }
+}
+</style>
+
+<!-- <style>
+:root {
+  --font-size-h1: 3rem;
+  --font-size-h2: 2.5rem;
+  --font-size-h3: 2.25rem;
+  --font-size-h4: 2rem;
+  --font-size-x-large: 1.5rem;
+  --font-size-large: 1.2rem;
+  --font-size-medium: 16px;
+  --font-size-small: 0.9rem;
+  --font-size-x-small: 0.8rem;
+  --line-height-default: 1.25;
+  --line-height-comfortable: 1.5;
+  --font-family-sans-serif: sans-serif;
+  --font-family-monospace: monospace;
+  --border-width: 1px;
+  --page-padding: 2rem;
+  --button-border-radius: 0.25rem;
+  --button-padding: 0.375rem 0.75rem;
+  --card-border-radius: 0.75rem;
+  --card-padding: 0.5rem 1rem;
+}
+:root {
+  --application-foreground-color: #fff;
+  --application-background-color: #241f31;
+  --application-border-color: 255, 255, 255;
+  --secondary-foreground-color: #fff;
+  --secondary-background-color: #3d3846;
+  --secondary-border-color: #5e5c64;
+  --focus-foreground-color: #fff;
+  --focus-background-color: #4d2a68;
+  --focus-border-color: #9141ac;
+  --focus-link-text-color: #fff;
+  --focus-title-text-color: #c0bfbc;
+  --full-focus-background-color: #9141ac;
+  --link-text-color: #dc8add;
+  --blue-button-background-color: #1c71d8;
+  --blue-button-foreground-color: #fff;
+  --blue-button-border-color: #99c1f1;
+  --red-button-background-color: #e01b24;
+  --red-button-foreground-color: #fff;
+  --red-button-border-color: #f66151;
+}
+
+.schedule {
+  display: grid;
+  grid-template-rows: min-content [header] repeat(1441, 1fr);
+  grid-template-columns: min-content 1fr;
+}
+
+.logo {
+  display: block;
+  width: 5rem;
+  padding: 0 1rem;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.timezone {
+  opacity: 0.5;
+  margin-top: 1.5rem;
+  grid-column: span 2;
+}
+
+.track {
+  grid-column: var(--track) / span 1;
+  align-content: end;
+}
+
+.event-time {
+  display: block;
+  padding: var(--card-padding);
+  text-decoration: none;
+  color: var(--focus-link-text-color);
+  background-color: var(--focus-background-color);
+  border: var(--border-width) solid var(--focus-border-color);
+  border-radius: var(--button-border-radius);
+  grid-row-start: calc(var(--row-start) + 2);
+  grid-row-end: calc(var(--row-end) + 2);
+  grid-column: var(--track) / span 1;
+  margin: 0 1rem 0.5rem 0;
+}
+
+.event-time.entertainment {
+  background-color: light-dark(#f0bd0b, #d17005);
+  border-color: light-dark(#f5c211, #f5c211);
+}
+
+.event-time.informational {
+  background-color: light-dark(#2ea1f4, #144ca4);
+  border-color: light-dark(#1c71d8, #1c71d8);
+}
+
+.event-time.game {
+  background-color: light-dark(#2ecc86, #167a44);
+  border-color: light-dark(#2ec27e, #2ec27e);
+}
+
+.event-time.music {
+  background-color: light-dark(#fc8600, #b83500);
+  border-color: light-dark(#e66100, #e66100);
+}
+
+.event-time.current {
+  border-color: red;
+}
+
+.event-time .live {
+  display: none;
+}
+
+.event-time.current .live {
+  display: unset;
+  color: red;
+}
+
+.minute {
+  grid-row-start: calc(var(--row-start) + 2);
+  grid-row-end: span 10;
+  border-top: var(--border-width) solid var(--focus-border-color);
+  opacity: 50%;
+  text-align: end;
+  padding: var(--card-padding);
+}
+
+.minute.current {
+  border-color: red;
+  color: red;
+}
+
+.event-time .title {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.event-time .performer {
+  font-size: var(--font-size-x-small);
+}
+
+.phone-only { display: none; }
+.not-phone { display: unset; }
+
+@media (max-width: 700px) {
+  .phone-only { display: unset; }
+  .not-phone { display: none; }
+  .schedule {
+    display: block;
+  }
+  .timezone {
+    display: none;
+  }
+}
+</style> -->

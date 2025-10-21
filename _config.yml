@@ -1,7 +1,0 @@
-title: suno pi toki pona
-description: day of toki pona 2021
-email: hel@lcp.world
-url: "https://suno.pona.la"
-
-theme: pona-la-kule-lipu
-exclude: [Gemfile, Gemfile.lock,LICENSE,README.md,bin]

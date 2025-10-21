@@ -1,0 +1,34 @@
+---
+title: 'Toki Pona Day 2022'
+description: ''
+t_start: 1659756420
+t_end: 1659842820
+---
+
+import YearNav from "@/components/YearNav.astro";
+import Countdown from "@/components/Countdown.astro";
+import { Embed } from "selo-components";
+import Schedule from "@/components/Schedule.astro";
+
+<Countdown start={frontmatter.t_start} end={frontmatter.t_end} />
+<YearNav lang="en"/>
+<h2 align="center">sptp2022 has concluded! You can watch the playlist:</h2>
+<Embed playlist id="PLjOmpMyMxd8TVr2MFw5AtXiypWMir8XfC" />
+
+{/*
+## Hello everyone!
+
+The 8th of August is the birth date of Toki Pona. This year, we wanted to organise online event/concert/live show/celebration.
+
+We have had the following activities planned:
+* Songs, lectures, workshops and other games are here (have a look at the [schedule](tenpo))
+* Wordcloud
+* o toki e sitelen, o pali e sitelen
+
+The event has been a huge success. Many of you showed up, and we couldn't be happier that you did. You can [see a playlist of the event on YouTube](https://www.youtube.com/playlist?list=PLjOmpMyMxd8TVr2MFw5AtXiypWMir8XfC) (it's still being updated with new videos). Thank you for the interest in the event, and see you next year!
+
+*/}
+
+## Schedule
+
+<Schedule lang="en" from="2022.json" start={1659756600} />

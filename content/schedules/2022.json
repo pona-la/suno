@@ -1,0 +1,472 @@
+[
+  {
+    "duration": 15,
+    "panelist": "kulupu suno",
+    "category": "other",
+    "title_en": "Intro",
+    "title_tok": "open",
+    "description_en": "Introduction to the event",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "kala Asi",
+    "category": "entertainment",
+    "title_en": "open pi wile sona nimi",
+    "title_tok": "Word poll announcement",
+    "description_en": "kala Asi opens the 2022 edition of the Toki Pona word poll: https://forms.gle/4mf8AC1Z3LEKdgQ57",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 45
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Nesapa",
+    "category": "informational",
+    "title_en": "nimi pi toki pona pi tenpo pini",
+    "title_tok": "nimi pi toki pona pi tenpo pini",
+    "description_en": "",
+    "description_tok": "sitelen tawa ni la mi wile pana e sona ni: nimi pi toki pona li kama ante tan tenpo lon nasin seme?\n tenpo open la toki pona li jo e nimi 118. taso jan Sonja li pana li weka e nimi la nimi pu 124 li kama. pini la lipu ku li toki e ni: nimi 137 li nimi suli tawa toki pona. ijo ni li musi sona tawa mi la mi wile pali e sitelen tawa.",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=89FoZReISK0"
+  },
+  {
+    "duration": 15,
+    "panelist": "fuopy",
+    "category": "entertainment",
+    "title_en": "VRChat Hangout and Watch-along",
+    "title_tok": "tenpo musi pi ma Wijasa",
+    "description_en": "Background:\nFor months, Ma Toki Pona VR has been hosting weekly events in VRChat for learning Toki Pona. During these events, participants share social context through a spatial environment. This works well for learning as an alternative to text/voice-only mediums like Discord! Our weekly meetups welcome all; complete beginners are encouraged to join!\n\nMeetup schedule:\n15 minutes after opening, we hold announcements. Then jan Kekan San gives a half-hour lesson. Then we go play a game while speaking Toki Pona. Then we go to a museum world to use Toki Pona in a more realistic environment.\n\nOnce a month, we hold a joint meetup with Projekto Babel, a multilingual community based in Japan. During these meetups, we use Toki Pona as a bridge between English and Japanese!\n\nProposal:\nFor Suno pi Toki Pona, the Ma Toki Pona VR and Projekto Babel communities are inviting viewers to watch the stream in VRChat. We are building a venue world to hang out in and watch the stream. During the stream, we'd like 15 minutes to introduce our community. We would also like to hold other panels streamed from VRChat. These panels will be submitted as additional proposals. (These have been submitted by jan Kekan San.)\n\nLimitations:\nVRChat maps are limited to 80 users. The VRChat venue will be designed for the Quest for hardware accessibility. No VR equipment is required, but the in-game live stream only works on Windows. Participants may stream the event if they choose.",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Olipija",
+    "category": "informational",
+    "title_en": "luka mute pi toki pona",
+    "title_tok": "luka mute pi toki pona",
+    "description_en": "",
+    "description_tok": "mi toki e ni: luka pona li kama tan seme? mi toki e tenpo pini e toki poka luka tu e luka pona. jan li ken lukin e ona e pona e ike. mi pana tawa lukin e toki sama lon ona la, jan li ken lukin e ona li ken pilin e ni: ona tu la, seme li pona?\n\ntoki sona ni li kepeken luka pona.",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=bswaSX9xpMc"
+  },
+  {
+    "duration": 45
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Lakuse + jan Tepo",
+    "category": "entertainment",
+    "title_en": "A Toki Pona Short Film",
+    "title_tok": "meli Biermädchen",
+    "description_en": "",
+    "description_tok": "tan jan Lakuse and jan Tepo\nkepeken pali pi jan Kala pi jan Kawa\n\no lukin e sitelen tawa sin pi toki pona taso!",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=MlwT269yI5U"
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Ke Tami",
+    "category": "entertainment",
+    "title_en": "Call-in from Vienna",
+    "title_tok": "tenpo musi pi ma Win",
+    "description_en": "The participants of the Vienna meetup calling into the event.",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 60,
+    "panelist": "jan Telakoman",
+    "category": "entertainment",
+    "title_en": "o kama sona tan tenpo musi toki",
+    "title_tok": "o kama sona tan tenpo musi toki",
+    "description_en": "A toki pona taso \"radio show\" where we learn something about each other but even absolute beginners can follow along and learn some toki pona!\n\nThere are 2-3 presenters. There's a simple survey (sina jan ala la sina wile soweli anu waso anu kala anu pipi? sina pilin e ni tan seme?). We talk about the survey questions. People can take turns to \"phone in\" and share their thoughts.\n\nThe voice chat is toki pona taso but people can ask questions in English in the text chat if they have to. Either way, everybody will understand the survey enough to fill it in meaningfully.\n\nThen everybody fills in the survey and we talk about the results. We announce the answer to the question: kulupu la jan pi mute nanpa wan li wile soweli anu waso anu kala anu pipi? \n\nThis would be a demonstration of how this idea (see link) would work. Who knows, maybe it could catch on and we could do it more often.",
+    "description_tok": "",
+    "links": {
+      "website": "https://www.reddit.com/r/tokipona/comments/p0l5b3/idea_podcast_that_sounds_like_a_phonein_radio/?utm_medium=android_app&utm_source=share"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 60
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Temili",
+    "category": "music",
+    "title_en": "toki pona cover songs",
+    "title_tok": "mi toki pona e kalama",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=85QCBpcx0Hs&list=PLjOmpMyMxd8RFBVtaPrHlkl1ewrciS8rE&pp=gAQB"
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Mato",
+    "category": "informational",
+    "title_en": "Writing Toki Pona in Japanese Kana",
+    "title_tok": "toki pona kepeken sitelen Kana",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=O96m6bw9xIA"
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Polo",
+    "category": "informational",
+    "title_en": "improving communication strategies",
+    "title_tok": "nasin li pona e toki",
+    "description_en": "How learning Toki Pona may help improving communication strategies in a foreign or second language",
+    "description_tok": "nasin seme la toki pona li ken pona e toki ante sina pi mama ala?",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=wGL3WYuLxr0"
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Olipija",
+    "category": "informational",
+    "title_en": "The Sign Languages of the Toki Pona",
+    "title_tok": "toki luka pi toki pona",
+    "description_en": "jan Olipija explains the complicated history of the many sign languages and systems created by/for/within the Toki Pona community - along with a demonstration of the vocab and grammar of two of them. We will discuss Chuff's Toki Pona Sign Language, Pu's Signed Toki Pona and how Luka Pona Sign Language emerged.\n\nThe presentation will be in BSL, although all English speakers are invited to watch via reading the subtitles provided. This presentation will also be available in Luka Pona Sign Language with Toki Pona subtitles at a different time in the day.\n\nThank you to jan Tepo for helping to edit!",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=Wtyf1hEpO8c"
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 90,
+    "panelist": "kulupu kasi",
+    "category": "game",
+    "title_en": "o tawa musi!!!",
+    "title_tok": "o tawa musi!!!",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 45,
+    "panelist": "jan Usawi",
+    "category": "music",
+    "title_en": "kalama musi tan jan Usawi",
+    "title_tok": "kalama musi tan jan Usawi",
+    "description_en": "Singing songs in toki pona, mostly originals but potentially a cover or two, and talking about the thoughts and stories behind them.",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=eZCdUGaDRTI"
+  },
+  {
+    "duration": 45,
+    "panelist": "jan Lakuse",
+    "category": "informational",
+    "title_en": "toki pona lit lecture:",
+    "title_tok": "toki pona la mi toki e lipu",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=KQwhuqq6FOU"
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Mato",
+    "category": "informational",
+    "title_en": "Writing Toki Pona in Japanese Kana",
+    "title_tok": "toki pona kepeken sitelen Kana",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=O96m6bw9xIA"
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kijetesantakalu",
+    "category": "informational",
+    "title_en": "Toki Pona 101",
+    "title_tok": "Toki Pona 101",
+    "description_en": "I would give a brief history and explanation of conlanging, explain how toki pona came to be, it’s philosophy, and some basic things about it for newcomers. I would then explain the community and resources for learning!\nyou can reach me at mothman#7040 or its.sam.hanson@gmail.com",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kepe",
+    "category": "entertainment",
+    "title_en": "nasin poki pi toki pona",
+    "title_tok": "nasin poki pi toki pona",
+    "description_en": "no time for this i just made this event last minute im sorry",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Tepo",
+    "category": "informational",
+    "title_en": "toki sona pi ilo nanpa",
+    "title_tok": "toki sona pi ilo nanpa",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=hxZ5t7cuVZs"
+  },
+  {
+    "duration": 45
+  },
+  {
+    "duration": 15,
+    "panelist": "sona li wan",
+    "category": "informational",
+    "title_en": "toki pona language processing",
+    "title_tok": "nasin la ilo li kute li pana e toki pona",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=iZT0No6nMb8"
+  },
+  {
+    "duration": 15
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Kekan San",
+    "category": "informational",
+    "title_en": "Advanced expression of concepts",
+    "title_tok": "nasin nimi",
+    "description_en": "Early learners to Toki Pona, having learned the vocabulary and most of the grammar, are just starting their journey. But there are many hurdles still ahead of them. One common mistake these learners make is to assume that a word or phrase in their parent language should be expressed in a single grammatical position in Toki Pona. This lesson addresses that by offering a more approachable alternative, expressing complex ideas via sentences rather than lengthy noun phrases. We'll start by expressing the nimi ku suli and notable nimi ku lili with only the nimi pu, and progress from there!",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=YkdFvIfbAtQ"
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Nowa",
+    "category": "entertainment",
+    "title_en": "uta monsuta - presentation & live reading",
+    "title_tok": "mi pana e lipu pi uta monsuta",
+    "description_en": "Basically we were discussing the next issue of uta monsuta in the uta monsuta Discord and we thought a good way to get the word out would be to do a short presentation on the first issue on suno pi toki pona. We'll talk briefly about the zine, do a dramatic reading of a story from it, and then unveil the second issue and say we're looking for submissions [copied from discord]\n\nFurther details:\nWe will prerecord a presentation in mixed toki pona and English explaining what the zine is. kulupu Eki will read the English portion and I will read the toki pona portion. I will then do a live reading of a story from the zine, \"uta\", with the text of the story onscreen so people who are HOH or have poor listening comprehension can follow more easily.",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=GD9BF_gv21w"
+  },
+  {
+    "duration": 15,
+    "panelist": "fuopy",
+    "category": "entertainment",
+    "title_en": "toki pona vr",
+    "title_tok": "toki pona vr",
+    "description_en": "tbd",
+    "description_tok": "tbd",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Tepo + jan Lakuse",
+    "category": "entertainment",
+    "title_en": "kalama sin LIVE",
+    "title_tok": "kalama sin LIVE",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 45,
+    "panelist": "jan Usawi",
+    "category": "music",
+    "title_en": "kalama musi tan jan Usawi",
+    "title_tok": "kalama musi tan jan Usawi",
+    "description_en": "Singing songs in toki pona, mostly originals but potentially a cover or two, and talking about the thoughts and stories behind them.",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=mLEIv1RNa2U"
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Kekan San",
+    "category": "informational",
+    "title_en": "Exploring obscure nasin pi toki pona",
+    "title_tok": "nasin nasa pi toki pona",
+    "description_en": "The toki pona community has created many varieties of nasin! Some are about the specific use of new words, and others reject specific words or even grammar from lipu pu. There are also a number of exploratory nasin, used by few but with interesting lessons to offer by exploring them! This lesson focuses on these nasin, and what we can learn about toki pona by practicing it without certain features. In particular, we'll look at toki pona without jo, without pi, and without anu. We'll also explore a variety of other, even more obscure ways of speaking toki pona, omitting preverbs, jan, and even mi and sina. Be warned that this is not a starting place if you're new to toki pona!",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=HnNDgu-Z0y4"
+  },
+  {
+    "duration": 15
+  },
+  {
+    "duration": 15,
+    "panelist": "astrodonunt",
+    "category": "informational",
+    "title_en": "ijo poka en toki pona",
+    "title_tok": "ijo poka en toki pona",
+    "description_en": "(Both a TPT presentation and an English adaption will be played.)\n\nPeople will say, \"if you can't say a word, let the context speak.\" But what is context, and how important is it to Toki Pona? I'll give a brief overview on the topic from Linguistics.",
+    "description_tok": "(sitelen tawa pi toki pona en sitelen tawa pi toki Inli li lon.)\n\njan mute li toki e ni: \"nimi li lon ala la, ijo poka li pana e sona.\" taso ijo poka li seme, li suli seme tawa toki pona? mi pana e sona lili pi ijo ni, tan sona toki.",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=7rVWvwWLUBg&list=PLjOmpMyMxd8TcOHOvOEqQKveHxuVB1Ear&pp=gAQB"
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kepe",
+    "category": "other",
+    "title_en": "new toki pona music!",
+    "title_tok": "kalama sin pi toki pona!",
+    "description_en": "new original toki pona music panic-made in a day by jan Kepe",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kepi",
+    "category": "music",
+    "title_en": "showing some new toki pona original music",
+    "title_tok": "mi pana e kalama musi pi toki pona",
+    "description_en": "I would show off one of the tracks in my upcoming toki pona EP. It would be a YouTube video, but I could also be in the voice chat to maybe explain lyrics or take questions about the song. The song is less than 2 minutes, so I might do another song also.",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=Km7csMWAl6I"
+  },
+  {
+    "duration": 15
+  },
+  {
+    "duration": 60,
+    "panelist": "mochaspen",
+    "category": "game",
+    "title_en": "Blookets",
+    "title_tok": "musi Blookets",
+    "description_en": "I will run online games on the website Blooket, which is similar to Kahoot. It's a teaching tool where all the players compete to get the most points by answering questions, can sabotage each other, etc. I'll set each game to last for 5 minutes, so I can run 12 maximum in the time provided. Since I don't have premium, there is a maximum of 60 players per game, which should be more than enough. I'll run a few testing on all pu words, and then I'll do a few just for fun that test on obscure nimisin.",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=rVBeGxD0dcI"
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Nikoleta (kqa)",
+    "category": "music",
+    "title_en": "kqa performance!! (jan Nikoleta)",
+    "title_tok": "kqa performance!! (jan Nikoleta)",
+    "description_en": "HI IM GONNA BE PLAYING SOME NEW SONGS AND YOU BETTER BE EXCITED\n\nI DONT KNOW HOW LONG ITLL BE BUT WE CAN ASSUME 15 MINUTES!!",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Kekan San",
+    "category": "informational",
+    "title_en": "Advanced expression of concepts",
+    "title_tok": "nasin nimi",
+    "description_en": "Early learners to Toki Pona, having learned the vocabulary and most of the grammar, are just starting their journey. But there are many hurdles still ahead of them. One common mistake these learners make is to assume that a word or phrase in their parent language should be expressed in a single grammatical position in Toki Pona. This lesson addresses that by offering a more approachable alternative, expressing complex ideas via sentences rather than lengthy noun phrases. We'll start by expressing the nimi ku suli and notable nimi ku lili with only the nimi pu, and progress from there!",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=iwwGHZqndWE"
+  },
+  {
+    "duration": 30
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Misali",
+    "category": "music",
+    "title_en": "ryuupekosi",
+    "title_tok": "ryuupekosi",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=7KwGABMjpMU"
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Tepo + jan Lakuse",
+    "category": "entertainment",
+    "title_en": "A Toki Pona Short Film",
+    "title_tok": "meli Biermädchen",
+    "description_en": "",
+    "description_tok": "tan jan Lakuse and jan Tepo\nkepeken pali pi jan Kala pi jan Kawa\n\no lukin e sitelen tawa sin pi toki pona taso!",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=MlwT269yI5U"
+  },
+  {
+    "duration": 15,
+    "panelist": "unknown",
+    "category": "entertainment",
+    "title_en": "meli pi poki nasa la - mi pali e sitelen kepeken nasin seme?",
+    "title_tok": "meli pi poki nasa la - mi pali e sitelen kepeken nasin seme?",
+    "description_en": "jan Tepo en jan Lakuse li pali e sitelen pi meli Biermadchen la, ona li kepeken nasin seme? o toki e wile sona sina!",
+    "description_tok": "jan Tepo en jan Lakuse li pali e sitelen pi meli Biermadchen la, ona li kepeken nasin seme? o toki e wile sona sina!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 75
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kepi",
+    "category": "music",
+    "title_en": "showing some new toki pona original music",
+    "title_tok": "mi pana e kalama musi pi toki pona",
+    "description_en": "I would show off one of the tracks in my upcoming toki pona EP. It would be a YouTube video, but I could also be in the voice chat to maybe explain lyrics or take questions about the song. The song is less than 2 minutes, so I might do another song also.",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=Km7csMWAl6I"
+  },
+  {
+    "duration": 15,
+    "panelist": "jan Kijetesantakalu",
+    "category": "informational",
+    "title_en": "Toki Pona 101",
+    "title_tok": "Toki Pona 101",
+    "description_en": "I would give a brief history and explanation of conlanging, explain how toki pona came to be, it’s philosophy, and some basic things about it for newcomers. I would then explain the community and resources for learning!\nyou can reach me at mothman#7040 or its.sam.hanson@gmail.com",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 15,
+    "panelist": "kala Asi",
+    "category": "informational",
+    "title_en": "Linku, what why and how",
+    "title_tok": "Linku li seme?",
+    "description_en": "kala Asi talks about what Linku is and why and how they made it",
+    "description_tok": "",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=3ycg6Wl_QzU"
+  },
+  {
+    "duration": 15,
+    "panelist": "kulupu suno",
+    "category": "other",
+    "title_en": "Ending",
+    "title_tok": "pini",
+    "description_en": "The finish to the event",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  }
+]

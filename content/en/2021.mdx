@@ -1,0 +1,59 @@
+---
+title: 'Toki Pona Day 2021'
+description: ''
+t_start: 1628314020
+t_end: 1628400420
+---
+
+import YearNav from "@/components/YearNav.astro";
+import Countdown from "@/components/Countdown.astro";
+import { Embed } from "selo-components";
+import Schedule from "@/components/Schedule.astro";
+
+<Countdown start={frontmatter.t_start} end={frontmatter.t_end} />
+<YearNav lang="en"/>
+<h2 align="center">sptp2021 has concluded! You can watch the playlist:</h2>
+<Embed playlist id="PLjOmpMyMxd8Ru7RzbKS0ZZ1E_S2J_pA2X" />
+
+{/*
+<h2>Hello everyone!</h2>
+<p>The 8th of August is the birth date of Toki Pona. This year, we wanted to organise online event/concert/live show/celebration.</p>
+<p>We have had the following activities planned:</p>
+<ul>
+  <li>Songs, lectures, workshops and other games are here (have a look at the <a href="tenpo/">schedule</a>) </li>
+  <li>Telephone game with toki pona translation: people take turns translating a sentence back and forth between toki pona and English without seeing previous translations, with hopefully amusing results. (If you want to join, please <a href="https://forms.gle/ByAEZRfxdUZCPn529" target="_blank">fill out this google form</a> or talk to jan Tepo (tbodt#7244).) </li>
+  <li>Chess tournament</li>
+  <li>
+    <a href="https://classicube.net/" target="_blank">Classicube</a> - Build a ma pona out of blocks! It's like Minecraft, but free and can be played in the browser. <details>
+      <summary>Learn more</summary>
+      <p>Sign up for an account at classicube.net (and download the desktop client if you can). <a href="https://www.classicube.net/server/play/f3876a56fc003284cbc4f6a428205e77/" target="_blank">https://www.classicube.net/server/play/f3876a56fc003284cbc4f6a428205e77/</a> You can either open it in the browser and play there, or log into the desktop client, paste it into the bottom field of the server list, and click "Connect". </p>
+      <p>Some tips on controls:</p>
+      <ul>
+        <li>Press B to pick blocks.</li>
+        <li>Press Shift or Ctrl to go faster.</li>
+        <li>Press Z to turn on fly mode, or X for noclip. Hold Q and E to go up and down.</li>
+        <li>You can change all these in the options menu, accessed by pressing [Esc].</li>
+      </ul>
+    </details>
+  </li>
+  <li>A game of Mafia/Werewolf using a telegram bot (with Toki Pona commands yay!) You can take a look at some roles <a href="https://telegra.ph/A-werewolf-rolelist-02-03" target="_blank">here</a> (Please join <a href="https://t.me/musi_pi_jan_soweli" target="_blank">this Telegram group</a> prior to the event if you're interested show up here). <span class="date" data-value="1628335800">7 Aug 11:30 UTC</span> - <span class="date" data-value="1628339400">7 Aug 12:30 UTC</span>
+  </li>
+  <li>
+    <a href="http://antetokipona.infinityfreeapp.com/utala-nimi/" target="_blank">utala pi nimi nanpa wan</a> - It's the ultimate battle of toki pona words! Which one will win? You decide! This is a single-elimination bracket-style tournament <details>
+      <summary>Learn more</summary>
+      <p>Just go to <a href="http://antetokipona.infinityfreeapp.com/utala-nimi/" target="_blank">the website</a> when it starts and enter your name at each round. </p>
+    </details>
+  </li>
+  <li>Test out the community-created translation pack for toki pona in Minecraft! <details>
+      <summary>Learn more</summary>
+      <p>Add 98.221.154.62 to your server list, join on Java Edition 1.17.1</p>
+    </details>
+  </li>
+</ul>
+<p>The event has been a huge success. 170 of you showed up, and we couldn't be happier that you did. You can <a href="https://youtube.com/playlist?list=PLjOmpMyMxd8Ru7RzbKS0ZZ1E_S2J_pA2X" target="_blank">see a playlist of the event on YouTube</a> (it's still being updated with new videos), or check out the event live recordings: <a href="https://youtu.be/CdBJiSTu5XU" target="_blank">Part 1</a> (broken audio and video), <a href="https://youtu.be/lQAdcGi1qKI" target="_blank">Part 2</a> and <a href="https://youtu.be/Dmop0dmZn8M" target="_blank">Part 3</a>. Thank you for the interest in the event, and see you next year! </p>
+
+*/}
+
+## Schedule
+
+<Schedule lang="en" from="2021.json" start={1628314200} />

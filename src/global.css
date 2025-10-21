@@ -1,0 +1,8 @@
+:root {
+    --accent: #1d6bca;
+    --accent-1: #124a8e;
+}
+.dark {
+    --accent: #f6d32d;
+    --accent-1: #f3e089;
+}
