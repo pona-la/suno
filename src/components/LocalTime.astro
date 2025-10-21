@@ -14,9 +14,8 @@ const { time, options = {}, locale = "en-US" } = Astro.props;
 </style>
 <time datetime={time.toISOString()}>
   {time.toLocaleString(locale, options)}
-  <!-- {time.toUTCString()} -->
 </time>
-<script is:inline define:vars={{ time, options }}>
+<script is:inline define:vars={{ time, options, locale }}>
   const el = document.currentScript.previousElementSibling;
   // el.textContent = new Date(time).toLocaleTimeString("en-us", options);
   el.textContent = new Date(time).toLocaleString(locale, options);
