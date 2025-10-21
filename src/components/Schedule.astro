@@ -47,11 +47,11 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
 
 <div class="schedule" style={`--duration:${durationMinutes}`}>
   <!-- Timezone Display -->
-  <!-- <div class="timezone">Timezone: <span id="timezone">UTC</span></div>
+  <div class="timezone">Timezone: <span id="timezone">UTC</span></div>
   <script>
     document.querySelector('#timezone')!.textContent =
       new Date().toLocaleTimeString('en-US', { timeZoneName: 'short' }).split(' ')[2];
-  </script> -->
+  </script>
 
     <!-- Time Slots -->
     {Array.from({ length: Math.floor(durationMinutes / 10) }).map((_, i) => {
@@ -75,9 +75,6 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
 
         // const href = `/${year}/tenpo/${event.stamp_start}/`;
 
-        const startTime = new Date(event.stamp_start * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-        const endTime = new Date(event.stamp_end * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", timeZoneName: "short" });
-
         return (
           <a
             id={`card-${startRow}`}
@@ -87,7 +84,11 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
             target="_blank"
           >
             <!-- href={href} -->
-            <div class="time phone-only">{startTime} - {endTime}</div>
+            <div class="time phone-only">
+              <LocalTime time={new Date(event.stamp_start * 1000)} options={{ hour: "2-digit", minute: "2-digit" }} />
+              {" – "}
+              <LocalTime time={new Date(event.stamp_end * 1000)} options={{ hour: "2-digit", minute: "2-digit", timeZoneName: "short" }} />
+            </div>
             {event.duration >= 15 && <div class="performer">{event.panelist}</div>}
             <div class="title">
               <span class="live">LIVE</span>
@@ -159,7 +160,7 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
   border-left: 7px solid var(--bg-1);
   font-weight: unset;
   color: inherit;
-  line-height: 1.4em;
+  line-height: 1.2em;
   text-decoration: none;
   background-color: var(--bg-1);
   grid-row-start: calc(var(--row-start) + 2);
@@ -192,7 +193,8 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
 }
 
 .event-time .performer,
-.event-time .description {
+.event-time .description,
+.event-time .time {
   font-size: 85%;
 }
 
@@ -223,13 +225,14 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
 }
 
 .timezone {
+  color: var(--grey);
   grid-column: span 2;
 }
 
 .phone-only { display: none; }
 .not-phone { display: unset; }
 
-/*@media (max-width: 700px) {
+@media (max-width: 600px) {
   .phone-only { display: unset; }
   .not-phone { display: none; }
   .schedule {
@@ -238,7 +241,11 @@ const durationMinutes = Math.floor((cumulativeTimestamp - start) / 60);
   .timezone {
     display: none;
   }
-}*/
+  .event-time .performer,
+  .event-time .description {
+    font-size: 85%;
+  }
+}
 </style>
 
 <!-- <style>

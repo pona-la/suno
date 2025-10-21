@@ -1,6 +1,6 @@
-# pona.la
+# suno.pona.la
 
-A domain for Toki Pona projects.
+A yearly online festival of Toki Pona culture.
 
 ## Local development
 
