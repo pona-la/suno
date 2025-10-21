@@ -1,0 +1,45 @@
+---
+import LocalTime from "@/components/LocalTime.astro";
+interface Props {
+  start: number;
+  end: number;
+}
+const { start, end } = Astro.props;
+console.log(start, end);
+---
+
+<style>
+  p {
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+
+<p>
+  <LocalTime
+    time={new Date(start * 1000)}
+    options={{
+      day: "numeric",
+      month: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+      timeZoneName: "shortOffset",
+    }}
+    locale="en-GB"
+  />
+  {" – "}
+  <LocalTime
+    time={new Date(end * 1000)}
+    options={{
+      day: "numeric",
+      month: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+      timeZoneName: "shortOffset",
+    }}
+    locale="en-GB"
+  />
+</p>
