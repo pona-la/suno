@@ -1,0 +1,424 @@
+[
+  {
+    "duration": 20,
+    "panelist": "kulupu suno",
+    "category": "other/meta",
+    "title_en": "Opening",
+    "title_tok": "open",
+    "description_en": "Welcome to Toki Pona Day!",
+    "description_tok": "o kama pona tawa suno pi toki pona!",
+    "links": {},
+    "vod": "https://suno.pona.la/2025"
+  },
+  {
+    "duration": 20,
+    "panelist": "kala Asi",
+    "category": "informational",
+    "title_en": "Making a lipu tenpo",
+    "title_tok": "pali pi lipu tenpo",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 60,
+    "panelist": "jan Lakuse + utala musi participants",
+    "category": "informational",
+    "title_en": "2026 Writing/Comic Contest Round-Up and Results!",
+    "title_tok": "utala musi lipu: lipu seme li lon? ona seme li nanpa wan?",
+    "description_en": "The annual writing contest is again at a close. Let us celebrate the amazing work that's been done this year hear from some of the authors and see who won!",
+    "description_tok": "utala musi la kulupu li pali e lipu toki musi mute pona. jan Lakuse li kama toki e pona pi lipu mute mute ni. o kute tan mama lipu pi mute lili. pini la o kama sona: lipu seme li wawa sewi tawa kulupu a!",
+    "links": {},
+    "vod": "https://utala.pona.la/"
+  },
+  {
+    "duration": 40,
+    "panelist": "len Ke Tami",
+    "category": "informational",
+    "title_en": "toki Deutsch la nimi tu li ken kama nimi wan",
+    "title_tok": "German compound nouns: A German lesson in toki pona",
+    "description_en": "sina wile ala wile kama sona toki Deutsch? mi pana e sona lili pi nimi suli",
+    "description_tok": "https://www.youtube.com/playlist?list=PLc7R2x5fn6ArcUFtsk7a0EQKZ8314JRoL",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 40,
+    "panelist": "kala tonsi Lili",
+    "category": "game",
+    "title_en": "Rhythm Heaven Groove in Toki Pona",
+    "title_tok": "musi Suno Wawa Pi Sewi Kalama lon toki pona",
+    "description_en": "Translating Rhythm Heaven Groove into Toki Pona: discussing the tools made for the job and playing through the first five levels",
+    "description_tok": "mi ante e toki pi musi sin Sewi Kalama li toki e ilo mi pi toki ante li musi e musi lili luka",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 4,
+    "panelist": "jan Upmost",
+    "category": "music",
+    "title_en": "Toki Pona Cover: We Are The Crystal Gems",
+    "title_tok": "",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 3,
+    "panelist": "jan Ajesa + kili potato a",
+    "category": "entertainment",
+    "title_en": "Poetry",
+    "title_tok": "sitelen linja",
+    "description_en": "An experiment of poetry with a restriction: writing a poem about a word without using the word.",
+    "description_tok": "ni li alasa lili ni: mi sitelen e sitelen linja lon nimi wan la mi kepeken ala nimi ni",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 30,
+    "panelist": "anpa Niwe",
+    "category": "informational",
+    "title_en": "Discussing the results of jan Niwe's Toki Pona Usage Form",
+    "title_tok": "mi toki e ijo pi alasa suli mi. alasa ni li wile sona e nasin suli pi toki pona",
+    "description_en": "Earlier this year, I sent out a Usage Form in which tokiponists could self-report their usage of various grammatical concepts. (Depending on when you are reading this it might still be available to respond to!) I will discuss this results with reference to results that I obtained last year as well.",
+    "description_tok": "tenpo poka la mi pana e lipu alasa mi pi toki pona tawa ale. ona la, sina ken toki e kepeken sina pi toki pona. (sina lukin e ni lon tenpo pona la, ken la, sina awen ken pana e nasin sina!) mi toki e pana. tenpo sike pini la, mi ijo sama. tenpo sike ni la mi ken toki e ante e sama pi tenpo sike tu ni.",
+    "links": {},
+    "vod": "https://forms.gle/HGepZ1rSobc9Lej4A"
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 20,
+    "panelist": "pan Temili",
+    "category": "informational",
+    "title_en": "pan Temili's approach to poetry and translation",
+    "title_tok": "pan Temili la nasin pi ante toki lon kalama musi",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 40,
+    "panelist": "jan Kupekuki",
+    "category": "entertainment",
+    "title_en": "lipu Tenpo Kama Ali: a translation of All Tomorrows",
+    "title_tok": "lipu Tenpo Kama Ali: kepeken toki pona",
+    "description_en": "translation of 'All Tomorrows' by C.M. Kösemen into toki pona",
+    "description_tok": "mi toki e lipu Tenpo Kama Ali pi jan Kosemen kepeken toki pona",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 40,
+    "panelist": "kala Awi",
+    "category": "game",
+    "title_en": "Sketchful",
+    "title_tok": "musi Sketchful",
+    "description_en": "jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.",
+    "description_tok": "jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.",
+    "links": {},
+    "vod": "https://sketchful.io/"
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Tipo",
+    "category": "entertainment",
+    "title_en": "how toki pona changed my life",
+    "title_tok": "toki pona li ante e lon mi",
+    "description_en": "basically a prerecorded presentation about how toki pona changed my life",
+    "description_tok": "(when video is finished)",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "ilo Tani",
+    "category": "informational",
+    "title_en": "Toki Pona and Word2Vec: What can computers learn about Toki Pona?",
+    "title_tok": "ilo li ken ala ken kama sona e nimi pi toki pona?",
+    "description_en": "Word2Vec is a natural language processing technique used to find relationships between words given large amounts of data. How effective is this technique on Toki Pona? This study was published in a peer reviewed journal and presented at a conference!",
+    "description_tok": "nasin Word2Vec la ilo li lukin e toki mute a la, ona li kama ken sona e ni: nimi seme li sama nimi seme ante? mi nasin ni e toki pona li wile kama sona e ni: toki pona la nasin Word2Vec li pona seme? tenpo poka la mi lipu e sona ni li toki e ona tawa kulupu pi jan sona!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 20,
+    "panelist": "jan Lakuse + others",
+    "category": "informational",
+    "title_en": "tenpo toki : A Luka Pona Skit",
+    "title_tok": "musi nasa pi luka pona: \"tenpo toki\"",
+    "description_en": "A couple Luka Pona speakers have come together to make a silly skit featuring some Luka Pona alliterative signing.",
+    "description_tok": "toki pona la 'waso laso taso' en 'tan wan jan' li musi; taso luka pona la seme li musi a? \nkulupu pi luka pona li pali e sitelen tawa musi li toki nasa musi e ijo nasa musi kepeken nasin nasa ni a!",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 60,
+    "panelist": "jan Usawi",
+    "category": "music",
+    "title_en": "Music with jan Usawi!",
+    "title_tok": "kalama musi pi jan Usawi!",
+    "description_en": "You know it, you love it, it's happening again and with even more music to boot ^^",
+    "description_tok": "sina sona e tenpo ni, sina pilin pona tawa tenpo ni, sina o kama lon tenpo ni o kute e kalama sin ^^",
+    "links": {},
+    "vod": "https://janusawi.bandcamp.com/ https://www.youtube.com/@janusawi8794 https://natanyausawi.substack.com/"
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 120,
+    "panelist": "mun Kekan San",
+    "category": "game",
+    "title_en": "Blood on the Clocktower",
+    "title_tok": "telo loje lon tomo tenpo",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 10,
+    "panelist": "kili potato a",
+    "category": "entertainment",
+    "title_en": "translation of EXAMINATION OF SARAH GOOD, MUTTERING WITCH",
+    "title_tok": "ALASA NASA LON JAN SAPONA, PI MU IKE NASA",
+    "description_en": "reading a translation of the poem \"Examination of Sarah Good, Muttering Witch\" by Mandy Gutmann-Gonzalez",
+    "description_tok": "mi kalama pi toki pona e lipu \"Examination of Sarah Good, Muttering Witch\" pi jan Mandy Gutmann-Gonzalez",
+    "links": {},
+    "vod": "(link to video file when finished)"
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 4,
+    "panelist": "waso Seko",
+    "category": "music",
+    "title_en": "new song: la mi weka",
+    "title_tok": "kalama sin: la mi weka",
+    "description_en": "waso/jan Seko performs an acoustic version and toki pona translation of his new song \"A View from the Sound (I'll Go Away)\"",
+    "description_tok": "waso anu jan Seko li mu e kalama sin ona lon toki pona kepeken ilo luka wan taso",
+    "links": {},
+    "vod": "https://youtu.be/GRSj9XUPvHc"
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 10,
+    "panelist": "sitelen Kosin",
+    "category": "informational",
+    "title_en": "musi Alasa Ma!: Making the West Marches for O Tawa!",
+    "title_tok": "musi Alasa Ma: nasin musi Wemase kepeken musi O Tawa!",
+    "description_en": "An explanation of the West Marches format in Table Top Role Playing games, and an overview of my design for the game O Tawa!",
+    "description_tok": "musi Wemase li seme? musi Alasa Ma li seme?",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Kekan San + jan Salo",
+    "category": "entertainment",
+    "title_en": "Making a sandwhich in toki pona",
+    "title_tok": "",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 60,
+    "panelist": "jan Usawi",
+    "category": "informational",
+    "title_en": "Come to Aristasia!",
+    "title_tok": "o kama tawa ma Awisesija!",
+    "description_en": "Who are the Aristasians? Why did they leave the modern world? Where did they go instead? And how come they were the ones to make the world's first 18+ video game? Come learn, in toki pona taso, about this very real subculture and their alledgedly even Realer paracosm. Complete with short translated passages from Aristasian works and forums, and everyone's favorite: jargon~",
+    "description_tok": "jan pi ma Awisesija li seme? tan seme la ona li weka tan tenpo lon? ona li tawa seme? kin la ona li pali e musi ilo nanpa wan pi jan suli taso tan seme? toki pona taso la, o kama sona e kulupu lon ni, e ma ante ona pi lon suli a! mi ante e toki tan ma Awisesija tawa toki pona, li ante e nimi ona kin~",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 40,
+    "panelist": "kala Awi",
+    "category": "game",
+    "title_en": "Gartic Phone",
+    "title_tok": "musi Gartic Phone",
+    "description_en": "o sitelen musi, o pana e sitelen! o sona e kon sitelen, o pana e ona! jan li ni lon sike la musi a.",
+    "description_tok": "o sitelen musi, o pana e sitelen! o sona e kon sitelen, o pana e ona! jan li ni lon sike la musi a.",
+    "links": {},
+    "vod": "https://garticphone.com/"
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 20,
+    "panelist": "pan Temili + pan Opa",
+    "category": "music",
+    "title_en": "new and old song translations",
+    "title_tok": "mi ante e kalama mute tawa toki pona",
+    "description_en": "new lanpan pan, kipisi o (певец разлук), ma Sapolo (Scarborough fair), monsuta o (Fear & Delight), kili tan (hai yorokonde) (?), mi wile mu mu mu (zenzenzense) (?)",
+    "description_tok": "new lanpan pan, kipisi o (певец разлук), ma Sapolo (Scarborough fair), monsuta o (Fear & Delight), kili tan (hai yorokonde) (?), mi wile mu mu mu (zenzenzense) (?)",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 0
+  },
+  {
+    "duration": 30,
+    "panelist": "jan Mika + akesi Takonijun",
+    "category": "music",
+    "title_en": "kalama Ojuta",
+    "title_tok": "kalama Ojuta",
+    "description_en": "music you definitely haven't heard yet",
+    "description_tok": "kalama sin la sina kute ala",
+    "links": {},
+    "vod": "https://soundcloud.com/kalama-ojuta"
+  },
+  {
+    "duration": 40,
+    "panelist": "akesi Takonijun",
+    "category": "informational",
+    "title_en": "talking shop (the state of the toki pona music scene)",
+    "title_tok": "toki pali (nasin kalama pi toki pona)",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 0,
+    "panelist": "mun Kekan San",
+    "category": "Blood on the Clocktower",
+    "title_en": "telo loje lon tomo tenpo",
+    "title_tok": "",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 60,
+    "panelist": "jan Usawi",
+    "category": "music",
+    "title_en": "Music with jan Usawi!",
+    "title_tok": "kalama musi pi jan Usawi!",
+    "description_en": "You know it, you love it, it's happening again and with even more music to boot ^^",
+    "description_tok": "sina sona e tenpo ni, sina pilin pona tawa tenpo ni, sina o kama lon tenpo ni o kute e kalama sin ^^",
+    "links": {},
+    "vod": "https://janusawi.bandcamp.com/ https://www.youtube.com/@janusawi8794 https://natanyausawi.substack.com/"
+  },
+  {
+    "duration": 40,
+    "panelist": "jan Kesi",
+    "category": "other/meta",
+    "title_en": "tuki pula: ilu tula lili",
+    "title_tok": "lipu pu lon toki Siki",
+    "description_en": "I will translate Toki Pona: The Language of Good in Tuki Tiki",
+    "description_tok": "mi ante e lipu pu tawa toki Siki",
+    "links": {},
+    "vod": "https://www.youtube.com/@sitelentawapisitelenpona -(may add vid link when i can, will premiere aug 7)"
+  },
+  {
+    "duration": 10,
+    "panelist": "jan Pawasi",
+    "category": "informational",
+    "title_en": "Kiki Kaikai Advance Translation",
+    "title_tok": "musi Kiki Kaikai Advance",
+    "description_en": "translation of Kiki Kaikai Advance / Pocky & Rocky with Becky for Gameboy Advance",
+    "description_tok": "mi ante toki e musi Kiki Kaikai",
+    "links": {},
+    "vod": "https://kito.pona.la/jan_pawasi/musi-Kiki-Kaikai-Advance/releases"
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 120,
+    "panelist": "jan Nikoleta (kqa)",
+    "category": "music",
+    "title_en": "studio time with kqa",
+    "title_tok": "tenpo kalama pi jan Nikoleta",
+    "description_en": "recording toki pona stuff",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 10,
+    "panelist": "jan Kilikalama (Musicalcabbage)",
+    "category": "entertainment",
+    "title_en": "NOW YOU'RE [[glitch]]ING WITH PORTALS!!!",
+    "title_tok": "TENPO NI LA SINA KEN [[nasa]] KEPEKEN LUPA AAA",
+    "description_en": "A short Portal glitch showcase in toki ponal, focusing mostly on movement and weird ways to get pretty much anywhere",
+    "description_tok": "mi wile pana a sona nasa pi musi Portal",
+    "links": {},
+    "vod": ""
+  },
+  {
+    "duration": 5,
+    "panelist": "jan Pala",
+    "category": "entertainment",
+    "title_en": "kijetesantakalu en ma kasi",
+    "title_tok": "kijetesantakalu en ma kasi",
+    "description_en": "A raccoon on a small adventure in a garden",
+    "description_tok": "kijetesantakalu li lon ma kasi. ona li kama lukin e seme?",
+    "links": {},
+    "vod": "https://www.youtube.com/watch?v=0KJtn9f_z2A"
+  },
+  {
+    "duration": 20,
+    "panelist": "meli Siliwa",
+    "category": "entertainment",
+    "title_en": "Battle For Dream Island Again 13, in Toki Pona!",
+    "title_tok": "utala tan ma wile sin nanpa luka luka tu wan",
+    "description_en": "BFDIA 13: Well, Look Who It Is, translated and dubbed into toki pona!",
+    "description_tok": "\"UTMWS #LLTW: a, o lukin e lon ni\", li lon! o lukin o kute e ona pi toki pona!",
+    "links": {},
+    "vod": "https://youtu.be/uAkbemmXiuo?si=5efIUtbOufK1jFM9"
+  },
+  {
+    "duration": 20,
+    "panelist": "kulupu suno",
+    "category": "other/meta",
+    "title_en": "Finale",
+    "title_tok": "pini",
+    "description_en": "Toki Pona Day is drawing to a close... let's end it with a bang!",
+    "description_tok": "suno pi toki pona li kama pini... ona o pini pona!",
+    "links": {},
+    "vod": "https://suno.pona.la/2025"
+  }
+]
