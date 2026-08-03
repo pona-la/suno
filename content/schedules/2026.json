@@ -7,8 +7,8 @@
     "title_tok": "open",
     "description_en": "Welcome to Toki Pona Day!",
     "description_tok": "o kama pona tawa suno pi toki pona!",
-    "links": {},
-    "vod": "https://suno.pona.la/2025"
+    "links": {"suno pona la" : "https://suno.pona.la/2025" },
+    "vod": ""
   },
   {
     "duration": 20,
@@ -29,8 +29,8 @@
     "title_tok": "utala musi lipu: lipu seme li lon? ona seme li nanpa wan?",
     "description_en": "The annual writing contest is again at a close. Let us celebrate the amazing work that's been done this year hear from some of the authors and see who won!",
     "description_tok": "utala musi la kulupu li pali e lipu toki musi mute pona. jan Lakuse li kama toki e pona pi lipu mute mute ni. o kute tan mama lipu pi mute lili. pini la o kama sona: lipu seme li wawa sewi tawa kulupu a!",
-    "links": {},
-    "vod": "https://utala.pona.la/"
+    "links": {"utala pona la" : "https://utala.pona.la/"},
+    "vod": ""
   },
   {
     "duration": 40,
@@ -90,8 +90,8 @@
     "title_tok": "mi toki e ijo pi alasa suli mi. alasa ni li wile sona e nasin suli pi toki pona",
     "description_en": "Earlier this year, I sent out a Usage Form in which tokiponists could self-report their usage of various grammatical concepts. (Depending on when you are reading this it might still be available to respond to!) I will discuss this results with reference to results that I obtained last year as well.",
     "description_tok": "tenpo poka la mi pana e lipu alasa mi pi toki pona tawa ale. ona la, sina ken toki e kepeken sina pi toki pona. (sina lukin e ni lon tenpo pona la, ken la, sina awen ken pana e nasin sina!) mi toki e pana. tenpo sike pini la, mi ijo sama. tenpo sike ni la mi ken toki e ante e sama pi tenpo sike tu ni.",
-    "links": {},
-    "vod": "https://forms.gle/HGepZ1rSobc9Lej4A"
+    "links": {"forms" : "https://forms.gle/HGepZ1rSobc9Lej4A"},
+    "vod": ""
   },
   {
     "duration": 10
@@ -126,8 +126,8 @@
     "title_tok": "musi Sketchful",
     "description_en": "jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.",
     "description_tok": "jan wan li sitelen musi. jan ale ante li alasa sona e ni: sitelen li seme? musi a.",
-    "links": {},
-    "vod": "https://sketchful.io/"
+    "links": {"Sketchful" : "https://sketchful.io/"},
+    "vod": ""
   },
   {
     "duration": 10
@@ -176,8 +176,11 @@
     "title_tok": "kalama musi pi jan Usawi!",
     "description_en": "You know it, you love it, it's happening again and with even more music to boot ^^",
     "description_tok": "sina sona e tenpo ni, sina pilin pona tawa tenpo ni, sina o kama lon tenpo ni o kute e kalama sin ^^",
-    "links": {},
-    "vod": "https://janusawi.bandcamp.com/ https://www.youtube.com/@janusawi8794 https://natanyausawi.substack.com/"
+    "links": {
+        "bandcamp" : "https://janusawi.bandcamp.com/",
+        "YouTube" : "https://www.youtube.com/@janusawi8794",
+        "substack" : "https://natanyausawi.substack.com/"},
+    "vod": ""
   },
   {
     "duration": 10
@@ -215,8 +218,8 @@
     "title_tok": "kalama sin: la mi weka",
     "description_en": "waso/jan Seko performs an acoustic version and toki pona translation of his new song \"A View from the Sound (I'll Go Away)\"",
     "description_tok": "waso anu jan Seko li mu e kalama sin ona lon toki pona kepeken ilo luka wan taso",
-    "links": {},
-    "vod": "https://youtu.be/GRSj9XUPvHc"
+    "links": {"YouTube" : "https://youtu.be/GRSj9XUPvHc"},
+    "vod": ""
   },
   {
     "duration": 10
@@ -271,8 +274,8 @@
     "title_tok": "musi Gartic Phone",
     "description_en": "o sitelen musi, o pana e sitelen! o sona e kon sitelen, o pana e ona! jan li ni lon sike la musi a.",
     "description_tok": "o sitelen musi, o pana e sitelen! o sona e kon sitelen, o pana e ona! jan li ni lon sike la musi a.",
-    "links": {},
-    "vod": "https://garticphone.com/"
+    "links": {"Gartic" : "https://garticphone.com/"},
+    "vod": ""
   },
   {
     "duration": 10
@@ -302,8 +305,8 @@
     "title_tok": "kalama Ojuta",
     "description_en": "music you definitely haven't heard yet",
     "description_tok": "kalama sin la sina kute ala",
-    "links": {},
-    "vod": "https://soundcloud.com/kalama-ojuta"
+    "links": {"soundcloud" : "https://soundcloud.com/kalama-ojuta" },
+    "vod": ""
   },
   {
     "duration": 40,
@@ -335,8 +338,11 @@
     "title_tok": "kalama musi pi jan Usawi!",
     "description_en": "You know it, you love it, it's happening again and with even more music to boot ^^",
     "description_tok": "sina sona e tenpo ni, sina pilin pona tawa tenpo ni, sina o kama lon tenpo ni o kute e kalama sin ^^",
-    "links": {},
-    "vod": "https://janusawi.bandcamp.com/ https://www.youtube.com/@janusawi8794 https://natanyausawi.substack.com/"
+    "links": {
+        "bandcamp" : "https://janusawi.bandcamp.com/",
+        "YouTube" : "https://www.youtube.com/@janusawi8794",
+        "substack" : "https://natanyausawi.substack.com/"},
+    "vod": ""
   },
   {
     "duration": 40,
@@ -346,8 +352,8 @@
     "title_tok": "lipu pu lon toki Siki",
     "description_en": "I will translate Toki Pona: The Language of Good in Tuki Tiki",
     "description_tok": "mi ante e lipu pu tawa toki Siki",
-    "links": {},
-    "vod": "https://www.youtube.com/@sitelentawapisitelenpona -(may add vid link when i can, will premiere aug 7)"
+    "links": {"YouTube" :"https://www.youtube.com/@sitelentawapisitelenpona"},
+    "vod": ""
   },
   {
     "duration": 10,
@@ -357,8 +363,8 @@
     "title_tok": "musi Kiki Kaikai Advance",
     "description_en": "translation of Kiki Kaikai Advance / Pocky & Rocky with Becky for Gameboy Advance",
     "description_tok": "mi ante toki e musi Kiki Kaikai",
-    "links": {},
-    "vod": "https://kito.pona.la/jan_pawasi/musi-Kiki-Kaikai-Advance/releases"
+    "links": {"kito pona la" : "https://kito.pona.la/jan_pawasi/musi-Kiki-Kaikai-Advance/releases"},
+    "vod": ""
   },
   {
     "duration": 10
@@ -396,8 +402,8 @@
     "title_tok": "kijetesantakalu en ma kasi",
     "description_en": "A raccoon on a small adventure in a garden",
     "description_tok": "kijetesantakalu li lon ma kasi. ona li kama lukin e seme?",
-    "links": {},
-    "vod": "https://www.youtube.com/watch?v=0KJtn9f_z2A"
+    "links": {"YouTube" : "https://www.youtube.com/watch?v=0KJtn9f_z2A"},
+    "vod": ""
   },
   {
     "duration": 20,
@@ -407,8 +413,8 @@
     "title_tok": "utala tan ma wile sin nanpa luka luka tu wan",
     "description_en": "BFDIA 13: Well, Look Who It Is, translated and dubbed into toki pona!",
     "description_tok": "\"UTMWS #LLTW: a, o lukin e lon ni\", li lon! o lukin o kute e ona pi toki pona!",
-    "links": {},
-    "vod": "https://youtu.be/uAkbemmXiuo?si=5efIUtbOufK1jFM9"
+    "links": {"YouTube" : "https://youtu.be/uAkbemmXiuo?si=5efIUtbOufK1jFM9"},
+    "vod": ""
   },
   {
     "duration": 20,
@@ -418,7 +424,7 @@
     "title_tok": "pini",
     "description_en": "Toki Pona Day is drawing to a close... let's end it with a bang!",
     "description_tok": "suno pi toki pona li kama pini... ona o pini pona!",
-    "links": {},
-    "vod": "https://suno.pona.la/2025"
+    "links": {"suno pona la" : "https://suno.pona.la/2025"},
+    "vod": ""
   }
 ]
