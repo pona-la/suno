@@ -22,6 +22,9 @@
     "vod": ""
   },
   {
+    "duration": 10
+  },
+  {
     "duration": 60,
     "panelist": "jan Lakuse + utala musi participants",
     "category": "informational",
@@ -44,6 +47,9 @@
     "vod": ""
   },
   {
+    "duration": 10
+  },
+  {
     "duration": 40,
     "panelist": "kala tonsi Lili",
     "category": "game",
@@ -55,7 +61,7 @@
     "vod": ""
   },
   {
-    "duration": 4,
+    "duration": 10,
     "panelist": "jan Upmost",
     "category": "music",
     "title_en": "Toki Pona Cover: We Are The Crystal Gems",
@@ -66,7 +72,7 @@
     "vod": ""
   },
   {
-    "duration": 3,
+    "duration": 10,
     "panelist": "jan Ajesa + kili potato a",
     "category": "entertainment",
     "title_en": "Poetry",
@@ -77,10 +83,7 @@
     "vod": ""
   },
   {
-    "duration": 10
-  },
-  {
-    "duration": 10
+    "duration": 20
   },
   {
     "duration": 30,
@@ -94,7 +97,7 @@
     "vod": ""
   },
   {
-    "duration": 10
+    "duration": 20
   },
   {
     "duration": 20,
@@ -117,6 +120,9 @@
     "description_tok": "mi toki e lipu Tenpo Kama Ali pi jan Kosemen kepeken toki pona",
     "links": {},
     "vod": ""
+  },
+  {
+    "duration": 10
   },
   {
     "duration": 40,
@@ -155,7 +161,7 @@
     "vod": ""
   },
   {
-    "duration": 10
+    "duration": 20
   },
   {
     "duration": 20,
@@ -167,6 +173,9 @@
     "description_tok": "toki pona la 'waso laso taso' en 'tan wan jan' li musi; taso luka pona la seme li musi a? \nkulupu pi luka pona li pali e sitelen tawa musi li toki nasa musi e ijo nasa musi kepeken nasin nasa ni a!",
     "links": {},
     "vod": ""
+  },
+  {
+    "duration": 10
   },
   {
     "duration": 60,
@@ -186,7 +195,7 @@
     "duration": 10
   },
   {
-    "duration": 120,
+    "duration": 90,
     "panelist": "mun Kekan San",
     "category": "game",
     "title_en": "Blood on the Clocktower",
@@ -211,7 +220,7 @@
     "duration": 10
   },
   {
-    "duration": 4,
+    "duration": 10,
     "panelist": "waso Seko",
     "category": "music",
     "title_en": "new song: la mi weka",
@@ -222,13 +231,10 @@
     "vod": ""
   },
   {
-    "duration": 10
+    "duration": 20
   },
   {
-    "duration": 10
-  },
-  {
-    "duration": 10,
+    "duration": 20,
     "panelist": "sitelen Kosin",
     "category": "informational",
     "title_en": "musi Alasa Ma!: Making the West Marches for O Tawa!",
@@ -278,7 +284,7 @@
     "vod": ""
   },
   {
-    "duration": 10
+    "duration": 20
   },
   {
     "duration": 20,
@@ -292,10 +298,7 @@
     "vod": ""
   },
   {
-    "duration": 10
-  },
-  {
-    "duration": 0
+    "duration": 30
   },
   {
     "duration": 30,
@@ -309,6 +312,9 @@
     "vod": ""
   },
   {
+    "duration": 10
+  },
+  {
     "duration": 40,
     "panelist": "akesi Takonijun",
     "category": "informational",
@@ -320,7 +326,7 @@
     "vod": ""
   },
   {
-    "duration": 0,
+    "duration": 90,
     "panelist": "mun Kekan San",
     "category": "Blood on the Clocktower",
     "title_en": "telo loje lon tomo tenpo",
@@ -343,6 +349,9 @@
         "YouTube" : "https://www.youtube.com/@janusawi8794",
         "substack" : "https://natanyausawi.substack.com/"},
     "vod": ""
+  },
+  {
+    "duration": 10
   },
   {
     "duration": 40,
@@ -370,7 +379,7 @@
     "duration": 10
   },
   {
-    "duration": 120,
+    "duration": 100,
     "panelist": "jan Nikoleta (kqa)",
     "category": "music",
     "title_en": "studio time with kqa",
@@ -395,7 +404,7 @@
     "vod": ""
   },
   {
-    "duration": 5,
+    "duration": 10,
     "panelist": "jan Pala",
     "category": "entertainment",
     "title_en": "kijetesantakalu en ma kasi",
@@ -406,7 +415,7 @@
     "vod": ""
   },
   {
-    "duration": 20,
+    "duration": 30,
     "panelist": "meli Siliwa",
     "category": "entertainment",
     "title_en": "Battle For Dream Island Again 13, in Toki Pona!",
