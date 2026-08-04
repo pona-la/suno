@@ -75,15 +75,26 @@
     "duration": 10,
     "panelist": "jan Ajesa + kili potato a",
     "category": "entertainment",
-    "title_en": "Poetry",
-    "title_tok": "sitelen linja",
+    "title_en": "Two poems",
+    "title_tok": "sitelen linja tu",
     "description_en": "An experiment of poetry with a restriction: writing a poem about a word without using the word.",
     "description_tok": "ni li alasa lili ni: mi sitelen e sitelen linja lon nimi wan la mi kepeken ala nimi ni",
     "links": {},
     "vod": ""
   },
+    "duration": 10,
+    "panelist": "moku Sonkekin",
+    "category": "music",
+    "title_en": "Washed clean by the river",
+    "title_tok": "kama pona lon telo",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
   {
-    "duration": 20
+  },
+  {
+    "duration": 10
   },
   {
     "duration": 30,
@@ -298,15 +309,29 @@
     "duration": 10,
     "panelist": "jan Tesuno",
     "category": "music",
-    "title_en": "jan Tesuno li kalama musi",
-    "title_tok": "jan Tesuno li kalama musi",
-    "description_en": "",
-    "description_tok": "",
+    "title_en": "RetasuP - Toluthin Antenna",
+    "title_tok": "palisa Tulusin",
+    "description_en": "Translation of lllトゥルティンアンテナlll (Toluthin Antenna) by RetasuP into toki pona by tetsusquared, sung by VoiSona voicebank LeuR.",
+    "description_tok": "jan Tesuno li toki pona e kalama 'palisa Tulusin' pi jan Letasu. ilo Lulu li kalama e ona.",
     "links": {"YouTube" : "https://www.youtube.com/@tetsusquared"},
     "vod": ""
   },
   {
-    "duration": 20
+    "duration": 10,
+    "panelist": "jan Pikesike",
+    "category": "music",
+    "title_en": "Two songs by jan Pikesike",
+    "title_tok": "kalama tu tan jan Pikesike",
+    "description_en": "",
+    "description_tok": "",
+    "links": {
+        "PixelZyxel translated 'Science' by MIMI.":"https://youtu.be/AQcjvtuQGI4",
+        "PixelZyxel translated 'LIFE' by Neuro-sama. (Kiguchi Nodoka by Yangpa Onyon)":"https://youtu.be/KiYURXsATpU"
+    },
+    "vod": ""
+  },
+  {
+    "duration": 10
   },
   {
     "duration": 30,
