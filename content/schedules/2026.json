@@ -97,7 +97,15 @@
     "vod": ""
   },
   {
-    "duration": 20
+    "duration": 20,
+    "panelist": "pan Temili + pan Opa",
+    "category": "music",
+    "title_en": "new and old song translations",
+    "title_tok": "mi ante e kalama mute tawa toki pona",
+    "description_en": "new lanpan pan, kipisi o (певец разлук), ma Sapolo (Scarborough fair), monsuta o (Fear & Delight), kili tan (hai yorokonde) (?), mi wile mu mu mu (zenzenzense) (?)",
+    "description_tok": "new lanpan pan, kipisi o (певец разлук), ma Sapolo (Scarborough fair), monsuta o (Fear & Delight), kili tan (hai yorokonde) (?), mi wile mu mu mu (zenzenzense) (?)",
+    "links": {},
+    "vod": ""
   },
   {
     "duration": 20,
@@ -111,6 +119,9 @@
     "vod": ""
   },
   {
+    "duration": 10
+  },
+  {
     "duration": 40,
     "panelist": "jan Kupekuki",
     "category": "entertainment",
@@ -120,9 +131,6 @@
     "description_tok": "mi toki e lipu Tenpo Kama Ali pi jan Kosemen kepeken toki pona",
     "links": {},
     "vod": ""
-  },
-  {
-    "duration": 10
   },
   {
     "duration": 40,
@@ -195,7 +203,7 @@
     "duration": 10
   },
   {
-    "duration": 90,
+    "duration": 120,
     "panelist": "mun Kekan San",
     "category": "game",
     "title_en": "Blood on the Clocktower",
@@ -203,31 +211,6 @@
     "description_en": "",
     "description_tok": "",
     "links": {},
-    "vod": ""
-  },
-  {
-    "duration": 10,
-    "panelist": "kili potato a",
-    "category": "entertainment",
-    "title_en": "translation of EXAMINATION OF SARAH GOOD, MUTTERING WITCH",
-    "title_tok": "ALASA NASA LON JAN SAPONA, PI MU IKE NASA",
-    "description_en": "reading a translation of the poem \"Examination of Sarah Good, Muttering Witch\" by Mandy Gutmann-Gonzalez",
-    "description_tok": "mi kalama pi toki pona e lipu \"Examination of Sarah Good, Muttering Witch\" pi jan Mandy Gutmann-Gonzalez",
-    "links": {},
-    "vod": "(link to video file when finished)"
-  },
-  {
-    "duration": 10
-  },
-  {
-    "duration": 10,
-    "panelist": "waso Seko",
-    "category": "music",
-    "title_en": "new song: la mi weka",
-    "title_tok": "kalama sin: la mi weka",
-    "description_en": "waso/jan Seko performs an acoustic version and toki pona translation of his new song \"A View from the Sound (I'll Go Away)\"",
-    "description_tok": "waso anu jan Seko li mu e kalama sin ona lon toki pona kepeken ilo luka wan taso",
-    "links": {"YouTube" : "https://youtu.be/GRSj9XUPvHc"},
     "vod": ""
   },
   {
@@ -284,21 +267,46 @@
     "vod": ""
   },
   {
-    "duration": 20
+    "duration": 10
   },
   {
-    "duration": 20,
-    "panelist": "pan Temili + pan Opa",
-    "category": "music",
-    "title_en": "new and old song translations",
-    "title_tok": "mi ante e kalama mute tawa toki pona",
-    "description_en": "new lanpan pan, kipisi o (певец разлук), ma Sapolo (Scarborough fair), monsuta o (Fear & Delight), kili tan (hai yorokonde) (?), mi wile mu mu mu (zenzenzense) (?)",
-    "description_tok": "new lanpan pan, kipisi o (певец разлук), ma Sapolo (Scarborough fair), monsuta o (Fear & Delight), kili tan (hai yorokonde) (?), mi wile mu mu mu (zenzenzense) (?)",
+    "duration": 10,
+    "panelist": "kili potato a",
+    "category": "entertainment",
+    "title_en": "translation of EXAMINATION OF SARAH GOOD, MUTTERING WITCH",
+    "title_tok": "ALASA NASA LON JAN SAPONA, PI MU IKE NASA",
+    "description_en": "reading a translation of the poem \"Examination of Sarah Good, Muttering Witch\" by Mandy Gutmann-Gonzalez",
+    "description_tok": "mi kalama pi toki pona e lipu \"Examination of Sarah Good, Muttering Witch\" pi jan Mandy Gutmann-Gonzalez",
     "links": {},
+    "vod": "(link to video file when finished)"
+  },
+  {
+    "duration": 10
+  },
+  {
+    "duration": 10,
+    "panelist": "waso Seko",
+    "category": "music",
+    "title_en": "new song: la mi weka",
+    "title_tok": "kalama sin: la mi weka",
+    "description_en": "waso/jan Seko performs an acoustic version and toki pona translation of his new song \"A View from the Sound (I'll Go Away)\"",
+    "description_tok": "waso anu jan Seko li mu e kalama sin ona lon toki pona kepeken ilo luka wan taso",
+    "links": {"YouTube" : "https://youtu.be/GRSj9XUPvHc"},
     "vod": ""
   },
   {
-    "duration": 30
+    "duration": 10,
+    "panelist": "jan Tesuno",
+    "category": "music",
+    "title_en": "jan Tesuno li kalama musi",
+    "title_tok": "jan Tesuno li kalama musi",
+    "description_en": "",
+    "description_tok": "",
+    "links": {"YouTube" : "https://www.youtube.com/@tetsusquared"},
+    "vod": ""
+  },
+  {
+    "duration": 20
   },
   {
     "duration": 30,
@@ -328,9 +336,9 @@
   {
     "duration": 90,
     "panelist": "mun Kekan San",
-    "category": "Blood on the Clocktower",
-    "title_en": "telo loje lon tomo tenpo",
-    "title_tok": "",
+    "category": "game",
+    "title_en": "Blood on the Clocktower",
+    "title_tok": "telo loje lon tomo tenpo",
     "description_en": "",
     "description_tok": "",
     "links": {},
@@ -351,12 +359,12 @@
     "vod": ""
   },
   {
-    "duration": 10
+    "duration": 20
   },
   {
-    "duration": 40,
+    "duration": 30,
     "panelist": "jan Kesi",
-    "category": "other/meta",
+    "category": "entertainment",
     "title_en": "tuki pula: ilu tula lili",
     "title_tok": "lipu pu lon toki Siki",
     "description_en": "I will translate Toki Pona: The Language of Good in Tuki Tiki",
