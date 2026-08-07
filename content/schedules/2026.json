@@ -94,18 +94,24 @@
     "vod": ""
   },
   {
-    "duration": 10
+    "duration": 20
   },
   {
-    "duration": 30,
-    "panelist": "anpa Niwe",
-    "category": "informational",
-    "title_en": "Discussing the results of jan Niwe's Toki Pona Usage Form",
-    "title_tok": "mi toki e ijo pi alasa suli mi. alasa ni li wile sona e nasin suli pi toki pona",
-    "description_en": "Earlier this year, I sent out a Usage Form in which tokiponists could self-report their usage of various grammatical concepts. (Depending on when you are reading this it might still be available to respond to!) I will discuss this results with reference to results that I obtained last year as well.",
-    "description_tok": "tenpo poka la mi pana e lipu alasa mi pi toki pona tawa ale. ona la, sina ken toki e kepeken sina pi toki pona. (sina lukin e ni lon tenpo pona la, ken la, sina awen ken pana e nasin sina!) mi toki e pana. tenpo sike pini la, mi ijo sama. tenpo sike ni la mi ken toki e ante e sama pi tenpo sike tu ni.",
-    "links": {"forms" : "https://forms.gle/HGepZ1rSobc9Lej4A"},
+    "duration": 10,
+    "panelist": "jan Pikesike",
+    "category": "music",
+    "title_en": "Several songs by jan Pikesike",
+    "title_tok": "kalama mute tan jan Pikesike",
+    "description_en": "",
+    "description_tok": "",
+    "links": {
+        "PixelZyxel translated 'Science' by MIMI.":"https://youtu.be/AQcjvtuQGI4",
+        "PixelZyxel translated 'LIFE' by Neuro-sama. (Kiguchi Nodoka by Yangpa Onyon)":"https://youtu.be/KiYURXsATpU"
+    },
     "vod": ""
+  },
+  {
+    "duration": 10
   },
   {
     "duration": 20,
@@ -133,14 +139,14 @@
     "duration": 10
   },
   {
-    "duration": 40,
-    "panelist": "jan Kupekuki",
-    "category": "entertainment",
-    "title_en": "lipu Tenpo Kama Ali: a translation of All Tomorrows",
-    "title_tok": "lipu Tenpo Kama Ali: kepeken toki pona",
-    "description_en": "translation of 'All Tomorrows' by C.M. Kösemen into toki pona",
-    "description_tok": "mi toki e lipu Tenpo Kama Ali pi jan Kosemen kepeken toki pona",
-    "links": {},
+    "duration": 30,
+    "panelist": "anpa Niwe",
+    "category": "informational",
+    "title_en": "Discussing the results of jan Niwe's Toki Pona Usage Form",
+    "title_tok": "mi toki e ijo pi alasa suli mi. alasa ni li wile sona e nasin suli pi toki pona",
+    "description_en": "Earlier this year, I sent out a Usage Form in which tokiponists could self-report their usage of various grammatical concepts. (Depending on when you are reading this it might still be available to respond to!) I will discuss this results with reference to results that I obtained last year as well.",
+    "description_tok": "tenpo poka la mi pana e lipu alasa mi pi toki pona tawa ale. ona la, sina ken toki e kepeken sina pi toki pona. (sina lukin e ni lon tenpo pona la, ken la, sina awen ken pana e nasin sina!) mi toki e pana. tenpo sike pini la, mi ijo sama. tenpo sike ni la mi ken toki e ante e sama pi tenpo sike tu ni.",
+    "links": {"forms" : "https://forms.gle/HGepZ1rSobc9Lej4A"},
     "vod": ""
   },
   {
@@ -243,7 +249,7 @@
     "panelist": "jan Kekan San + jan Salo",
     "category": "entertainment",
     "title_en": "Making a sandwhich in toki pona",
-    "title_tok": "",
+    "title_tok": "nasin seme la mi pali e pan",
     "description_en": "",
     "description_tok": "",
     "links": {},
@@ -317,21 +323,7 @@
     "vod": ""
   },
   {
-    "duration": 10,
-    "panelist": "jan Pikesike",
-    "category": "music",
-    "title_en": "Two songs by jan Pikesike",
-    "title_tok": "kalama tu tan jan Pikesike",
-    "description_en": "",
-    "description_tok": "",
-    "links": {
-        "PixelZyxel translated 'Science' by MIMI.":"https://youtu.be/AQcjvtuQGI4",
-        "PixelZyxel translated 'LIFE' by Neuro-sama. (Kiguchi Nodoka by Yangpa Onyon)":"https://youtu.be/KiYURXsATpU"
-    },
-    "vod": ""
-  },
-  {
-    "duration": 10
+    "duration": 20
   },
   {
     "duration": 30,
@@ -384,7 +376,17 @@
     "vod": ""
   },
   {
-    "duration": 20
+    "duration": 10
+  },
+    "duration": 20,
+    "panelist": "jan Tanijelun",
+    "category": "music",
+    "title_en": "Two Covers and some updates",
+    "title_tok": "kalama tu en toki",
+    "description_en": "",
+    "description_tok": "",
+    "links": {},
+    "vod": ""
   },
   {
     "duration": 30,
@@ -407,9 +409,6 @@
     "description_tok": "mi ante toki e musi Kiki Kaikai",
     "links": {"kito pona la" : "https://kito.pona.la/jan_pawasi/musi-Kiki-Kaikai-Advance/releases"},
     "vod": ""
-  },
-  {
-    "duration": 10
   },
   {
     "duration": 100,
