@@ -29,7 +29,7 @@ const { lang, from, start } = Astro.props;
 let events = JSON.parse(fs.readFileSync(`content/schedules/${from}`).toString()) as EventData[];
 
 let cumulativeTimestamp = start;
-console.log(cumulativeTimestamp);
+// console.log(cumulativeTimestamp);
 
 events = events.map(event => {
   const stamp_start = cumulativeTimestamp;       // sum before current
@@ -38,7 +38,7 @@ events = events.map(event => {
   return { ...event, stamp_start, stamp_end };
 });
 
-console.log(cumulativeTimestamp);
+// console.log(cumulativeTimestamp);
 
 // Filter events for this year
 // const events = eventsData as EventData[];
